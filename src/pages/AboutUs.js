@@ -31,7 +31,7 @@ export default function AboutUs() {
     <div>
       <div className="header">
         <h1>
-          About <span style={{ color: "#9641FD" }}>Codify pls work hi</span>
+          About <span style={{ color: "#9641FD" }}>Codify</span>
         </h1>
       </div>
       {/** <div className="underline"></div>*/}

@@ -46,6 +46,15 @@ export default function Join() {
               something impactful.
             </p>
           </li>
+          <li>
+            <h3>Desire to Learn and Grow</h3>
+            <p>
+              Codify's first priority is the technical and professional
+              development of our members. We are fully invested in helping you,
+              but you have to be willing to put the effort into your own growth
+              and development.
+            </p>
+          </li>
         </ol>
 
         <p></p>
