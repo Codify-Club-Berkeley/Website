@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.60c80874.css",
-    "main.js": "/Website/static/js/main.4076ee95.js",
-    "static/media/Sydney Tsai.jpeg": "/Website/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
-    "static/media/CooperHewitt-Medium.otf": "/Website/static/media/CooperHewitt-Medium.f963323a7b7f0b416d72.otf",
-    "static/media/Codify Berkeley.png": "/Website/static/media/Codify Berkeley.06bcade2dddba8164e7f.png",
-    "static/media/Aanvi Kothari.jpeg": "/Website/static/media/Aanvi Kothari.7b9cc0656b2e021a67b5.jpeg",
-    "static/media/Nemerjit Singh.jpg": "/Website/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
-    "index.html": "/Website/index.html",
-    "main.60c80874.css.map": "/Website/static/css/main.60c80874.css.map",
-    "main.4076ee95.js.map": "/Website/static/js/main.4076ee95.js.map"
+    "main.css": "/static/css/main.6972e2ce.css",
+    "main.js": "/static/js/main.5f4728a2.js",
+    "static/media/Sydney Tsai.jpeg": "/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
+    "static/media/CooperHewitt-Medium.otf": "/static/media/CooperHewitt-Medium.f963323a7b7f0b416d72.otf",
+    "static/media/Codify Berkeley.png": "/static/media/Codify Berkeley.06bcade2dddba8164e7f.png",
+    "static/media/Aanvi Kothari.jpeg": "/static/media/Aanvi Kothari.7b9cc0656b2e021a67b5.jpeg",
+    "static/media/Nemerjit Singh.jpg": "/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
+    "index.html": "/index.html",
+    "main.6972e2ce.css.map": "/static/css/main.6972e2ce.css.map",
+    "main.5f4728a2.js.map": "/static/js/main.5f4728a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c80874.css",
-    "static/js/main.4076ee95.js"
+    "static/css/main.6972e2ce.css",
+    "static/js/main.5f4728a2.js"
   ]
 }
