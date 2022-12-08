@@ -1,0 +1,17 @@
+p {
+  font-size: large;
+}
+.big {
+  font-weight: bold;
+  font-family: "Cooper";
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  justify-content: space-around;
+}
+.link:hover {
+  text-decoration: underline;
+}

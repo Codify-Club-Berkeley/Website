@@ -1,0 +1,9 @@
+.body {
+  padding: 20px;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}

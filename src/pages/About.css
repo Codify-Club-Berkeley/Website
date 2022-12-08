@@ -1,0 +1,26 @@
+.body {
+  padding: 20px;
+}
+
+.header {
+  font-size: 30px;
+}
+.underline {
+  background-color: #9641fd;
+  height: 10px;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}

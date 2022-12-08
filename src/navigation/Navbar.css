@@ -1,0 +1,44 @@
+div.navbutton {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+  position: relative;
+}
+div.button-wrapper {
+  padding: 20px;
+  background-color: red;
+  border-radius: 20;
+}
+.navbutton:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbutton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition: transform 0.25s ease-out;
+}

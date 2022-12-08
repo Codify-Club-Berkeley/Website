@@ -1,0 +1,16 @@
+body,
+html {
+  margin: 0;
+  font-family: "Cooper";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "Cooper";
+  src: local("Cooper"),
+    url("./assets/Fonts/cooper-hewitt/CooperHewitt-Medium.otf")
+      format("opentype");
+}

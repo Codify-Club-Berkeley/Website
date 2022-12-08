@@ -1,0 +1,100 @@
+import React from "react";
+
+import "./Home.css";
+
+import { purple } from "@mui/material/colors";
+import { Link } from "react-router-dom";
+
+export default function Home() {
+  let building = "the next big thing";
+  return (
+    <div>
+      <div className="header">
+        <h1>
+          <span style={{ color: "#9641FD" }}>Codify</span> is building{" "}
+          {building}
+        </h1>
+      </div>
+      <div style={{ padding: "20px" }}>
+        <div className="body-section">
+          <img
+            src={require("../assets/Images/Codify C Logo.png")}
+            alt="placeholder"
+            style={{ width: 200, height: 200 }}
+          ></img>
+          <div style={{ flexDirection: "column", padding: "10px" }}>
+            <h1>A Community Of Makers...</h1>
+            <p>
+              Codify is an officially registered UC Berkeley student
+              organization focused on bringing students together to work on
+              impactful software projects. Codify is an opportunity to develop
+              new skills, gain real world development experience, and find a
+              community of like minded students.
+            </p>
+            <Link to="/AboutUS" className="link">
+              <h2>About Our Team and Mission</h2>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "20px" }}>
+        <div className="body-section">
+          <img
+            src={require("../assets/Images/Codify C Logo.png")}
+            alt="placeholder"
+            style={{ width: 200, height: 200, paddingRight: "20px" }}
+          ></img>
+          <div style={{ flexDirection: "column", padding: "10px" }}>
+            <h1>Building Exciting Things...</h1>
+            <p>
+              Every semester, Codify works on projects in web development, data
+              analysis, mobile development, and any other field of computing
+              that our members are passionate about. We maintain a healthy mix
+              of developing projects for both nonprofit and for profit clients,
+              and launching our own internal projects to either develop into a
+              startup or release for the good of the Berkeley community.
+            </p>
+            <Link to="/Projects" className="link">
+              <h2> What We're Working On</h2>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div style={{ padding: "20px" }}>
+        <div className="body-section">
+          <img
+            src={require("../assets/Images/Codify C Logo.png")}
+            alt="placeholder"
+            style={{ width: 200, height: 200 }}
+          ></img>
+          <div style={{ flexDirection: "column", padding: "10px" }}>
+            <h1>Within the Berkeley Community.</h1>
+            <p>
+              Codify is an organization created by and for the Berkeley computer
+              science community. We strive to provide opportunities for students
+              to find their place in tech, explore their entrepenurial
+              aspirations, and use their skills to give back to their
+              communities. We are always looking for passionate students to join
+              our ranks, and partner organizations to work with towards our
+              mutual goals.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+              }}
+            >
+              <Link to="/WorkWithUs" className="link">
+                <h2> Work With Codify</h2>
+              </Link>
+              <Link to="/Join" className="link">
+                <h2> Apply Now!</h2>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
