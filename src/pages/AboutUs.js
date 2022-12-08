@@ -5,23 +5,109 @@ import Quote from "../components/Quote";
 
 const members = [
   {
-    imagePath: require("../assets/Images/Headshots/Aanvi Kothari.jpeg"),
-    name: "Aanvi Kothari",
-    title: "Developer",
+    imagePath: require("../assets/Images/Headshots/Aidan Sunbury.png"),
+    name: "Aidan Sunbury",
+    title: "President",
   },
   {
-    imagePath: require("../assets/Images/Headshots/Aanvi Kothari.jpeg"),
-    name: "Aanvi Kothari",
-    title: "Developer",
+    imagePath: require("../assets/Images/Headshots/Elaine Shu.jpeg"),
+    name: "Elaine Shu",
+    title: "Internal Vice President",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Dhruv Agarwal.jpeg"),
+    name: "Dhruv Agarwal",
+    title: "External Vice President",
   },
   {
     imagePath: require("../assets/Images/Headshots/Nemerjit Singh.jpg"),
     name: "Nemerjit Sigh",
-    title: "Project Lead",
+    title: "External Director",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpeg"),
+    name: "Rayna Bhattacharyya",
+    title: "External Director",
   },
   {
     imagePath: require("../assets/Images/Headshots/Sydney Tsai.jpeg"),
     name: "Sydney Tsai",
+    title: "Internal Director",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Stacey Lei",
+    title: "Project Lead",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Andrea Lou",
+    title: "Internal Director",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Shruti Sathi",
+    title: "Education Director",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Runjeet Narula.jpg"),
+    name: "Runjeet Narula",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Aanvi Kothari.jpeg"),
+    name: "Aanvi Kothari",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Cesar Garcia Santana.jpg"),
+    name: "Cesar Garcia Santana",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Leo Huang",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Faisal Al-Senani",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Navein Suresh.jpeg"),
+    name: "Navein Suresh",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Gauri Bahl",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Aathreya Kadambi",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Anshul Jambula",
+    title: "Developer",
+  },
+
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Kailash Ranganathan",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Keira Swei",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Ayush Goel",
     title: "Developer",
   },
 ];

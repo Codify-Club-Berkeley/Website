@@ -4,6 +4,7 @@ import { styled } from "@mui/material/styles";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
 import { alignProperty } from "@mui/material/styles/cssUtils";
+import Box from "@mui/material/Box";
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: "relative",
@@ -82,32 +83,53 @@ export default function ProjectButton(props) {
   }
 
   return (
-    <ImageButton
-      focusRipple
-      key={props.title}
-      style={{
-        width: props.width,
+    <Box
+      sx={{
+        alignItems: "center",
+
+        display: "flex",
+        flexDirection: "column",
+        flexWrap: "wrap",
+        minWidth: 300,
+        width: "100%",
+        border: "blue",
+        borderWidth: 1,
       }}
-      onClick={() => handleNav()}
     >
-      <ImageSrc style={{ backgroundImage: `url(${props.url})` }} />
-      <ImageBackdrop className="MuiImageBackdrop-root" />
-      <Image>
-        <Typography
-          component="span"
-          variant="subtitle1"
-          color="inherit"
-          sx={{
-            position: "relative",
-            p: 4,
-            pt: 2,
-            pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
-          }}
-        >
-          {props.title}
-          <ImageMarked className="MuiImageMarked-root" />
-        </Typography>
-      </Image>
-    </ImageButton>
+      <ImageButton
+        focusRipple
+        key={props.title}
+        style={{
+          width: props.width,
+        }}
+        onClick={() => handleNav()}
+      >
+        <ImageSrc style={{ backgroundImage: `url(${props.url})` }} />
+        <ImageBackdrop className="MuiImageBackdrop-root" />
+        <Image>
+          <Typography
+            component="span"
+            variant="subtitle1"
+            color="inherit"
+            sx={{
+              position: "relative",
+              p: 4,
+              pt: 2,
+              pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+            }}
+          >
+            {props.title}
+
+            <ImageMarked className="MuiImageMarked-root" />
+          </Typography>
+        </Image>
+      </ImageButton>
+      <div style={{ alignItems: "center", width: 350 }}>
+        <p style={{ fontSize: "14px" }}>{props.caption}</p>
+      </div>
+    </Box>
+
+    //   <p>hi</p>
+    // </div>
   );
 }

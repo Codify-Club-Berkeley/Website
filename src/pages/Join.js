@@ -22,6 +22,14 @@ export default function Join() {
           spend their first semester learning full stack development through our
           new member education program.
         </p>
+        <div className="header">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSerkXXiNEoqWCntvxFcgoEVk89eHSRQDjw3PhrL1HoxWG-6dQ/viewform?usp=sf_link"
+            target="_blank"
+          >
+            Join our mailing list!
+          </a>
+        </div>
         <h1>What we're looking for?</h1>
 
         <ol>
@@ -52,7 +60,16 @@ export default function Join() {
               Codify's first priority is the technical and professional
               development of our members. We are fully invested in helping you,
               but you have to be willing to put the effort into your own growth
-              and development.
+              and development. We want people who ask questions, make
+              suggestions, and explore new subjects within computer science.
+            </p>
+          </li>
+          <li>
+            <h3>Team Player</h3>
+            <p>
+              Everything that Codify does is working in teams. We are looking
+              for people who can communicate and collaborate effectively, and
+              who find ways to raise up their team members.
             </p>
           </li>
         </ol>

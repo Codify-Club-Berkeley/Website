@@ -3,7 +3,7 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <div className="header">
         <h1>
           Learn With <span style={{ color: "#9641FD" }}>Codify</span>
@@ -19,9 +19,11 @@ export default function Education() {
           application. The program walks teams of two through the planning,
           development, and deployment of their own full stack project.
         </p>
+        <div style={{ paddingTop: "100px" }}></div>
         <div className="title">
           <h1>Check back soon for updates to our curriculum!</h1>
         </div>
+        <div style={{ paddingTop: "100px" }}></div>
       </div>
     </div>
   );

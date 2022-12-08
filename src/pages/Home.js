@@ -18,11 +18,20 @@ export default function Home() {
       <div style={{ padding: "20px" }}>
         <div className="body-section">
           <img
-            src={require("../assets/Images/Codify C Logo.png")}
+            src={require("../assets/Images/General/Beach.jpg")}
             alt="placeholder"
-            style={{ width: 200, height: 200 }}
+            style={{
+              width: 200,
+              height: 200,
+              objectFit: "cover",
+              paddingRight: "20px",
+            }}
           ></img>
-          <div style={{ flexDirection: "column", padding: "10px" }}>
+          <div
+            style={{
+              flexDirection: "column",
+            }}
+          >
             <h1>A Community Of Makers...</h1>
             <p>
               Codify is an officially registered UC Berkeley student
@@ -40,9 +49,14 @@ export default function Home() {
       <div style={{ padding: "20px" }}>
         <div className="body-section">
           <img
-            src={require("../assets/Images/Codify C Logo.png")}
+            src={require("../assets/Images/General/Elaine.png")}
             alt="placeholder"
-            style={{ width: 200, height: 200, paddingRight: "20px" }}
+            style={{
+              width: 200,
+              height: 200,
+              objectFit: "cover",
+              paddingRight: "20px",
+            }}
           ></img>
           <div style={{ flexDirection: "column", padding: "10px" }}>
             <h1>Building Exciting Things...</h1>
@@ -63,9 +77,14 @@ export default function Home() {
       <div style={{ padding: "20px" }}>
         <div className="body-section">
           <img
-            src={require("../assets/Images/Codify C Logo.png")}
+            src={require("../assets/Images/General/gate.jpeg")}
             alt="placeholder"
-            style={{ width: 200, height: 200 }}
+            style={{
+              width: 200,
+              height: 200,
+              objectFit: "cover",
+              paddingRight: "20px",
+            }}
           ></img>
           <div style={{ flexDirection: "column", padding: "10px" }}>
             <h1>Within the Berkeley Community.</h1>

@@ -22,7 +22,7 @@ function NavBar() {
           alignItems: "center",
         }}
       >
-        <Link to="/Website">
+        <Link to="/">
           <div>
             <img
               src={require("../assets/Images/Codify Berkeley.png")}
