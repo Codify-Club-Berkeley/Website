@@ -128,9 +128,9 @@ export default function AboutUs() {
           Codify was founded to harvest the boundless energy and creativity of
           the Berkeley Computer Science community. Thousands of passionate
           students want to gain real world experience working on projects, but
-          individual projects are more susceptible to roadblocks are more likely
-          to be abandoned after completion. Codify harnesses this passion for
-          creating and puts it behind efforts to build and maintain projects
+          individual projects are more susceptible to roadblocks and are more
+          likely to be abandoned after completion. Codify harnesses this passion
+          for creating and puts it behind efforts to build and maintain projects
           with real world impact. We give our members the skills and experience
           they need to start a company or land their dream job.{" "}
         </p>

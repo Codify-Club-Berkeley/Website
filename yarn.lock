@@ -4726,7 +4726,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.3.1":
+"classnames@npm:^2.1.2, classnames@npm:^2.3.1":
   version: 2.3.2
   resolution: "classnames@npm:2.3.2"
   checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
@@ -4803,6 +4803,7 @@ __metadata:
     react-bootstrap: ^2.5.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
+    react-rotating-text: ^1.4.1
     react-router: ^6.4.2
     react-router-dom: ^6.4.3
     react-scripts: 5.0.1
@@ -8994,6 +8995,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.toarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.toarray@npm:4.4.0"
+  checksum: 2eebcbe75734223b2526018b1c66f7f5e3e5e21e2caffde1553e3453393a676347f2adb7ecbf08364521c188dbf280bd88053604ea159a95121d44453916c31f
+  languageName: node
+  linkType: hard
+
 "lodash.uniq@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.uniq@npm:4.5.0"
@@ -10938,7 +10946,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.10, prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -11180,6 +11188,20 @@ __metadata:
   version: 0.11.0
   resolution: "react-refresh@npm:0.11.0"
   checksum: 112178a05b1e0ffeaf5d9fb4e56b4410a34a73adeb04dbf13abdc50d9ac9df2ada83e81485156cca0b3fa296aa3612751b3d6cd13be4464642a43679b819cbc7
+  languageName: node
+  linkType: hard
+
+"react-rotating-text@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "react-rotating-text@npm:1.4.1"
+  dependencies:
+    classnames: ^2.1.2
+    lodash.toarray: ^4.4.0
+    prop-types: ^15.5.10
+  peerDependencies:
+    react: ">= 15"
+    react-dom: ">= 15"
+  checksum: 191bcbd73c577e7450797a1cbaec7e083bf226188f555ecb5e554772a93475cb0caa1e6dae975f9358aab914da9a30c3275230a1d349ede44daa6d924bfaba6a
   languageName: node
   linkType: hard
 

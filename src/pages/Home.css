@@ -5,15 +5,14 @@
   display: grid;
   grid-gap: 1rem;
   grid-auto-flow: row;
-
   column-gap: 20px;
   row-gap: 20px;
-
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 350px 350px 350px;
 }
 .header {
   display: flex;
+  right: 400px;
   flex-direction: row;
   justify-content: center;
 }

@@ -40,13 +40,13 @@ export default function Join() {
               but joining Codify is a major time commitment for the semester.
               Members in the new member education program can expect to spend
               four to six hours a week learning and working on their project.
-              Members of project teams can should expect to spend anywhere from
-              four to ten hours per week working depending on the project. For
-              most members, Codify is their largest extracurricular commitment.
+              Members of project teams should expect to spend anywhere from four
+              to ten hours per week working depending on the project. For most
+              members, Codify is their largest extracurricular commitment.
             </p>
           </li>
           <li>
-            <h3>Entrepenurial Mindset</h3>
+            <h3>Entrepreneurial Mindset</h3>
             <p>
               One of the main functions of Codify is to help students assemble a
               team to turn their side project into a fully fleshed out product.

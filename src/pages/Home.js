@@ -2,18 +2,21 @@ import React from "react";
 
 import "./Home.css";
 
-import { purple } from "@mui/material/colors";
 import { Link } from "react-router-dom";
+
+import WordSpin from "../components/WordSpin";
 
 export default function Home() {
   let building = "the next big thing";
   return (
     <div>
       <div className="header">
+        <div style={{ display: "flex", flex: 1 }}></div>
         <h1>
           <span style={{ color: "#9641FD" }}>Codify</span> is building{" "}
-          {building}
+          <WordSpin></WordSpin>
         </h1>
+        <div style={{ display: "flex", flex: 4 }}></div>
       </div>
       <div style={{ padding: "20px" }}>
         <div className="body-section">
@@ -91,7 +94,7 @@ export default function Home() {
             <p>
               Codify is an organization created by and for the Berkeley computer
               science community. We strive to provide opportunities for students
-              to find their place in tech, explore their entrepenurial
+              to find their place in tech, explore their entrepreneurial
               aspirations, and use their skills to give back to their
               communities. We are always looking for passionate students to join
               our ranks, and partner organizations to work with towards our
