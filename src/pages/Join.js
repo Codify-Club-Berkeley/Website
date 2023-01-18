@@ -56,7 +56,7 @@ export default function Join() {
             <p>Come talk to us on the glade to learn more about Codify.</p>
           </li>
           <li>
-            <h2>January 25th: Virtual Infosession #1 7-8pm</h2>
+            <h2>January 25th: Virtual Info Session #1 7-8pm</h2>
             <p>
               Learn more about Codify's recruitment process, upcoming projects
               for the semester, and club culture, followed by an open Q and A
@@ -64,21 +64,28 @@ export default function Join() {
             </p>
           </li>
           <li>
-            <h2>January 26th: Game Night and Meet and Greet #1 7-9pm</h2>
-            <p></p>
+            <h2>January 26th: Game Night and Meet and Greet 7-9pm</h2>
+            <p>
+              Join us in the Unit 1 Putnam Common Room for Card Games, Board
+              Games, and Jackbox and get a chance to meet some Codify members.
+            </p>
           </li>
           <li>
-            <h2>January 30th: Virtual Infosession #2 7-8pm</h2>
+            <h2>January 30th: Virtual Info Session #2 7-8pm</h2>
             <p>
-              A repeat of the information covered in Infosession #1 for those
+              A repeat of the information covered in Info Session #1 for those
               who could not make it.{" "}
             </p>
           </li>
           <li>
             <h2>January 31st: Applicaiton Deadline by Midnight!</h2>
+            <p>
+              Make sure to email us at codify.berkeley@gmail.com with any
+              questions or issues!
+            </p>
           </li>
           <li>
-            <h2>January 30th-Februrary 2nd: Interviews</h2>
+            <h2>January 30th-February 2nd: Interviews</h2>
             <p>
               After submitting your application, you will be directed to sign up
               for an in person interview to give us the chance to determine how
@@ -86,7 +93,7 @@ export default function Join() {
             </p>
           </li>
           <li>
-            <h2>Februrary 3rd: Decisions Released</h2>
+            <h2>February 3rd: Decisions Released</h2>
           </li>
         </ul>
 
