@@ -5,6 +5,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 import WordSpin from "../components/WordSpin";
+import { borderRadius } from "@mui/system";
 
 export default function Home() {
   let building = "the next big thing";
@@ -18,6 +19,38 @@ export default function Home() {
         </h1>
         <div style={{ display: "flex", flex: 4 }}></div>
       </div>
+      <div
+        style={{
+          padding: "20px",
+          // backgroundColor: "red",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          className="body-section"
+          style={{
+            display: "flex",
+            // backgroundColor: "green",
+            borderRadius: 30,
+            flexDirection: "column",
+            textAlign: "center",
+            width: "50%",
+          }}
+        >
+          <h1>Spring 2023 Applications Now Open!</h1>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScUygQa9aTntbk50B3yAXR7uOmgHSgjU5whRQo7RYlKK0V1AQ/viewform?usp=sf_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "black" }}
+          >
+            <h1>Apply!</h1>
+          </a>
+        </div>
+      </div>
+
       <div style={{ padding: "20px" }}>
         <div className="body-section">
           <img
@@ -37,11 +70,11 @@ export default function Home() {
           >
             <h1>A Community Of Makers...</h1>
             <p>
-              Codify is an officially registered UC Berkeley student
-              organization focused on bringing students together to work on
-              impactful software projects. Codify is an opportunity to develop
-              new skills, gain real world development experience, and find a
-              community of like minded students.
+              Codify is a newly registered UC Berkeley student organization
+              focused on bringing students together to work on impactful
+              software projects. Codify is an opportunity to develop new skills,
+              gain real world development experience, and find a community of
+              like minded students.
             </p>
             <Link to="/AboutUS" className="link">
               <h2>About Our Team and Mission</h2>

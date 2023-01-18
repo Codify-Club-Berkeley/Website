@@ -35,7 +35,7 @@ const members = [
     title: "Internal Director",
   },
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Stacey Lei.jpg"),
     name: "Stacey Lei",
     title: "Project Lead",
   },
@@ -101,13 +101,13 @@ const members = [
     title: "Developer",
   },
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
-    name: "Keira Swei",
+    imagePath: require("../assets/Images/Headshots/Ayush Goel.png"),
+    name: "Ayush Goel",
     title: "Developer",
   },
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
-    name: "Ayush Goel",
+    imagePath: require("../assets/Images/Headshots/Amber Wang.jpeg"),
+    name: "Amber Wang",
     title: "Developer",
   },
 ];

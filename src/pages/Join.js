@@ -1,6 +1,9 @@
 import React from "react";
 import "./Join.css";
 
+//Create a carousel for these items
+//https://www.npmjs.com/package/react-responsive-carousel
+
 export default function Join() {
   return (
     <div>
@@ -24,11 +27,98 @@ export default function Join() {
         </p>
         <div className="header">
           <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScUygQa9aTntbk50B3yAXR7uOmgHSgjU5whRQo7RYlKK0V1AQ/viewform?usp=sf_link"
+            target="_blank"
+          >
+            Spring 2023 Application
+          </a>
+        </div>
+        <div className="header">
+          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSerkXXiNEoqWCntvxFcgoEVk89eHSRQDjw3PhrL1HoxWG-6dQ/viewform?usp=sf_link"
             target="_blank"
           >
             Join our mailing list!
           </a>
+        </div>
+
+        <h1>Spring 2023 Applicaiton Timeline</h1>
+        <ul>
+          <li>
+            <h2>January 17th: Application Released</h2>
+            <p>
+              Our application is short and only takes a couple of minutes to
+              complete!
+            </p>
+          </li>
+          <li>
+            <h2>January 18th-January 27th: Tabling</h2>
+            <p>Come talk to us on the glade to learn more about Codify.</p>
+          </li>
+          <li>
+            <h2>January 25th: Virtual Infosession #1 7-8pm</h2>
+            <p>
+              Learn more about Codify's recruitment process, upcoming projects
+              for the semester, and club culture, followed by an open Q and A
+              session.
+            </p>
+          </li>
+          <li>
+            <h2>January 26th: Game Night and Meet and Greet #1 7-9pm</h2>
+            <p></p>
+          </li>
+          <li>
+            <h2>January 30th: Virtual Infosession #2 7-8pm</h2>
+            <p>
+              A repeat of the information covered in Infosession #1 for those
+              who could not make it.{" "}
+            </p>
+          </li>
+          <li>
+            <h2>January 31st: Applicaiton Deadline by Midnight!</h2>
+          </li>
+          <li>
+            <h2>January 30th-Februrary 2nd: Interviews</h2>
+            <p>
+              After submitting your application, you will be directed to sign up
+              for an in person interview to give us the chance to determine how
+              you can find your place within Codify.
+            </p>
+          </li>
+          <li>
+            <h2>Februrary 3rd: Decisions Released</h2>
+          </li>
+        </ul>
+
+        <h1>Pathways into Codify</h1>
+        <div class="grid-container">
+          <div class="grid-item">
+            <h4>Project Team</h4>
+            <p>
+              For students with some prior software development experience, or
+              who are willing to put in the extra effort to spend time learning
+              the skills needed, apply to launch right into one of our project
+              teams.
+            </p>
+          </div>
+          <div class="grid-item">
+            <h4>New Member Bootcamp</h4>
+            <p>
+              For students with little or no prior development experience, our
+              semester long curriculum will guide you though the process of
+              building your own full stack application and give you the skills
+              needed to succeed on one of our project teams.
+            </p>
+          </div>
+          <div class="grid-item">
+            <h4>Business and Operations</h4>
+            <p>
+              For students interested in a non software business role within a
+              tech organization, the business and operations team functions as
+              Codify's sales, marketing, public relations, talent acquisition,
+              logistics and finance departments all wrapped up into one.
+            </p>
+          </div>
         </div>
         <h1>What we're looking for?</h1>
 
@@ -65,7 +155,7 @@ export default function Join() {
             </p>
           </li>
           <li>
-            <h3>Team Player</h3>
+            <h3>Ability to Collaborate Within a Team</h3>
             <p>
               Everything that Codify does is working in teams. We are looking
               for people who can communicate and collaborate effectively, and

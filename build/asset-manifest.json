@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6972e2ce.css",
-    "main.js": "/static/js/main.ccc103f1.js",
+    "main.css": "/static/css/main.d59a6d17.css",
+    "main.js": "/static/js/main.f628cb0e.js",
     "static/media/Elaine.png": "/static/media/Elaine.19f9ab1c2f3b2bcc16c0.png",
     "static/media/Sydney Tsai.jpeg": "/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
     "static/media/Runjeet Narula.jpg": "/static/media/Runjeet Narula.9fd243ca0c81b308fbce.jpg",
@@ -18,11 +18,11 @@
     "static/media/Aanvi Kothari.jpeg": "/static/media/Aanvi Kothari.7b9cc0656b2e021a67b5.jpeg",
     "static/media/Nemerjit Singh.jpg": "/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
     "index.html": "/index.html",
-    "main.6972e2ce.css.map": "/static/css/main.6972e2ce.css.map",
-    "main.ccc103f1.js.map": "/static/js/main.ccc103f1.js.map"
+    "main.d59a6d17.css.map": "/static/css/main.d59a6d17.css.map",
+    "main.f628cb0e.js.map": "/static/js/main.f628cb0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6972e2ce.css",
-    "static/js/main.ccc103f1.js"
+    "static/css/main.d59a6d17.css",
+    "static/js/main.f628cb0e.js"
   ]
 }
