@@ -46,7 +46,7 @@ export default function Home() {
             rel="noopener noreferrer"
             style={{ color: "black" }}
           >
-            <h1>Apply!</h1>
+            <h1>Apply</h1>
           </a>
         </div>
       </div>
