@@ -11,3 +11,13 @@
 .grid-item {
   text-align: center;
 }
+.carousel-container {
+  background-color: aqua;
+  display: grid;
+  justify-content: center;
+}
+.carousel-item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

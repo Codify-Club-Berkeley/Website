@@ -1,5 +1,7 @@
 import React from "react";
 import "./Join.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 //Create a carousel for these items
 //https://www.npmjs.com/package/react-responsive-carousel
@@ -170,8 +172,16 @@ export default function Join() {
             </p>
           </li>
         </ol>
-
-        <p></p>
+        {/* <div className="carousel-container">
+          <Carousel>
+            <div className="carousel-item">
+              <p>hi 1</p>
+            </div>
+            <div>
+              <p> hi 2</p>
+            </div>
+          </Carousel>
+        </div> */}
       </div>
     </div>
   );

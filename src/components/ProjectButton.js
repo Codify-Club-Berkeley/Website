@@ -16,7 +16,7 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
     height: 100,
   },
   "&:hover, &.Mui-focusVisible": {
-    zIndex: 1,
+    zIndex: 0,
     "& .MuiImageBackdrop-root": {
       opacity: 0.15,
     },
@@ -72,16 +72,14 @@ const ImageMarked = styled("span")(({ theme }) => ({
   transition: theme.transitions.create("opacity"),
 }));
 
-export default function ProjectButton(props) {
-  const navigate = useNavigate();
-  function handleNav() {
-    if (props.pathUrl) {
-      window.open(props.path, "_blank");
-    } else {
-      navigate(props.path);
-    }
-  }
-
+export default function ProjectButton({
+  backgroundImageUrl,
+  title,
+  width,
+  caption,
+  action,
+  index,
+}) {
   return (
     <Box
       sx={{
@@ -91,6 +89,7 @@ export default function ProjectButton(props) {
         flexDirection: "column",
         flexWrap: "wrap",
         minWidth: 300,
+        maxWidth: 400,
         width: "100%",
         border: "blue",
         borderWidth: 1,
@@ -98,13 +97,13 @@ export default function ProjectButton(props) {
     >
       <ImageButton
         focusRipple
-        key={props.title}
+        key={title}
         style={{
-          width: props.width,
+          width: "80%",
         }}
-        onClick={() => handleNav()}
+        onClick={() => action(index)}
       >
-        <ImageSrc style={{ backgroundImage: `url(${props.url})` }} />
+        <ImageSrc style={{ backgroundImage: `url(${backgroundImageUrl})` }} />
         <ImageBackdrop className="MuiImageBackdrop-root" />
         <Image>
           <Typography
@@ -118,14 +117,14 @@ export default function ProjectButton(props) {
               pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
             }}
           >
-            {props.title}
+            {title}
 
             <ImageMarked className="MuiImageMarked-root" />
           </Typography>
         </Image>
       </ImageButton>
       <div style={{ alignItems: "center", width: 350 }}>
-        <p style={{ fontSize: "14px" }}>{props.caption}</p>
+        <p style={{ fontSize: "14px" }}>{caption}</p>
       </div>
     </Box>
 
