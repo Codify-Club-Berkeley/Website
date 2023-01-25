@@ -54,7 +54,7 @@ export default function Join() {
             </p>
           </li>
           <li>
-            <h2>January 18th-January 27th: Tabling</h2>
+            <h2>January 18th-January 24th: Tabling</h2>
             <p>Come talk to us on the glade to learn more about Codify.</p>
           </li>
           <li>
@@ -62,32 +62,32 @@ export default function Join() {
             <p>
               Learn more about Codify's recruitment process, upcoming projects
               for the semester, and club culture, followed by an open Q and A
-              session.
+              session:{" "}
+              <a href="https://berkeley.zoom.us/j/94048411607" target="_blank">
+                Info Session Link
+              </a>
             </p>
           </li>
-          <li>
-            <h2>January 26th: Game Night and Meet and Greet 7-9pm</h2>
-            <p>
-              Join us in the Unit 1 Putnam Common Room for Card Games, Board
-              Games, and Jackbox and get a chance to meet some Codify members.
-            </p>
-          </li>
+
           <li>
             <h2>January 30th: Virtual Info Session #2 7-8pm</h2>
             <p>
               A repeat of the information covered in Info Session #1 for those
               who could not make it.{" "}
+              <a href="https://berkeley.zoom.us/j/94804072989" target="_blank">
+                Info Session Link
+              </a>
             </p>
           </li>
           <li>
-            <h2>January 31st: Applicaiton Deadline by Midnight!</h2>
+            <h2>February 2nd: Application Deadline by Midnight!</h2>
             <p>
               Make sure to email us at codify.berkeley@gmail.com with any
               questions or issues!
             </p>
           </li>
           <li>
-            <h2>January 30th-February 2nd: Interviews</h2>
+            <h2>February 1st-3rd: Interviews</h2>
             <p>
               After submitting your application, you will be directed to sign up
               for an in person interview to give us the chance to determine how
@@ -95,7 +95,7 @@ export default function Join() {
             </p>
           </li>
           <li>
-            <h2>February 3rd: Decisions Released</h2>
+            <h2>February 5th: Decisions Released</h2>
           </li>
         </ul>
 
