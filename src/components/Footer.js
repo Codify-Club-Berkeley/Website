@@ -59,7 +59,7 @@ export default function Footer() {
             <BsLinkedin size="40"></BsLinkedin>
           </a>
           <a
-            href="https://discord.gg/2HdaVGg5W5"
+            href="https://discord.gg/mBEnPjDSQG"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "black" }}
