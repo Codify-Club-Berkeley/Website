@@ -106,8 +106,13 @@ const members = [
     title: "Developer",
   },
   {
-    imagePath: require("../assets/Images/Headshots/Amber Wang.jpeg"),
-    name: "Amber Wang",
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Saloni Khule",
+    title: "Developer",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Pranav Karthik",
     title: "Developer",
   },
 ];
