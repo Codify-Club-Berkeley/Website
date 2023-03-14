@@ -27,14 +27,8 @@ export default function Join() {
           spend their first semester learning full stack development through our
           new member education program.
         </p>
-        <div className="header">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScUygQa9aTntbk50B3yAXR7uOmgHSgjU5whRQo7RYlKK0V1AQ/viewform?usp=sf_link"
-            target="_blank"
-          >
-            Spring 2023 Application
-          </a>
-        </div>
+        
+        {/*
         <div className="header">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSerkXXiNEoqWCntvxFcgoEVk89eHSRQDjw3PhrL1HoxWG-6dQ/viewform?usp=sf_link"
@@ -43,8 +37,8 @@ export default function Join() {
             Join our mailing list!
           </a>
         </div>
-
-        <h1>Spring 2023 Applicaiton Timeline</h1>
+  */}
+        {/*<h1>Spring 2023 Applicaton Timeline</h1>
         <ul>
           <li>
             <h2>January 17th: Application Released</h2>
@@ -97,7 +91,7 @@ export default function Join() {
           <li>
             <h2>February 5th: Decisions Released</h2>
           </li>
-        </ul>
+  </ul>*/}
 
         <h1>Pathways into Codify</h1>
         <div class="grid-container">
