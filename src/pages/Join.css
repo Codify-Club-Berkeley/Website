@@ -5,9 +5,8 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-
-  padding: 10px;
 }
+
 .grid-item {
   color: white;
   text-align: center;
@@ -15,11 +14,13 @@
   background-color: #a887dd;
   margin: 20px;
 }
+
 .carousel-container {
   background-color: aqua;
   display: grid;
   justify-content: center;
 }
+
 .carousel-item {
   width: 100px;
   height: 100px;
@@ -28,7 +29,10 @@
 
 .application-info {
   background-color: #d3c3ee;
-  padding: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 25px; 
