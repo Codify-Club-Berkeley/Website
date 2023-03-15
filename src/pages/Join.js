@@ -99,7 +99,13 @@ export default function Join() {
           </li>
   </ul>*/}
 
-        <h1>Pathways into Codify</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div className="big-black-title">Pathways into Codify</div>
+        
         <div class="grid-container">
           <div class="grid-item">
             <div className="pathway-title">Project Team</div>
@@ -129,8 +135,13 @@ export default function Join() {
             </p>
           </div>
         </div>
-        <h1>What we're looking for?</h1>
 
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div className="big-black-title">What we're looking for?</div>
         <ol>
           <li>
             <h3>Passion and Commitment</h3>

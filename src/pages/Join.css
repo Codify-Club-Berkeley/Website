@@ -48,9 +48,14 @@
 
 .pathway-title {
   color: white;
-  font-size: 25px;
+  font-size: 27px;
   font-weight: bold;
   height: 30px;
   margin-top: 10px;
-  
+}
+
+.big-black-title {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
 }
