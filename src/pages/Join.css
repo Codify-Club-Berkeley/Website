@@ -9,7 +9,11 @@
   padding: 10px;
 }
 .grid-item {
+  color: white;
   text-align: center;
+  border-radius: 25px;
+  background-color: #a887dd;
+  margin: 20px;
 }
 .carousel-container {
   background-color: aqua;
@@ -20,4 +24,29 @@
   width: 100px;
   height: 100px;
   background-color: red;
+}
+
+.application-info {
+  background-color: #d3c3ee;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 25px; 
+}
+
+.app-info-title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  height: 40px;
+  
+}
+
+.pathway-title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  height: 30px;
+  margin-top: 10px;
+  
 }

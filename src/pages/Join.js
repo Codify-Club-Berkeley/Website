@@ -15,18 +15,24 @@ export default function Join() {
         </h1>
       </div>
       <div className="body">
-        <p>
-          Codify accepts applications for the first two weeks of every semester.
-          We try our best to keep the application straightforward and easy, it
-          should not take more than fifteen minutes to complete. After all
-          applications have been submitted, EVERY applicant is given an
-          interview, the nature of which will depend on how many applications we
-          receive. If new members have prior full stack experience, then they
-          are encouraged to start right into working on one of our many
-          projects. Otherwise, new members are encouraged but not required to
-          spend their first semester learning full stack development through our
-          new member education program.
-        </p>
+        <div className="application-info">
+          <div className="app-info-title">
+            Application Info
+          </div>
+          <div>
+            Codify accepts applications for the first two weeks of every semester.
+            We try our best to keep the application straightforward and easy, it
+            should not take more than fifteen minutes to complete. After all
+            applications have been submitted, EVERY applicant is given an
+            interview, the nature of which will depend on how many applications we
+            receive. If new members have prior full stack experience, then they
+            are encouraged to start right into working on one of our many
+            projects. Otherwise, new members are encouraged but not required to
+            spend their first semester learning full stack development through our
+            new member education program.
+          </div>
+          
+        </div>
         
         {/*
         <div className="header">
@@ -96,7 +102,7 @@ export default function Join() {
         <h1>Pathways into Codify</h1>
         <div class="grid-container">
           <div class="grid-item">
-            <h4>Project Team</h4>
+            <div className="pathway-title">Project Team</div>
             <p>
               For students with some prior software development experience, or
               who are willing to put in the extra effort to spend time learning
@@ -105,7 +111,7 @@ export default function Join() {
             </p>
           </div>
           <div class="grid-item">
-            <h4>New Member Bootcamp</h4>
+            <div className="pathway-title">New Member Bootcamp</div>
             <p>
               For students with little or no prior development experience, our
               semester long curriculum will guide you though the process of
@@ -114,7 +120,7 @@ export default function Join() {
             </p>
           </div>
           <div class="grid-item">
-            <h4>Business and Operations</h4>
+            <div className="pathway-title">Business and Operations</div>
             <p>
               For students interested in a non software business role within a
               tech organization, the business and operations team functions as
