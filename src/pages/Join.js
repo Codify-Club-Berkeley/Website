@@ -142,7 +142,46 @@ export default function Join() {
         <br></br>
 
         <div className="big-black-title">What we're looking for?</div>
-        <ol>
+        <div class="grid-container1">
+          <div class="grid-item1">
+            <div className="pathway-title1">Passion & Commitment</div>
+            <p>
+              Members in the new member education program can expect to spend
+              four to six hours a week learning and working on their project.
+              Members of project teams should expect to spend anywhere from four
+              to ten hours per week working depending on the project. For most
+              members, Codify is their largest extracurricular commitment.
+            </p>
+          </div>
+          <div class="grid-item1">
+            <div className="pathway-title1">Entrepreneurial Mindset</div>
+            <p>
+              One of the main functions of Codify is to help students assemble a
+              team to turn their side project into a fully fleshed out product.
+              We are looking for people with bold ideas who want to create
+              something impactful.
+            </p>
+          </div>
+          <div class="grid-item1">
+            <div className="pathway-title1">Desire to Improve</div>
+            <p>
+              Codify's first priority is the technical and professional
+              development of our members, but you have to be willing to put the effort into your own growth
+              and development. We want people who ask questions, make
+              suggestions, and explore new subjects within computer science.
+            </p>
+          </div>
+          <div class="grid-item1">
+            <div className="pathway-title1">Ability to Collaborate</div>
+            <p>
+              Everything that Codify does is working in teams. We are looking
+              for people who can communicate and collaborate effectively, and
+              who find ways to raise up their team members.
+            </p>
+          </div>
+        </div>
+
+        {/*<ol>
           <li>
             <h3>Passion and Commitment</h3>
             <p>
@@ -182,7 +221,7 @@ export default function Join() {
               who find ways to raise up their team members.
             </p>
           </li>
-        </ol>
+        </ol>*/}
         {/* <div className="carousel-container">
           <Carousel>
             <div className="carousel-item">
