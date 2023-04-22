@@ -16,12 +16,19 @@
   flex-direction: row;
   justify-content: center;
 }
-.body-section {
+.body-section-row {
   display: flex;
   flex-direction: row;
   padding: 20px;
   background-color: rgb(181, 127, 232);
 }
+.body-section-column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(181, 127, 232);
+}
+
 .body-section:hover {
   margin-top: -3px;
   margin-bottom: +3px;

@@ -3,7 +3,7 @@ import React from "react";
 import "./Home.css";
 
 import { Link } from "react-router-dom";
-
+import { useMediaQuery } from "react-responsive";
 import WordSpin from "../components/WordSpin";
 import { borderRadius } from "@mui/system";
 
@@ -51,103 +51,76 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{ padding: "20px" }}>
-        <div className="body-section">
-          <img
-            src={require("../assets/Images/General/Beach.jpg")}
-            alt="placeholder"
-            style={{
-              width: 200,
-              height: 200,
-              objectFit: "cover",
-              paddingRight: "20px",
-            }}
-          ></img>
-          <div
-            style={{
-              flexDirection: "column",
-            }}
-          >
-            <h1>A Community Of Makers...</h1>
-            <p>
-              Codify is a newly registered UC Berkeley student organization
+      <Card
+        imageSource={require("../assets/Images/General/Beach.jpg")}
+        header="A Community Of Makers..."
+        body="Codify is a newly registered UC Berkeley student organization
               focused on bringing students together to work on impactful
               software projects. Codify is an opportunity to develop new skills,
               gain real world development experience, and find a community of
-              like minded students.
-            </p>
-            <Link to="/AboutUS" className="link">
-              <h2>About Our Team and Mission</h2>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div style={{ padding: "20px" }}>
-        <div className="body-section">
-          <img
-            src={require("../assets/Images/General/Elaine.png")}
-            alt="placeholder"
-            style={{
-              width: 200,
-              height: 200,
-              objectFit: "cover",
-              paddingRight: "20px",
-            }}
-          ></img>
-          <div style={{ flexDirection: "column", padding: "10px" }}>
-            <h1>Building Exciting Things...</h1>
-            <p>
-              Every semester, Codify works on projects in web development, data
-              analysis, mobile development, and any other field of computing
-              that our members are passionate about. We maintain a healthy mix
-              of developing projects for both nonprofit and for profit clients,
-              and launching our own internal projects to either develop into a
-              startup or release for the good of the Berkeley community.
-            </p>
-            <Link to="/Projects" className="link">
-              <h2> What We're Working On</h2>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div style={{ padding: "20px" }}>
-        <div className="body-section">
-          <img
-            src={require("../assets/Images/General/gate.jpeg")}
-            alt="placeholder"
-            style={{
-              width: 200,
-              height: 200,
-              objectFit: "cover",
-              paddingRight: "20px",
-            }}
-          ></img>
-          <div style={{ flexDirection: "column", padding: "10px" }}>
-            <h1>Within the Berkeley Community.</h1>
-            <p>
-              Codify is an organization created by and for the Berkeley computer
-              science community. We strive to provide opportunities for students
-              to find their place in tech, explore their entrepreneurial
-              aspirations, and use their skills to give back to their
-              communities. We are always looking for passionate students to join
-              our ranks, and partner organizations to work with towards our
-              mutual goals.
-            </p>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-around",
-              }}
-            >
-              <Link to="/WorkWithUs" className="link">
-                <h2> Work With Codify</h2>
-              </Link>
-              <Link to="/Join" className="link">
-                <h2> Apply Now!</h2>
-              </Link>
-            </div>
-          </div>
+              like minded students."
+        link="/AboutUS"
+        linkText="About Our Team and Mission"
+      ></Card>
+      <Card
+        imageSource={require("../assets/Images/General/Elaine.png")}
+        header="Building Exciting Things..."
+        body="Every semester, Codify works on projects in web development, data
+        analysis, mobile development, and any other field of computing
+        that our members are passionate about. We maintain a healthy mix
+        of developing projects for both nonprofit and for profit clients,
+        and launching our own internal projects to either develop into a
+        startup or release for the good of the Berkeley community."
+        link="/Projects"
+        linkText="What we've been working on"
+      ></Card>
+      <Card
+        imageSource={require("../assets/Images/General/gate.jpeg")}
+        header="Within the Berkeley Community."
+        body="Codify is an organization created by and for the Berkeley computer
+        science community. We strive to provide opportunities for students
+        to find their place in tech, explore their entrepreneurial
+        aspirations, and use their skills to give back to their
+        communities. We are always looking for passionate students to join
+        our ranks, and partner organizations to work with towards our
+        mutual goals."
+        link="/WorkWithUs"
+        linkText="Work With Codify"
+      ></Card>
+    </div>
+  );
+}
+
+function Card(props) {
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+
+  return (
+    <div style={{ padding: "20px" }}>
+      <div
+        className={isMobileDevice ? "body-section-row" : "body-section-column"}
+      >
+        <img
+          src={props.imageSource}
+          alt="placeholder"
+          style={{
+            width: 200,
+            height: 200,
+            objectFit: "cover",
+            paddingRight: "20px",
+          }}
+        ></img>
+        <div
+          style={{
+            flexDirection: "column",
+          }}
+        >
+          <h1>{props.header}</h1>
+          <p>{props.body}</p>
+          <Link to={props.linkLocation} className="link">
+            <h2>{props.linkText}</h2>
+          </Link>
         </div>
       </div>
     </div>
