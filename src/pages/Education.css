@@ -7,3 +7,23 @@
   justify-content: center;
   display: flex;
 }
+
+
+.table-format {
+  background-color: #a887dd;
+  border-radius: 25px;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 70%;
+
+}
+
+th, td {
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
