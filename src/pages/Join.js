@@ -169,7 +169,8 @@ export default function Join() {
                 One of the main functions of Codify is to help students assemble a
                 team to turn their side project into a fully fleshed out product.
                 We are looking for people with bold ideas who want to create
-                something impactful.
+                something impactful. In addition, we also do work for small nonprofits,
+                 where our project workflow is similar to that of a start up.
                 </p>
               </div>
             </div>
@@ -182,8 +183,8 @@ export default function Join() {
               <div class="flip-card-back">
                 <p>
                 Codify's first priority is the technical and professional
-                development of our members, but you have to be willing to put the effort into your own growth
-                and development. We want people who ask questions, make
+                development of our members. However, you have to be willing to put the effort into your own growth
+                by committing time to learning and improving on skills. We want people who ask questions, make
                 suggestions, and explore new subjects within computer science.
                 </p>
               </div>
@@ -196,66 +197,17 @@ export default function Join() {
               </div>
               <div class="flip-card-back">
                 <p>
-                  Everything that Codify does is working in teams. We are looking
-                  for people who can communicate and collaborate effectively, and
-                  who find ways to raise up their team members.
+                  Most, if not all projects in Codify are team-based projects. This means that regardless of which 
+                  project you're on, you will have to interact and work with others. Therefore, we are looking for 
+                  people who can communicate and collaborate effectively with others in order to create a space 
+                  that allows for everyone to learn and grow together.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/*<ol>
-          <li>
-            <h3>Passion and Commitment</h3>
-            <p>
-              We are all busy college students with lots going on in our lives,
-              but joining Codify is a major time commitment for the semester.
-              Members in the new member education program can expect to spend
-              four to six hours a week learning and working on their project.
-              Members of project teams should expect to spend anywhere from four
-              to ten hours per week working depending on the project. For most
-              members, Codify is their largest extracurricular commitment.
-            </p>
-          </li>
-          <li>
-            <h3>Entrepreneurial Mindset</h3>
-            <p>
-              One of the main functions of Codify is to help students assemble a
-              team to turn their side project into a fully fleshed out product.
-              We are looking for people with bold ideas who want to create
-              something impactful.
-            </p>
-          </li>
-          <li>
-            <h3>Desire to Learn and Grow</h3>
-            <p>
-              Codify's first priority is the technical and professional
-              development of our members. We are fully invested in helping you,
-              but you have to be willing to put the effort into your own growth
-              and development. We want people who ask questions, make
-              suggestions, and explore new subjects within computer science.
-            </p>
-          </li>
-          <li>
-            <h3>Ability to Collaborate Within a Team</h3>
-            <p>
-              Everything that Codify does is working in teams. We are looking
-              for people who can communicate and collaborate effectively, and
-              who find ways to raise up their team members.
-            </p>
-          </li>
-        </ol>*/}
-        {/* <div className="carousel-container">
-          <Carousel>
-            <div className="carousel-item">
-              <p>hi 1</p>
-            </div>
-            <div>
-              <p> hi 2</p>
-            </div>
-          </Carousel>
-        </div> */}
+        
       </div>
     </div>
   );
