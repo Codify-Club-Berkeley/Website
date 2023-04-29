@@ -20,10 +20,28 @@ export default function Education() {
           development, and deployment of their own full stack project.
         </p>
         <div style={{ paddingTop: "100px" }}></div>
-        <div className="title">
-          <h1>Check back soon for updates to our curriculum!</h1>
+
+        <div>
+          <table className="table-format">
+            <tr>
+              <th>Topic</th>
+              <th>Links</th>
+            </tr>
+            <tr>
+              <td>Project Formation + Getting Started</td>
+              <td><a href="https://docs.google.com/presentation/d/1Y_WC--wT3EhWAxofXTE5gPLbRqOCZLKm2vLdfBlVzDw/edit?usp=share_link">Slides</a></td>
+            </tr>
+            <tr>
+              <td>Version Control, Git, and Setting Up Environment</td>
+              <td><a href="https://docs.google.com/presentation/d/14_6wsfcxIgkF9XzdSOe2hgfmMok4BtMVhvM9kZFiK7M/edit?usp=share_link">Slides</a></td>
+            </tr>
+            <tr>
+              <td>React Native</td>
+              <td><a href="https://docs.google.com/presentation/d/18h7ak5WbQcEAyGLufj6LSVzKpKKwplfxLSw4K2mFQQg/edit?usp=share_link">Slides</a></td>
+            </tr>
+          </table>
         </div>
-        <div style={{ paddingTop: "100px" }}></div>
+
       </div>
     </div>
   );

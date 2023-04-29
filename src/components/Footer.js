@@ -9,13 +9,14 @@ export default function Footer() {
       style={{
         display: "flex",
         flexDirection: "row",
+        justifyContent: "space-between",
         backgroundColor: "#9741FD",
       }}
     >
       <div
         style={{
           display: "flex",
-          flex: 1,
+
           justifyContent: "space-around",
           flexDirection: "column",
           paddingLeft: 40,
@@ -68,14 +69,10 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div
-        style={{ display: "flex", flex: 1, backgroundColor: "#9741FD" }}
-      ></div>
 
       <nav
         style={{
           display: "flex",
-          flex: 1,
 
           justifyContent: "space-around",
           alignItems: "center",

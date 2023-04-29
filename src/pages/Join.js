@@ -15,26 +15,26 @@ export default function Join() {
         </h1>
       </div>
       <div className="body">
-        <p>
-          Codify accepts applications for the first two weeks of every semester.
-          We try our best to keep the application straightforward and easy, it
-          should not take more than fifteen minutes to complete. After all
-          applications have been submitted, EVERY applicant is given an
-          interview, the nature of which will depend on how many applications we
-          receive. If new members have prior full stack experience, then they
-          are encouraged to start right into working on one of our many
-          projects. Otherwise, new members are encouraged but not required to
-          spend their first semester learning full stack development through our
-          new member education program.
-        </p>
-        <div className="header">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScUygQa9aTntbk50B3yAXR7uOmgHSgjU5whRQo7RYlKK0V1AQ/viewform?usp=sf_link"
-            target="_blank"
-          >
-            Spring 2023 Application
-          </a>
+        <div className="application-info">
+          <div className="app-info-title">
+            Application Info
+          </div>
+          <div>
+            Codify accepts applications for the first two weeks of every semester.
+            We try our best to keep the application straightforward and easy, it
+            should not take more than fifteen minutes to complete. After all
+            applications have been submitted, EVERY applicant is given an
+            interview, the nature of which will depend on how many applications we
+            receive. If new members have prior full stack experience, then they
+            are encouraged to start right into working on one of our many
+            projects. Otherwise, new members are encouraged but not required to
+            spend their first semester learning full stack development through our
+            new member education program.
+          </div>
+          
         </div>
+        
+        {/*
         <div className="header">
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSerkXXiNEoqWCntvxFcgoEVk89eHSRQDjw3PhrL1HoxWG-6dQ/viewform?usp=sf_link"
@@ -43,8 +43,8 @@ export default function Join() {
             Join our mailing list!
           </a>
         </div>
-
-        <h1>Spring 2023 Applicaiton Timeline</h1>
+  */}
+        {/*<h1>Spring 2023 Applicaton Timeline</h1>
         <ul>
           <li>
             <h2>January 17th: Application Released</h2>
@@ -97,12 +97,18 @@ export default function Join() {
           <li>
             <h2>February 5th: Decisions Released</h2>
           </li>
-        </ul>
+  </ul>*/}
 
-        <h1>Pathways into Codify</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div className="big-black-title">Pathways into Codify</div>
+        
         <div class="grid-container">
           <div class="grid-item">
-            <h4>Project Team</h4>
+            <div className="pathway-title">Project Team</div>
             <p>
               For students with some prior software development experience, or
               who are willing to put in the extra effort to spend time learning
@@ -111,7 +117,7 @@ export default function Join() {
             </p>
           </div>
           <div class="grid-item">
-            <h4>New Member Bootcamp</h4>
+            <div className="pathway-title">New Member Bootcamp</div>
             <p>
               For students with little or no prior development experience, our
               semester long curriculum will guide you though the process of
@@ -120,7 +126,7 @@ export default function Join() {
             </p>
           </div>
           <div class="grid-item">
-            <h4>Business and Operations</h4>
+            <div className="pathway-title">Business and Operations</div>
             <p>
               For students interested in a non software business role within a
               tech organization, the business and operations team functions as
@@ -129,59 +135,79 @@ export default function Join() {
             </p>
           </div>
         </div>
-        <h1>What we're looking for?</h1>
 
-        <ol>
-          <li>
-            <h3>Passion and Commitment</h3>
-            <p>
-              We are all busy college students with lots going on in our lives,
-              but joining Codify is a major time commitment for the semester.
-              Members in the new member education program can expect to spend
-              four to six hours a week learning and working on their project.
-              Members of project teams should expect to spend anywhere from four
-              to ten hours per week working depending on the project. For most
-              members, Codify is their largest extracurricular commitment.
-            </p>
-          </li>
-          <li>
-            <h3>Entrepreneurial Mindset</h3>
-            <p>
-              One of the main functions of Codify is to help students assemble a
-              team to turn their side project into a fully fleshed out product.
-              We are looking for people with bold ideas who want to create
-              something impactful.
-            </p>
-          </li>
-          <li>
-            <h3>Desire to Learn and Grow</h3>
-            <p>
-              Codify's first priority is the technical and professional
-              development of our members. We are fully invested in helping you,
-              but you have to be willing to put the effort into your own growth
-              and development. We want people who ask questions, make
-              suggestions, and explore new subjects within computer science.
-            </p>
-          </li>
-          <li>
-            <h3>Ability to Collaborate Within a Team</h3>
-            <p>
-              Everything that Codify does is working in teams. We are looking
-              for people who can communicate and collaborate effectively, and
-              who find ways to raise up their team members.
-            </p>
-          </li>
-        </ol>
-        {/* <div className="carousel-container">
-          <Carousel>
-            <div className="carousel-item">
-              <p>hi 1</p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div className="big-black-title">What we're looking for?</div>
+        <div class="grid-container1">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div className="pathway-title1">Passion & Commitment</div> 
+              </div>
+              <div class="flip-card-back">
+                <p>
+                Members in the new member education program can expect to spend
+                four to six hours a week learning and working on their project.
+                Members of project teams should expect to spend anywhere from four
+                to ten hours per week working depending on the project. For most
+                members, Codify is their largest extracurricular commitment.
+                </p>
+              </div>
             </div>
-            <div>
-              <p> hi 2</p>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div className="pathway-title1">Entrepreneurial Mindset</div>
+              </div>
+              <div class="flip-card-back">
+                <p>
+                One of the main functions of Codify is to help students assemble a
+                team to turn their side project into a fully fleshed out product.
+                We are looking for people with bold ideas who want to create
+                something impactful. In addition, we also do work for small nonprofits,
+                 where our project workflow is similar to that of a start up.
+                </p>
+              </div>
             </div>
-          </Carousel>
-        </div> */}
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div className="pathway-title1">Desire to Improve</div> 
+              </div>
+              <div class="flip-card-back">
+                <p>
+                Codify's first priority is the technical and professional
+                development of our members. However, you have to be willing to put the effort into your own growth
+                by committing time to learning and improving on skills. We want people who ask questions, make
+                suggestions, and explore new subjects within computer science.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div className="pathway-title1">Ability to Collaborate</div> 
+              </div>
+              <div class="flip-card-back">
+                <p>
+                  Most, if not all projects in Codify are team-based projects. This means that regardless of which 
+                  project you're on, you will have to interact and work with others. Therefore, we are looking for 
+                  people who can communicate and collaborate effectively with others in order to create a space 
+                  that allows for everyone to learn and grow together.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   );

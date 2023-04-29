@@ -12,12 +12,27 @@ const members = [
   {
     imagePath: require("../assets/Images/Headshots/Elaine Shu.jpeg"),
     name: "Elaine Shu",
-    title: "Internal Vice President",
+    title: "Vice President",
   },
   {
     imagePath: require("../assets/Images/Headshots/Dhruv Agarwal.jpeg"),
     name: "Dhruv Agarwal",
-    title: "External Vice President",
+    title: "Vice President",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpeg"),
+    name: "Rayna Bhattacharyya",
+    title: "Vice President",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Logan Krause",
+    title: "Vice President of Operations",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Michael Wang",
+    title: "LEAP MDUSD Project Lead",
   },
   {
     imagePath: require("../assets/Images/Headshots/Nemerjit Singh.jpg"),
@@ -25,45 +40,48 @@ const members = [
     title: "External Director",
   },
   {
-    imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpeg"),
-    name: "Rayna Bhattacharyya",
-    title: "External Director",
-  },
-  {
-    imagePath: require("../assets/Images/Headshots/Sydney Tsai.jpeg"),
-    name: "Sydney Tsai",
-    title: "Internal Director",
-  },
-  {
-    imagePath: require("../assets/Images/Headshots/Stacey Lei.jpg"),
-    name: "Stacey Lei",
-    title: "Project Lead",
-  },
-  {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
-    name: "Andrea Lou",
-    title: "Internal Director",
-  },
-  {
     imagePath: require("../assets/Images/Headshots/blank.jpeg"),
     name: "Shruti Sathi",
     title: "Education Director",
   },
   {
-    imagePath: require("../assets/Images/Headshots/Runjeet Narula.jpg"),
-    name: "Runjeet Narula",
+    imagePath: require("../assets/Images/Headshots/Ayush Goel.png"),
+    name: "Ayush Goel",
+    title: "Posto Project Lead",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Stacey Lei.jpg"),
+    name: "Stacey Lei",
+    title: "Ruth Bancroft Garden Project Lead",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Timothe Kasriel",
+    title: "Scribble AI Project Lead",
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Michael Wang",
+    title: "LEAP MDUSD Project Lead",
+  },
+
+  {
+    imagePath: require("../assets/Images/Headshots/Sydney Tsai.jpeg"),
+    name: "Sydney Tsai",
     title: "Developer",
   },
+  {
+    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    name: "Andrea Lou",
+    title: "Developer",
+  },
+
   {
     imagePath: require("../assets/Images/Headshots/Aanvi Kothari.jpeg"),
     name: "Aanvi Kothari",
     title: "Developer",
   },
-  {
-    imagePath: require("../assets/Images/Headshots/Cesar Garcia Santana.jpg"),
-    name: "Cesar Garcia Santana",
-    title: "Developer",
-  },
+
   {
     imagePath: require("../assets/Images/Headshots/blank.jpeg"),
     name: "Leo Huang",
@@ -72,11 +90,6 @@ const members = [
   {
     imagePath: require("../assets/Images/Headshots/blank.jpeg"),
     name: "Faisal Al-Senani",
-    title: "Developer",
-  },
-  {
-    imagePath: require("../assets/Images/Headshots/Navein Suresh.jpeg"),
-    name: "Navein Suresh",
     title: "Developer",
   },
   {
@@ -95,16 +108,6 @@ const members = [
     title: "Developer",
   },
 
-  {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
-    name: "Kailash Ranganathan",
-    title: "Developer",
-  },
-  {
-    imagePath: require("../assets/Images/Headshots/Ayush Goel.png"),
-    name: "Ayush Goel",
-    title: "Developer",
-  },
   {
     imagePath: require("../assets/Images/Headshots/blank.jpeg"),
     name: "Saloni Khule",
@@ -155,7 +158,7 @@ export default function AboutUs() {
         <h1>Our Team</h1>
       </div>
 
-      <div class="grid-container">
+      <div className="grid-containerw">
         {members.map(({ imagePath, name, title }) => (
           <div class="grid-item">
             <Quote name={name} title={title} imagePath={imagePath}></Quote>
