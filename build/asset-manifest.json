@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6269870c.css",
-    "main.js": "/static/js/main.218a151a.js",
+    "main.js": "/static/js/main.b31b1abb.js",
     "static/media/Elaine.png": "/static/media/Elaine.19f9ab1c2f3b2bcc16c0.png",
     "static/media/Sydney Tsai.jpeg": "/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
     "static/media/Runjeet Narula.jpg": "/static/media/Runjeet Narula.9fd243ca0c81b308fbce.jpg",
@@ -11,7 +11,6 @@
     "static/media/Elaine Shu.jpeg": "/static/media/Elaine Shu.9d309f6bbe3e0983c64a.jpeg",
     "static/media/Stacey Lei.jpg": "/static/media/Stacey Lei.dd955dcefdd7e73f86f9.jpg",
     "static/media/Navein Suresh.jpeg": "/static/media/Navein Suresh.f2139587a18b1cf55adf.jpeg",
-    "static/media/Amber Wang.jpeg": "/static/media/Amber Wang.45ee0374957791b55433.jpeg",
     "static/media/Rayna Bhattacharyya.jpeg": "/static/media/Rayna Bhattacharyya.4d8c075bfc9ee81cf25a.jpeg",
     "static/media/gate.jpeg": "/static/media/gate.0066c476c85b572412cf.jpeg",
     "static/media/Beach.jpg": "/static/media/Beach.b5c996fbb0cc20d14f85.jpg",
@@ -22,10 +21,10 @@
     "static/media/Nemerjit Singh.jpg": "/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
     "index.html": "/index.html",
     "main.6269870c.css.map": "/static/css/main.6269870c.css.map",
-    "main.218a151a.js.map": "/static/js/main.218a151a.js.map"
+    "main.b31b1abb.js.map": "/static/js/main.b31b1abb.js.map"
   },
   "entrypoints": [
     "static/css/main.6269870c.css",
-    "static/js/main.218a151a.js"
+    "static/js/main.b31b1abb.js"
   ]
 }
