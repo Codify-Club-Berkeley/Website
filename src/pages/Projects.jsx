@@ -236,7 +236,8 @@ export default function ButtonBases() {
         ></ProjectButton>
       </div> */}
 
-      <ProjectView></ProjectView>
+      {/* Todo uncomment me and replace all the old project displays with these */}
+      {/* <ProjectView></ProjectView> */}
     </div>
   );
 }
