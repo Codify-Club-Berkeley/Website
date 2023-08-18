@@ -5,17 +5,19 @@ export default function ProjectView() {
     <>
       {/* Open the modal using ID.showModal() method */}
       <button className="btn" onClick={() => window.my_modal_1.showModal()}>
+        {/** Button Contents to Open the Modal */}
         open modal
       </button>
+
       <dialog id="my_modal_1" className="modal-middle">
-        <form method="dialog" className="modal-box">
+        <form method="dialog" className="modal-box bg-codify-purple">
           <h3 className="font-bold text-lg">Hello!</h3>
           <p className="py-4">
             Press ESC key or click the button below to close
           </p>
         </form>
-        <form method="dialog" className="modal-backdrop bg-transparent">
-          <button>close</button>
+        <form method="dialog" className="modal-backdrop opacity-0">
+          <button></button>
         </form>
       </dialog>
     </>

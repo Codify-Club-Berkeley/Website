@@ -4,6 +4,7 @@ import ProjectButton from "../components/ProjectButton";
 import { useState } from "react";
 import { ProjectModal } from "../components/ProjectModal";
 import "./Projects.css";
+import ProjectView from "../components/ProjectView";
 
 const active_projects = [
   {
@@ -234,6 +235,8 @@ export default function ButtonBases() {
           }
         ></ProjectButton>
       </div> */}
+
+      <ProjectView></ProjectView>
     </div>
   );
 }
