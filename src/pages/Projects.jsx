@@ -5,6 +5,7 @@ import { useState } from "react";
 import { ProjectModal } from "../components/ProjectModal";
 import "./Projects.css";
 import ProjectView from "../components/ProjectView";
+import Modal from "../components/Modal";
 
 const active_projects = [
   {
@@ -130,6 +131,9 @@ export default function ButtonBases() {
         </a>
       </div> */}
       <div className="body">
+        {/* Todo uncomment me and replace all the old project displays with these */}
+        {/* <ProjectView></ProjectView> */}
+
         <p>
           Every semester, Codify gives members the opportunity to work on a new
           project. We don’t limit ourselves to any one domain of computer
@@ -151,93 +155,12 @@ export default function ButtonBases() {
           you see a project here you would like to work on, you can!
         </p>
       </div>
-
-      {/**Pass setShowModal so that the modal can close itself */}
-      {showModal ? (
-        <ProjectModal
-          setShowModal={setShowModal}
-          projectData={active_projects[showModal - 1]}
-        />
-      ) : null}
       <div className="body">
         <h2>Current Projects</h2>
       </div>
       <div className="grid">
-        {active_projects
-          .slice(0, 5)
-          .map(({ backgroundImageUrl, client, caption, index }) => (
-            <ProjectButton
-              backgroundImageUrl={backgroundImageUrl}
-              title={client}
-              action={setShowModal}
-              caption={caption}
-              index={index}
-            ></ProjectButton>
-          ))}
+        <Modal modalTitle={"t1"}></Modal>
       </div>
-      <div className="body">
-        <h2>Maintained Projects</h2>
-      </div>
-      {active_projects
-        .slice(5, 6)
-        .map(({ backgroundImageUrl, client, caption, index }) => (
-          <ProjectButton
-            backgroundImageUrl={backgroundImageUrl}
-            title={client}
-            action={setShowModal}
-            caption={caption}
-            index={index}
-          ></ProjectButton>
-        ))}
-      {/* Project buttons to be uncommented */}
-
-      {/* 
-      <h1 style={{ paddingLeft: 15 }}>Fall '22</h1>
-
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-        <ProjectButton
-          url={
-            "https://chabotspace.org/wp-content/uploads/2020/04/observatory-main.png"
-          }
-          title={"Chabot Science Center"}
-          width={"80%"}
-          path={"https://chabotspace.org/"}
-          pathUrl={true}
-          caption={"Build a mobile app to enrich the visitor experience."}
-        ></ProjectButton>
-
-        <ProjectButton
-          url={
-            "https://www.ruthbancroftgarden.org/wp/wp-content/uploads/main-banner-img.jpg"
-          }
-          title={"Ruth Bancroft Gardens"}
-          width={"80%"}
-          path={"https://www.ruthbancroftgarden.org/"}
-          pathUrl={true}
-          caption={"Build a mobile app to house an interactive garden tour."}
-        ></ProjectButton>
-
-        <ProjectButton
-          url={
-            "https://i.pinimg.com/originals/32/60/cd/3260cd08c8fc795c59af655e4dd26bf9.jpg"
-          }
-          title={"Punjabi Art Collective"}
-          width={"80%"}
-          path={"https://www.instagram.com/punjabiartcollective/"}
-          pathUrl={true}
-          caption={
-            "Build a club website to host general information, a monthly newsletter, and an online store."
-          }
-        ></ProjectButton>
-      </div> */}
-
-      {/* Todo uncomment me and replace all the old project displays with these */}
-      {/* <ProjectView></ProjectView> */}
     </div>
   );
 }

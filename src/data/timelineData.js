@@ -15,6 +15,7 @@ export const timelineData = [
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfnDCGZPdlGBtKN2-5oAuNnzv57tU4093MrI_pCDpDoyxM5Qw/viewform"
           target="_blank"
+          rel="noreferrer"
         >
           Application Link
         </a>
