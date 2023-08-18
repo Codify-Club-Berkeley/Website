@@ -1,15 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub, BsDiscord } from "react-icons/bs";
+import { footerLinks } from "../data/navBarLinks";
 
 export default function Footer() {
-  const footerLinks = [
-    "About",
-    "Join",
-    "Projects",
-    "Education",
-    "Work With Us",
-  ];
 
   return (
     <div class="flex flex-col sm:flex-row bg-codify-purple justify-between p-4">

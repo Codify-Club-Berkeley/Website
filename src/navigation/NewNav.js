@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, Route, Routes } from "react-router-dom";
+import { footerLinks } from "../data/navBarLinks";
 
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
@@ -21,35 +22,12 @@ function NewNav() {
         style={{ flexDirection: "row-reverse" }}
       >
         <Nav className="">
-          <Nav.Link as={Link} to="/About">
-            About
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Join">
-            Join
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Projects">
-            Projects
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Education">
-            Education
-          </Nav.Link>
-          <Nav.Link as={Link} to="/WorkWithUs">
-            Work With Us
-          </Nav.Link>
-
-          {/* 
-          //Cool looking menu, not really a use for it right now
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown> */}
+          {footerLinks.map((link) => {
+            return (
+            <Nav.Link as={Link} to={"/" + link.replace(/\s/g, "")}>
+              <h5 className="text-white">{link}</h5>
+            </Nav.Link>)
+          })}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
