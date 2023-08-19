@@ -16,14 +16,14 @@
   background-color: #a887dd;
   margin: 20px;
 }
-
+/* 
 .grid-item1 {
   color: white;
   text-align: center;
   border-radius: 25px;
   background-color: #a887dd;
   margin: 20px;
-}
+} */
 
 .flip-card {
   background-color: transparent;
@@ -74,6 +74,7 @@
 .flip-card-back {
   transform: rotateY(180deg);
   color: white;
+  font-size: 20px;
   text-align: center;
   border-radius: 25px;
   background-color: #a887dd;
@@ -83,17 +84,17 @@
   padding-top: 25px;
 }
 
-.carousel-container {
+/* .carousel-container {
   background-color: aqua;
   display: grid;
   justify-content: center;
-}
+} */
 
-.carousel-item {
+/* .carousel-item {
   width: 100px;
   height: 100px;
   background-color: red;
-}
+} */
 
 .application-info {
   background-color: #d3c3ee;
@@ -136,5 +137,6 @@
   text-align: center;
   font-size: 35px;
   margin-top: 50px;
+  margin-bottom: 15px;
   font-weight: 500;
 }

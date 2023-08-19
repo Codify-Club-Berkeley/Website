@@ -11,7 +11,7 @@ export default function Join() {
     <div>
       <div className="header">
         <h1>
-          Pathways into <span style={{ color: "#9741FD" }}>Codify</span>
+          Welcome to <span style={{ color: "#9741FD" }}>Codify</span>
         </h1>
       </div>
       <div class="p-20">
@@ -62,24 +62,26 @@ export default function Join() {
         </div>
 
         <br></br>
+
+        <div className="big-black-title">Recruitment Timeline</div>
+        <Timeline />
+
         <br></br>
         <br></br>
 
-        <div className="big-black-title">What we're looking for?</div>
+        <div className="big-black-title">What we're looking for</div>
         <div class="grid-container1">
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <div className="pathway-title1">Passion & Commitment</div>
+                <div className="pathway-title1">Commitment</div>
               </div>
               <div class="flip-card-back">
                 <p>
-                  Members in the new member education program can expect to
-                  spend four to six hours a week learning and working on their
-                  project. Members of project teams should expect to spend
-                  anywhere from four to ten hours per week working depending on
-                  the project. For most members, Codify is their largest
-                  extracurricular commitment.
+                  Commitment is the backbone of the Codify community—what you
+                  put in is what you get out, both socially and technically.
+                  Being consistent and dedicated to your workload is what helps
+                  us amplify our collective impact.
                 </p>
               </div>
             </div>
@@ -87,16 +89,13 @@ export default function Join() {
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <div className="pathway-title1">Entrepreneurial Mindset</div>
+                <div className="pathway-title1">Entrepreneurial Curiosity</div>
               </div>
               <div class="flip-card-back">
                 <p>
-                  One of the main functions of Codify is to help students
-                  assemble a team to turn their side project into a fully
-                  fleshed out product. We are looking for people with bold ideas
-                  who want to create something impactful. In addition, we also
-                  do work for small nonprofits, where our project workflow is
-                  similar to that of a start up.
+                  Since Codify mainly works in the fast-paced world of tech
+                  startups, we are looking for people who want to experience
+                  building something impactful from the ground up.
                 </p>
               </div>
             </div>
@@ -111,9 +110,7 @@ export default function Join() {
                   Codify's first priority is the technical and professional
                   development of our members. However, you have to be willing to
                   put the effort into your own growth by committing time to
-                  learning and improving on skills. We want people who ask
-                  questions, make suggestions, and explore new subjects within
-                  computer science.
+                  learning and improving on skills.
                 </p>
               </div>
             </div>
@@ -121,14 +118,12 @@ export default function Join() {
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <div className="pathway-title1">Ability to Collaborate</div>
+                <div className="pathway-title1">Collaboration</div>
               </div>
               <div class="flip-card-back">
                 <p>
                   Most, if not all projects in Codify are team-based projects.
-                  This means that regardless of which project you're on, you
-                  will have to interact and work with others. Therefore, we are
-                  looking for people who can communicate and collaborate
+                  We are looking for people who can communicate and collaborate
                   effectively with others in order to create a space that allows
                   for everyone to learn and grow together.
                 </p>
@@ -136,8 +131,6 @@ export default function Join() {
             </div>
           </div>
         </div>
-        <h1 class="text-center">Recruitment Timeline </h1>
-        <Timeline />
       </div>
     </div>
   );
