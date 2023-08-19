@@ -1,3 +1,46 @@
+export type Project = {
+  projectTitle: string;
+  shortDescription: string;
+  aboutClient: string;
+  aboutProject: string;
+  imgSource: string;
+  technologies: string[];
+  linkIcons: string[];
+  linkDestinations: string[];
+};
+
+export const allProjectsData: Project[] = [
+  {
+    projectTitle: "Scribble AI",
+    shortDescription:
+      "Scribble AI is a mobile app that allows users to take a picture of a handwritten math problem and receive a step-by-step solution.",
+    aboutClient:
+      "About Scribble AI: Scribble AI is a startup that aims to make math education more accessible and engaging. They are currently working on a mobile app that allows users to take a picture of a handwritten math problem and receive a step-by-step solution.",
+    aboutProject:
+      "Our Project: We are working with Scribble AI to build out their mobile app. We are currently working on the frontend of the app, which is built in React Native. We are also working on the backend, which is built in Python using Flask.",
+    imgSource:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/e5/11/99e5116c-acde-28ee-5b9b-0b70f3eab035/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
+    technologies: ["React Native", "Flask", "Swift"],
+    linkIcons: ["GitHub"],
+    linkDestinations: ["https://www.scribbleai.net/"],
+  },
+  {
+    projectTitle: "Chabot Space and Science Center",
+    shortDescription: "Visitor Guide App to Provide an Enriched Experience",
+    aboutClient:
+      "The Chabot Space & Science Center is a non-profit museum that serves Oakland and the greater Bay Area as a place for STEM learning and engagement. They are the official visitors center for Nasa Ames and host the largest observatory complex free for public viewing in the Western United States.",
+    aboutProject: "React Baby",
+    imgSource:
+      "https://chabotspace.org/wp-content/uploads/2018/07/imageslogos.png",
+    technologies: ["React Native", "Firebase"],
+    linkIcons: ["GitHub", "Website"],
+    linkDestinations: [
+      "https://github.com/Codify-Club-Berkeley/cssc-mobile-app",
+      "https://chabotspace.org/",
+    ],
+  },
+];
+
 const active_projects = [
   {
     index: 1,

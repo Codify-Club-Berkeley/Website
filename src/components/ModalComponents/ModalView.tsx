@@ -1,20 +1,10 @@
+import React, { useState } from "react";
 import TechnologyBadge from "../TechnologyBadge";
 
 // The handleModalClick and closeModal functions are passed down from the Modal component
 // aboutClient and aboutProject are strings giving information about the client and the project
 // linkIcons are icon names that are defined in technlogyLogos.js
-const ModalView = ({
-  visible,
-  handleModalClick,
-  closeModal,
-  projectTitle,
-  imgSource,
-  aboutClient,
-  aboutProject,
-  linkIcons,
-  linkDestinations,
-  data,
-}) => {
+const ModalView = ({ data, visible, handleModalClick, closeModal }) => {
   return (
     visible && (
       <div
@@ -30,29 +20,29 @@ const ModalView = ({
           </button>
           <div className="h-48">
             <img
-              src={imgSource}
+              src={data.imgSource}
               className="h-full w-full object-contain justify-center"
-              alt="Shoes"
+              alt={data.projectTitle}
             ></img>
           </div>
-          <h2 className="font-semibold mb-4 text-center">{projectTitle}</h2>
+          <h2 className="font-semibold mb-4 text-center">
+            {data.projectTitle}
+          </h2>
           <span>
-            <span className="font-semibold">
-              About {projectTitle}: {data}
-            </span>
-            {aboutClient}
+            <span className="font-semibold">About {data.projectTitle}:</span>
+            {data.aboutClient}
           </span>
           <span>
             <span className="font-semibold">Our Project: </span>
-            {aboutProject}
+            {data.aboutProject}
           </span>
           <div className="mt-4 flex justify-end">
-            {linkIcons.map((technology, index) => {
+            {data.linkIcons.map((technology, index) => {
               return (
                 <TechnologyBadge
                   badgeName={technology}
                   badgeText={technology}
-                  link={linkDestinations[index]}
+                  link={data.linkDestinations[index]}
                 />
               );
             })}

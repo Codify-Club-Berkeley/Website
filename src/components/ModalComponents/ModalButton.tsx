@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import TechnologyBadge from "../TechnologyBadge";
 
 // The Modal component contains both the modal and the button that opens it
@@ -16,13 +16,24 @@ const ModalButton = ({
   technologies,
   linkIcons,
   linkDestinations,
+
   openModal,
-  closeModal,
 }) => {
   return (
     <div className="flex items-center justify-center z-2">
       <button
-        onClick={openModal}
+        onClick={() =>
+          openModal({
+            projectTitle: projectTitle,
+            shortDescription: shortDescription,
+            aboutClient: aboutClient,
+            aboutProject: aboutProject,
+            imgSource: imgSource,
+            technologies: technologies,
+            linkIcons: linkIcons,
+            linkDestinations: linkDestinations,
+          })
+        }
         className="bg-blue-500 text-black px-4 py-2 rounded"
       >
         <ProjectCard
@@ -47,7 +58,7 @@ const ProjectCard = ({
   return (
     <div className="card w-96 bg-base-100 shadow-xl hover:-translate-y-3 duration-300 z-2">
       <figure>
-        <img className="h-24" src={imgSource} alt="Shoes" />
+        <img className="h-24 pt-2" src={imgSource} alt={projectTitle} />
       </figure>
       <div className="card-body">
         <h2 className="text-center">{projectTitle}</h2>

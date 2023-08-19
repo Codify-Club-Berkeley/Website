@@ -1,9 +1,9 @@
 // All icons sourced from https://devicon.dev/
 
 export const technologyLogos = {
-  AppStore:
+  "App Store":
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",
-  PlayStore:
+  "Play Store":
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain.svg",
   GitHub:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",

@@ -7,6 +7,9 @@ import "./Projects.css";
 import ProjectView from "../components/ProjectView";
 import ModalButton from "../components/ModalComponents/ModalButton";
 import ModalView from "../components/ModalComponents/ModalView";
+import { allProjectsData, Project } from "../data/projectsData";
+
+// Todo lock height when adding more tiles
 
 export default function ButtonBases() {
   //setting showModal to zero will not show any modal, setting it to a number
@@ -15,14 +18,10 @@ export default function ButtonBases() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Proof of concept
-  const [modalData, setModalData] = useState({
-    date: new Date(),
-  });
+  const [modalData, setModalData] = useState({});
 
-  const openModal = () => {
-    setModalData({
-      date: new Date(),
-    });
+  const openModal = (data: Project) => {
+    setModalData(data);
     setIsModalOpen(true);
   };
 
@@ -76,34 +75,26 @@ export default function ButtonBases() {
       <div className="flex flex-wrap place-content-center">
         <ModalView
           visible={isModalOpen}
+          data={modalData}
           handleModalClick={handleModalClick}
           closeModal={closeModal}
-          projectTitle={"t1"}
-          shortDescription={"Short Description"}
-          aboutClient={"About Client"}
-          aboutProject={"About Project"}
-          imgSource={
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/e5/11/99e5116c-acde-28ee-5b9b-0b70f3eab035/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp"
-          }
-          technologies={["React Native", "Flask", "Swift"]}
-          linkIcons={["Website"]}
-          linkDestinations={["https://www.scribbleai.net/"]}
-          data={modalData.date.toString()}
         ></ModalView>
-        <ModalButton
-          projectTitle={"t1"}
-          shortDescription={"Short Description"}
-          aboutClient={"About Client"}
-          aboutProject={"About Project"}
-          imgSource={
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/e5/11/99e5116c-acde-28ee-5b9b-0b70f3eab035/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp"
-          }
-          technologies={["React Native", "Flask", "Swift"]}
-          linkIcons={["Website"]}
-          linkDestinations={["https://www.scribbleai.net/"]}
-          openModal={openModal}
-          closeModal={closeModal}
-        ></ModalButton>
+
+        {allProjectsData.map((project) => {
+          return (
+            <ModalButton
+              projectTitle={project.projectTitle}
+              shortDescription={project.shortDescription}
+              aboutClient={project.aboutClient}
+              aboutProject={project.aboutProject}
+              imgSource={project.imgSource}
+              technologies={project.technologies}
+              linkIcons={project.linkIcons}
+              linkDestinations={project.linkDestinations}
+              openModal={openModal}
+            ></ModalButton>
+          );
+        })}
       </div>
     </div>
   );
