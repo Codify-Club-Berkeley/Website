@@ -1,7 +1,5 @@
 // All icons sourced from https://devicon.dev/
 
-//github, website, app store
-
 export const technologyLogos = {
   AppStore:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",
@@ -11,9 +9,13 @@ export const technologyLogos = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   Website:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg",
+  Deployment:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-plain.svg",
   Flask:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
   React:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  "React Native":
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   Python:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
@@ -27,4 +29,10 @@ export const technologyLogos = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   JavaScript:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+};
+
+// While the text for the technology logos is always just the name of the tecnology, for linking to the github repo,
+// the company website, the the app store, the play store, or our deployed website, we need custom descriptions.
+export const linkDescriptions = {
+  AppStore: "Download on the App Store",
 };
