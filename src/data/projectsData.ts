@@ -39,6 +39,33 @@ export const allProjectsData: Project[] = [
       "https://chabotspace.org/",
     ],
   },
+  {
+    projectTitle: "Posto Social",
+    shortDescription: "Social Media Platform for Authenticity",
+    aboutClient:
+      "Posto Social is looking to build a social media platform with authenticity at its core. With an innovative approach and unique features, Posto is creating social media for people who love real life.",
+    aboutProject: "React Baby",
+    imgSource:
+      "https://uploads-ssl.webflow.com/6336a6e39a019c76640a4d88/64186876d8dd5be913cd377d_Logo%20Posto%20black%20(word)-p-500.png",
+    technologies: ["Flutter", "Firebase", "Express", "NodeJS"],
+    linkIcons: ["Website"],
+    linkDestinations: ["https://www.postosocial.com/"],
+  },
+  {
+    projectTitle: "SWiiFT",
+    shortDescription: "Cross Platform Frontend Mobile Development",
+    aboutClient:
+      "SWiiFT is a Berkeley Skydeck backed startup looking to change the way we travel. SWiiFT connects travelers with locals to help foster global connections and long lasting friendships.",
+    aboutProject: "React Baby",
+    imgSource:
+      "https://static.wixstatic.com/media/75207e_e6eab4112a4d4ef292e2297ce99a72bb~mv2.png/v1/fill/w_536,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/SWiiFT_full_logo_oulined_zig_zag_black.png",
+    technologies: ["React Native", "TypeScript"],
+    linkIcons: ["GitHub", "Website"],
+    linkDestinations: [
+      "https://github.com/Codify-Club-Berkeley/SWiiFT-frontend",
+      "https://www.swiiftapp.com/",
+    ],
+  },
 ];
 
 const active_projects = [
