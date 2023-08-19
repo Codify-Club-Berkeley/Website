@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NewNav from "./navigation/NewNav";
 
 import { Route, Routes } from "react-router-dom";
+import React from "react";
 
 function App() {
   return (
