@@ -5,12 +5,38 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import WordSpin from "../components/WordSpin";
-import { borderRadius } from "@mui/system";
-
+import { borderBottom, borderRadius } from "@mui/system";
+// import background from "../assets/Images/General/sp23Group.jpg"
 export default function Home() {
   let building = "the next big thing";
   return (
     <div>
+      {/* Large Banner */}
+      <div
+        className="large-banner"
+        style={{
+          backgroundImage: `url(${require("../assets/Images/General/sp23Group.jpg")})`, // Use your background image here
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "90vh", // Set the height to 100% of the viewport height
+          display: "flex",
+          alignItems: "end",
+          padding: "60px",
+          marginTop: "-90px",
+        }}
+      >
+        <div className="header-overlay">
+          <h1
+            style={{
+              color: "white",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+            }}
+          >
+            Codify is building <WordSpin />
+          </h1>
+        </div>
+      </div>
+
       <div className="header">
         <div style={{ display: "flex", flex: 1 }}></div>
         {/* <h1>
@@ -19,9 +45,10 @@ export default function Home() {
         </h1> */}
         <div style={{ display: "flex", flex: 4 }}></div>
       </div>
+
       <div
         style={{
-          padding: "20px",
+          padding: "70px",
           // backgroundColor: "red",
           display: "flex",
           justifyContent: "center",
@@ -41,12 +68,12 @@ export default function Home() {
           <h1>Fall 2023 Applications Open August 23!</h1>
 
           <a
-            href= "https://docs.google.com/forms/d/1-poyysErroe8tXtXt16q6v4y6ofw2LC49EFBaqQSoW0/edit?usp=drive_web"
+            href="https://docs.google.com/forms/d/1-poyysErroe8tXtXt16q6v4y6ofw2LC49EFBaqQSoW0/edit?usp=drive_web"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "black" }}
           >
-            <h1>Apply</h1>
+            <h1>Apply Here</h1>
           </a>
         </div>
       </div>

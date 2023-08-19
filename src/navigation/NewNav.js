@@ -8,7 +8,14 @@ import { footerLinks } from "../data/navBarLinks";
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
   return (
-    <Navbar expand="md" fixed="top" style={{ backgroundColor: "#9741FD" }}>
+    <Navbar
+      expand="md"
+      fixed="top"
+      style={{
+        backgroundColor: "#9741FD",
+        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
+      }}
+    >
       <Navbar.Brand as={Link} to="/">
         <img
           src={require("../assets/Images/Codify Berkeley.png")}
@@ -24,9 +31,10 @@ function NewNav() {
         <Nav className="">
           {footerLinks.map((link) => {
             return (
-            <Nav.Link as={Link} to={"/" + link.replace(/\s/g, "")}>
-              <h5 className="text-white">{link}</h5>
-            </Nav.Link>)
+              <Nav.Link as={Link} to={"/" + link.replace(/\s/g, "")}>
+                <h5 className="text-white">{link}</h5>
+              </Nav.Link>
+            );
           })}
         </Nav>
       </Navbar.Collapse>
