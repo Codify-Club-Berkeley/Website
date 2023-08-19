@@ -11,54 +11,52 @@ export default function Join() {
     <div>
       <div className="header">
         <h1>
-          You Are <span style={{ color: "#9641FD" }}>Codify</span>
+          Pathways into <span style={{ color: "#9741FD" }}>Codify</span>
         </h1>
       </div>
       <div class="p-20">
         <div className="application-info">
-          <div className="app-info-title">Application Info</div>
+          {/* <div className="app-info-title">Apply</div> */}
           <div>
-            Codify accepts applications for the first two weeks of every
-            semester. We try our best to keep the application straightforward
-            and easy, it should not take more than fifteen minutes to complete.
-            After all applications have been submitted, EVERY applicant is given
-            an interview, the nature of which will depend on how many
-            applications we receive. If new members have prior full stack
-            experience, then they are encouraged to start right into working on
-            one of our many projects. Otherwise, new members are encouraged but
-            not required to spend their first semester learning full stack
-            development through our new member education program.
+            Applications open the first two weeks of every semester and are
+            reviewed on a rolling basis, after which EVERY applicant will be
+            given an interview. We strive to keep our application process
+            transparent, uncomplicated, and equitable. Keep reading to see where
+            you fit into Codify!
+            {/* If new members have prior fullstack experience, then
+            they are encouraged to join one of our many project teams. Less
+            experienced admits are encouraged to join our fellowship program,
+            which are projects designed to be less time-intensive and more
+            scaffolded. For those without any experience, we strongly recommend
+            going through our education program, a semester-long course for
+            learning fullstack development. */}
           </div>
         </div>
-
-        <div className="big-black-title">Pathways into Codify</div>
-
+        <br></br>
+        <div className="big-black-title">Finding your fit</div>
         <div class="grid-container">
           <div class="grid-item">
             <div className="pathway-title">Project Team</div>
             <p>
-              For students with some prior software development experience, or
-              who are willing to put in the extra effort to spend time learning
-              the skills needed, apply to launch right into one of our project
-              teams.
+              For those with a strong foundation in full stack development and
+              want to gain experience working at industry standard, which comes
+              with team collaboration and stricter time commitments.
             </p>
           </div>
           <div class="grid-item">
-            <div className="pathway-title">New Member Bootcamp</div>
+            <div className="pathway-title">Fellowship</div>
             <p>
-              For students with little or no prior development experience, our
-              semester long curriculum will guide you though the process of
-              building your own full stack application and give you the skills
-              needed to succeed on one of our project teams.
+              For those seeking an introduction to real-life projects and are
+              willing to put in the time to learn. Students will collaborate in
+              teams, tackling simpler projects.
             </p>
           </div>
           <div class="grid-item">
-            <div className="pathway-title">Business and Operations</div>
+            <div className="pathway-title">Education Program</div>
             <p>
-              For students interested in a non software business role within a
-              tech organization, the business and operations team functions as
-              Codify's sales, marketing, public relations, talent acquisition,
-              logistics and finance departments all wrapped up into one.
+              For students new to development, our semester-long curriculum will
+              guide you in creating your full-stack application and equip you
+              with the skills to excel in our project teams.
             </p>
           </div>
         </div>
