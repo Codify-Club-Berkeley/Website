@@ -70,14 +70,15 @@ export default function ButtonBases() {
       <div className="body">
         <h2>Current Projects</h2>
       </div>
-      <div className="flex flex-wrap place-content-center">
-        <ModalView
-          visible={isModalOpen}
-          data={modalData}
-          handleModalClick={handleModalClick}
-          closeModal={closeModal}
-        ></ModalView>
 
+      <ModalView
+        visible={isModalOpen}
+        data={modalData}
+        handleModalClick={handleModalClick}
+        closeModal={closeModal}
+      ></ModalView>
+
+      <div className="flex flex-wrap place-content-center">
         {allProjectsData.map((project) => {
           return (
             <ModalButton

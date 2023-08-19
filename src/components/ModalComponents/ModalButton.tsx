@@ -57,18 +57,23 @@ const ProjectCard = ({
   //   console.log(technologies);
   return (
     <div className="card w-96 bg-base-100 shadow-xl hover:-translate-y-3 duration-300 z-2">
-      <figure>
-        <img className="h-24 pt-2" src={imgSource} alt={projectTitle} />
-      </figure>
-      <div className="card-body">
-        <h2 className="text-center">{projectTitle}</h2>
-        <p className="text-sm">{shortDescription}</p>
-        <div className="mt-4 flex flex-wrap">
-          {technologies.map((technology) => {
-            return (
-              <TechnologyBadge badgeName={technology} badgeText={technology} />
-            );
-          })}
+      <div className="h-100">
+        <figure>
+          <img className="h-24 pt-2" src={imgSource} alt={projectTitle} />
+        </figure>
+        <div className="card-body">
+          <h2 className="text-center">{projectTitle}</h2>
+          <p className="text-sm">{shortDescription}</p>
+          <div className="mt-4 flex flex-wrap">
+            {technologies.map((technology) => {
+              return (
+                <TechnologyBadge
+                  badgeName={technology}
+                  badgeText={technology}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

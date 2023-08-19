@@ -29,7 +29,7 @@ const ModalView = ({ data, visible, handleModalClick, closeModal }) => {
             {data.projectTitle}
           </h2>
           <span>
-            <span className="font-semibold">About {data.projectTitle}:</span>
+            <span className="font-semibold">About {data.projectTitle}: </span>
             {data.aboutClient}
           </span>
           <span>

@@ -12,24 +12,29 @@ export type Project = {
 export const allProjectsData: Project[] = [
   {
     projectTitle: "Scribble AI",
-    shortDescription:
-      "Scribble AI is a mobile app that allows users to take a picture of a handwritten math problem and receive a step-by-step solution.",
+    shortDescription: "Build a keyboard that allows you to use AI anywhere",
     aboutClient:
-      "About Scribble AI: Scribble AI is a startup that aims to make math education more accessible and engaging. They are currently working on a mobile app that allows users to take a picture of a handwritten math problem and receive a step-by-step solution.",
+      "Scribble AI wants to make the latest AI technology accessible to everyone. They are currently working on a mobile app with built in prompts that allow for optimal use of AI, and has features that allows you to easily export and use AI generated content.",
     aboutProject:
-      "Our Project: We are working with Scribble AI to build out their mobile app. We are currently working on the frontend of the app, which is built in React Native. We are also working on the backend, which is built in Python using Flask.",
+      "In addition to contributing to the overall usability and design of the app, Codify worked on implementing a custom iOS keyboard that allows users to use Scribble AI functionality anywhere on their phone. ",
     imgSource:
       "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/e5/11/99e5116c-acde-28ee-5b9b-0b70f3eab035/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
     technologies: ["React Native", "Flask", "Swift"],
-    linkIcons: ["GitHub"],
-    linkDestinations: ["https://www.scribbleai.net/"],
+    linkIcons: ["GitHub", "Website", "App Store", "Play Store"],
+    linkDestinations: [
+      "https://github.com/Codify-Club-Berkeley/weave",
+      "https://www.scribbleai.net/",
+      "https://apps.apple.com/us/app/scribble-ai/id1662081018",
+      "https://play.google.com/store/apps/details?id=com.sahilmehta.snack945e87d198e54f7c83221d2d6dcdd91f&hl=en_US&gl=US",
+    ],
   },
   {
     projectTitle: "Chabot Space and Science Center",
     shortDescription: "Visitor Guide App to Provide an Enriched Experience",
     aboutClient:
       "The Chabot Space & Science Center is a non-profit museum that serves Oakland and the greater Bay Area as a place for STEM learning and engagement. They are the official visitors center for Nasa Ames and host the largest observatory complex free for public viewing in the Western United States.",
-    aboutProject: "React Baby",
+    aboutProject:
+      "We are building the Chabot Visitor Guide App from scratch to make the content of the museum more accessible. Key features include an interactive museum map, additional exhibit information accessible in multiple languages, and live updates about events within the center.",
     imgSource:
       "https://chabotspace.org/wp-content/uploads/2018/07/imageslogos.png",
     technologies: ["React Native", "Firebase"],
@@ -44,7 +49,8 @@ export const allProjectsData: Project[] = [
     shortDescription: "Social Media Platform for Authenticity",
     aboutClient:
       "Posto Social is looking to build a social media platform with authenticity at its core. With an innovative approach and unique features, Posto is creating social media for people who love real life.",
-    aboutProject: "React Baby",
+    aboutProject:
+      "We built the entire Posto Social app from scratch using Flutter on the frontend, NodeJS on the backend, and Firebase for the database.",
     imgSource:
       "https://uploads-ssl.webflow.com/6336a6e39a019c76640a4d88/64186876d8dd5be913cd377d_Logo%20Posto%20black%20(word)-p-500.png",
     technologies: ["Flutter", "Firebase", "Express", "NodeJS"],
@@ -56,7 +62,8 @@ export const allProjectsData: Project[] = [
     shortDescription: "Cross Platform Frontend Mobile Development",
     aboutClient:
       "SWiiFT is a Berkeley Skydeck backed startup looking to change the way we travel. SWiiFT connects travelers with locals to help foster global connections and long lasting friendships.",
-    aboutProject: "React Baby",
+    aboutProject:
+      "We worked to build the entire frontend of the SWiiFT app from scratch. We implemented a login flow, profiles, chat functionality, and more.",
     imgSource:
       "https://static.wixstatic.com/media/75207e_e6eab4112a4d4ef292e2297ce99a72bb~mv2.png/v1/fill/w_536,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/SWiiFT_full_logo_oulined_zig_zag_black.png",
     technologies: ["React Native", "TypeScript"],
