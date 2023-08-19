@@ -10,16 +10,9 @@
 
 .grid-item {
   color: white;
+  font-size: 20px;
   text-align: center;
-  border-radius: 25px;
-  background-color: #a887dd;
-  margin: 20px;
-}
-
-.grid-item1 {
-  color: white;
-  text-align: center;
-  border-radius: 25px;
+  border-radius: 20px;
   background-color: #a887dd;
   margin: 20px;
 }
@@ -73,6 +66,7 @@
 .flip-card-back {
   transform: rotateY(180deg);
   color: white;
+  font-size: 20px;
   text-align: center;
   border-radius: 25px;
   background-color: #a887dd;
@@ -82,31 +76,17 @@
   padding-top: 25px;
 }
 
-.carousel-container {
-  background-color: aqua;
-  display: grid;
-  justify-content: center;
-}
-
-.carousel-item {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-
 .application-info {
   background-color: #d3c3ee;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 40px;
+  font-size: 23px;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 25px;
 }
 
 .app-info-title {
-  color: white;
+  color: black;
   font-size: 25px;
   font-weight: bold;
   height: 40px;
@@ -114,11 +94,10 @@
 
 .pathway-title {
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   height: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin:20px;
 }
 
 .pathway-title1 {
@@ -131,6 +110,9 @@
 
 .big-black-title {
   color: black;
-  font-size: 40px;
-  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-weight: 500;
 }

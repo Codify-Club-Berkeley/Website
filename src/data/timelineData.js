@@ -3,20 +3,20 @@
 
 export const timelineData = [
   {
-    title: "Application Released",
+    title: "Applications Open",
     description: (
       <span>
         We are looking for students who want to apply their technical skills to
-        solving real work problems for startups. Apply as either a developer or
-        a designer to join a fellowship project or a client project. If you are
-        new to coding, we recommend first completing our education program,
-        which has no application and is also a direct feeder into Codify.
+        solve real-world challenges for startups, whether as a developer or
+        UI/UX designer. If you're new to coding, consider starting with our
+        no-application education program, which provides a direct path into
+        Codify.
         <br></br>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfnDCGZPdlGBtKN2-5oAuNnzv57tU4093MrI_pCDpDoyxM5Qw/viewform"
           target="_blank"
         >
-          Application Link
+          Application Form
         </a>
       </span>
     ),
@@ -24,7 +24,7 @@ export const timelineData = [
   },
   {
     title: "Tabling",
-    description: "Come talk to us on the glade to learn more about Codify.",
+    description: "Come talk to us on the glade to learn more about Codify!",
     date: "8/23/23-9/1/23",
   },
   {
@@ -44,13 +44,13 @@ export const timelineData = [
   {
     title: "Interviews",
     description:
-      "After submitting an application, you may be invited to interview with us. In your interview, you will present either your past work, or a mini application project.",
+      "After submitting an application, you will be invited to interview with us. In your interview, you will present either your past work or a mini application project.",
     date: "8/25/23-9/7/23",
   },
   {
     title: "First Round of Application Decisions Released",
     description:
-      "If we want you to join, we won't wait to tell you! While there is no fixed number of spots available in any given semester, we release application decisions on a rolling basis after applicants have completed their interview.",
+      "If we want you to join, we won't wait to tell you! We release decisions on a rolling basis after applicants have completed their interview.",
     date: "9/1/23",
   },
   {

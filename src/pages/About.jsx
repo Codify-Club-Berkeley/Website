@@ -31,7 +31,7 @@ export default function About() {
         <h1>Our Club</h1>
         <p>
           Codify has three main branches that help us achieve our mission. Our
-          execuitive branch organizes and runs the club, our education branch
+          executive branch organizes and runs the club, our education branch
           helps teach new members all the skills they need to be successful
           within Codify, and the bulk of the club is made up by the projects
           branch, which are actively working on projects in teams of four to
