@@ -6,7 +6,7 @@
   grid-gap: 1rem;
   grid-auto-flow: row;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 50px;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 350px 350px 350px;
 }
@@ -19,7 +19,7 @@
 .body-section-row {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 30px;
   background-color: rgb(181, 127, 232);
 }
 .body-section-column {
@@ -30,9 +30,9 @@
 }
 
 .body-section:hover {
-  margin-top: -3px;
-  margin-bottom: +3px;
-  transition-duration: 1s;
+  margin-top: -5px;
+  margin-bottom: +5px;
+  transition-duration: 0.5s;
 }
 .link {
   text-decoration: none;

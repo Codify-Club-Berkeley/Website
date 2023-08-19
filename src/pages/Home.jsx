@@ -13,10 +13,10 @@ export default function Home() {
     <div>
       <div className="header">
         <div style={{ display: "flex", flex: 1 }}></div>
-        <h1>
+        {/* <h1>
           <span style={{ color: "#9641FD" }}>Codify</span> is building{" "}
           <WordSpin></WordSpin>
-        </h1>
+        </h1> */}
         <div style={{ display: "flex", flex: 4 }}></div>
       </div>
       <div
@@ -38,7 +38,7 @@ export default function Home() {
             width: "50%",
           }}
         >
-          <h1>Spring 2023 Applications Now Open!</h1>
+          <h1>Fall 2023 Applications Open August 23!</h1>
 
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScUygQa9aTntbk50B3yAXR7uOmgHSgjU5whRQo7RYlKK0V1AQ/viewform?usp=sf_link"
