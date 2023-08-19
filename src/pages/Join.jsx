@@ -16,20 +16,12 @@ export default function Join() {
       </div>
       <div class="p-20">
         <div className="application-info">
-          {/* <div className="app-info-title">Apply</div> */}
           <div>
             Applications open the first two weeks of every semester and are
             reviewed on a rolling basis, after which EVERY applicant will be
             given an interview. We strive to keep our application process
             transparent, uncomplicated, and equitable. Keep reading to see where
             you fit into Codify!
-            {/* If new members have prior fullstack experience, then
-            they are encouraged to join one of our many project teams. Less
-            experienced admits are encouraged to join our fellowship program,
-            which are projects designed to be less time-intensive and more
-            scaffolded. For those without any experience, we strongly recommend
-            going through our education program, a semester-long course for
-            learning fullstack development. */}
           </div>
         </div>
         <br></br>
