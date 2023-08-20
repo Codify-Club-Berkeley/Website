@@ -14,6 +14,8 @@ function NewNav() {
       style={{
         backgroundColor: "#9741FD",
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
+        paddingLeft: "20px",
+        paddingRight: "20px"
       }}
     >
       <Navbar.Brand as={Link} to="/">
