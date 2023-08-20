@@ -65,7 +65,7 @@ export default function Home() {
         imageSource={require("../assets/Images/General/Beach.jpg")}
         header="A Community Of Makers..."
         body="Codify is a recently established student organization at UC Berkeley focused on bringing students together to work on impactful software projects. Our mission is to provide students with the opportunity to develop new skills, gain real-world development experience, and connect with a community of like-minded peers."
-        link="/AboutUS"
+        link="/About"
         linkText="About Our Team and Mission"
       ></Card>
       <Card
@@ -91,6 +91,10 @@ function Card(props) {
     query: "(max-width: 768px)", // Adjust the breakpoint as needed
   });
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
+
   return (
     <div style={{ padding: isMobileDevice ? "10px" : "20px", margin: "40px" }}>
       <div
@@ -114,7 +118,7 @@ function Card(props) {
         >
           <h1>{props.header}</h1>
           <p>{props.body}</p>
-          <Link to={props.linkLocation} className="link">
+          <Link to={props.link} className="link" onClick={scrollToTop}>
             <h2>{props.linkText}</h2>
           </Link>
         </div>
