@@ -48,7 +48,7 @@ export default function Home() {
 
       <div
         style={{
-          padding: "70px",
+          paddingTop: "60px",
           // backgroundColor: "red",
           display: "flex",
           justifyContent: "center",
@@ -124,7 +124,7 @@ function Card(props) {
   });
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ padding: "20px", margin: "40px" }}>
       <div
         className={isMobileDevice ? "body-section-row" : "body-section-column"}
       >
@@ -132,10 +132,11 @@ function Card(props) {
           src={props.imageSource}
           alt="placeholder"
           style={{
-            width: 200,
+            paddingRight: "20px",
+            borderRadius: "40px",
+            width: 300,
             height: 200,
             objectFit: "cover",
-            paddingRight: "20px",
           }}
         ></img>
         <div

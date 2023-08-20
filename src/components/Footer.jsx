@@ -4,14 +4,13 @@ import { BsInstagram, BsLinkedin, BsGithub, BsDiscord } from "react-icons/bs";
 import { footerLinks } from "../data/navBarLinks";
 
 export default function Footer() {
-
   return (
-    <div class="flex flex-col sm:flex-row bg-codify-purple justify-between p-4">
+    <div class="flex flex-col sm:flex-row bg-footer-dark-purple justify-between p-4">
       {/**Codify Berkeley Logo and Icon Links */}
       <div class="flex flex-col">
-        <div class="text-center">
-          <h2>Codify Berkeley</h2>
-          <p>An UC Berkeley Student Organization</p>
+        <div class="text-left">
+          <h2 className="text-white text-xl">Codify Berkeley</h2>
+          <p className="text-white text-base">A UC Berkeley Student Organization</p>
         </div>
         {/**Link Icons */}
         <div class="flex flex-row place-content-evenly">
@@ -19,33 +18,33 @@ export default function Footer() {
             href="https://github.com/Codify-Club-Berkeley"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-black"
+            class="text-white"
           >
-            <BsGithub size="40"></BsGithub>
+            <BsGithub size="30"></BsGithub>
           </a>
           <a
             href="https://www.instagram.com/codifyberkeley/"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-black"
+            class="text-white"
           >
-            <BsInstagram size="40"></BsInstagram>
+            <BsInstagram size="30"></BsInstagram>
           </a>
           <a
             href="https://www.linkedin.com/company/codify-berkeley/"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-black"
+            class="text-white"
           >
-            <BsLinkedin size="40"></BsLinkedin>
+            <BsLinkedin size="30"></BsLinkedin>
           </a>
           <a
             href="https://discord.gg/mBEnPjDSQG"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-black"
+            class="text-white"
           >
-            <BsDiscord size="40"></BsDiscord>
+            <BsDiscord size="30"></BsDiscord>
           </a>
         </div>
       </div>
@@ -57,9 +56,9 @@ export default function Footer() {
           return (
             <Link
               to={"/" + link.replace(/\s/g, "")}
-              class="no-underline hover:underline text-black hover:text-link-blue"
+              class="no-underline hover:underline text-white hover:text-link-blue"
             >
-              <h4>{link}</h4>
+              <h4 className="text-base font-normal">{link}</h4>
             </Link>
           );
         })}
