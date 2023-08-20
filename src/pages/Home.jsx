@@ -6,7 +6,7 @@ import WordSpin from "../components/WordSpin";
 
 export default function Home() {
   const isMobileDevice = useMediaQuery({
-    query: "(max-width: 768px)", // Adjust the breakpoint as needed
+    query: "(max-width: 768px)", // Breakpoint
   });
 
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100vw",
-          height: "90vh",
+          height: isMobileDevice ? "43vh" : "83vh",
           display: "flex",
           alignItems: "flex-end",
           padding: isMobileDevice ? "20px" : "60px", // Adjust the padding for smaller screens
@@ -73,14 +73,14 @@ export default function Home() {
         header="Building Exciting Things..."
         body="Every semester, Codify works on projects in web development, data analysis, mobile development, and other fields of computing that our members are passionate about. We uniquely focus on developing projects for startups and launching our own internal projects for the good of the Berkeley community."
         link="/Projects"
-        linkText="What we've been working on"
+        linkText="Current work"
       ></Card>
       <Card
         imageSource={require("../assets/Images/General/gate.jpeg")}
         header="Within the Berkeley Community."
         body="Codify is an organization created by and for the Berkeley computer science community. We strive to provide opportunities for students to find their place in tech, explore their entrepreneurial aspirations, and use their skills to give back to their communities. We are always looking for passionate students to join our ranks and partner with organizations to work toward our mutual goals."
         link="/WorkWithUs"
-        linkText="Work With Codify"
+        linkText="Collaborate with us"
       ></Card>
     </div>
   );

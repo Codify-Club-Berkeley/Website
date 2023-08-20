@@ -23,7 +23,10 @@ export default function Join() {
         </div>
         <br></br>
         <div className="big-black-title">Finding your fit</div>
-        <div className="grid-container" style={{ display: "flex", flexWrap: "wrap" }}>
+        <div
+          className="grid-container"
+          style={{ display: "flex", flexWrap: "wrap" }}
+        >
           <div className="grid-item">
             <div className="pathway-title">Project Team</div>
             <p>
@@ -35,9 +38,9 @@ export default function Join() {
           <div className="grid-item">
             <div className="pathway-title">Fellowship</div>
             <p>
-              For those seeking an introduction to real-life projects and are
-              willing to put in the time to learn. Students will collaborate in
-              teams, tackling simpler projects.
+              For individuals looking to explore real-world projects and are
+              dedicated to investing time in learning. Students will collaborate
+              in teams, working on less complex projects.
             </p>
           </div>
           <div className="grid-item">
@@ -59,7 +62,10 @@ export default function Join() {
         <br></br>
 
         <div className="big-black-title">What we're looking for</div>
-        <div className="grid-container1" style={{ display: "flex", flexWrap: "wrap" }}>
+        <div
+          className="grid-container1"
+          style={{ display: "flex", flexWrap: "wrap" }}
+        >
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">

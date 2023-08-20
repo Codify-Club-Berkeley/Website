@@ -1,20 +1,25 @@
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-.grid-container1 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* grid-template-columns: auto auto auto; */
 }
 
 .grid-item {
   color: white;
+  flex: 1;
   font-size: 20px;
   text-align: center;
   border-radius: 20px;
   background-color: #a887dd;
   margin: 20px;
+  width: 100%; 
+  display: inline-block;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 .flip-card {
@@ -80,6 +85,8 @@
   background-color: #d3c3ee;
   padding: 40px;
   font-size: 23px;
+  margin-left: 50px;
+  margin-right: 50px;
   border-radius: 25px;
 }
 
