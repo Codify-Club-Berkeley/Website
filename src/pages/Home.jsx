@@ -29,7 +29,7 @@ export default function Home() {
           <h1
             style={{
               color: "white",
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.4)"
             }}
           >
             Codify is building <WordSpin />
@@ -66,7 +66,7 @@ export default function Home() {
           }}
         >
           <h1>Fall 2023 Applications Open August 23!</h1>
-
+{/* //APPLICATION LINK
           <a
             href="https://docs.google.com/forms/d/1-poyysErroe8tXtXt16q6v4y6ofw2LC49EFBaqQSoW0/edit?usp=drive_web"
             target="_blank"
@@ -74,7 +74,7 @@ export default function Home() {
             style={{ color: "black" }}
           >
             <h1>Apply Here</h1>
-          </a>
+          </a> */}
         </div>
       </div>
 
