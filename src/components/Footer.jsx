@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub, BsDiscord } from "react-icons/bs";
-import { footerLinks } from "../data/navBarLinks";
+import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
 export default function Footer() {
   return (
@@ -51,12 +51,12 @@ export default function Footer() {
 
       {/**Footer Links */}
       <div class="flex flex-wrap space-x-3 place-content-around py-5 sm:py-0">
-        {footerLinks.map((link) => {
+        {footerLinks.map((link, index) => {
           // link.replace(/\s/g, "") removes all whitespace for the routing to work
           return (
             <Link
-              to={"/" + link.replace(/\s/g, "")}
-              class="no-underline hover:underline text-white hover:text-link-blue"
+              to={"/" + lowercaseFooterLinks[index]}
+              class="no-underline hover:underline text-black hover:text-link-blue"
             >
               <h4 className="text-base font-normal">{link}</h4>
             </Link>

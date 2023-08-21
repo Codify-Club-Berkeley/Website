@@ -1,10 +1,79 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import ProjectButton from "../components/ProjectButton";
-import { useState } from "react";
-import { ProjectModal } from "../components/ProjectModal";
-import "./Projects.css";
-import ProjectView from "../components/ProjectView";
+export type Project = {
+  projectTitle: string;
+  shortDescription: string;
+  aboutClient: string;
+  aboutProject: string;
+  imgSource: string;
+  technologies: string[];
+  linkIcons: string[];
+  linkDestinations: string[];
+};
+
+export const allProjectsData: Project[] = [
+  {
+    projectTitle: "Scribble AI",
+    shortDescription: "Build a keyboard that allows you to use AI anywhere",
+    aboutClient:
+      "Scribble AI wants to make the latest AI technology accessible to everyone. They are currently working on a mobile app with built in prompts that allow for optimal use of AI, and has features that allows you to easily export and use AI generated content.",
+    aboutProject:
+      "In addition to contributing to the overall usability and design of the app, Codify worked on implementing a custom iOS keyboard that allows users to use Scribble AI functionality anywhere on their phone. ",
+    imgSource:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/99/e5/11/99e5116c-acde-28ee-5b9b-0b70f3eab035/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
+    technologies: ["React Native", "Flask", "Swift"],
+    linkIcons: ["GitHub", "Website", "App Store", "Play Store"],
+    linkDestinations: [
+      "https://github.com/Codify-Club-Berkeley/weave",
+      "https://www.scribbleai.net/",
+      "https://apps.apple.com/us/app/scribble-ai/id1662081018",
+      "https://play.google.com/store/apps/details?id=com.sahilmehta.snack945e87d198e54f7c83221d2d6dcdd91f&hl=en_US&gl=US",
+    ],
+  },
+  {
+    projectTitle: "Chabot Space and Science Center",
+    shortDescription: "Visitor Guide App to Provide an Enriched Experience",
+    aboutClient:
+      "The Chabot Space & Science Center is a non-profit museum that serves Oakland and the greater Bay Area as a place for STEM learning and engagement. They are the official visitors center for Nasa Ames and host the largest observatory complex free for public viewing in the Western United States.",
+    aboutProject:
+      "We are building the Chabot Visitor Guide App from scratch to make the content of the museum more accessible. Key features include an interactive museum map, additional exhibit information accessible in multiple languages, and live updates about events within the center.",
+    imgSource:
+      "https://chabotspace.org/wp-content/uploads/2018/07/imageslogos.png",
+    technologies: ["React Native", "Firebase"],
+    linkIcons: ["GitHub", "Website"],
+    linkDestinations: [
+      "https://github.com/Codify-Club-Berkeley/cssc-mobile-app",
+      "https://chabotspace.org/",
+    ],
+  },
+  {
+    projectTitle: "Posto Social",
+    shortDescription: "Social Media Platform for Authenticity",
+    aboutClient:
+      "Posto Social is looking to build a social media platform with authenticity at its core. With an innovative approach and unique features, Posto is creating social media for people who love real life.",
+    aboutProject:
+      "We built the entire Posto Social app from scratch using Flutter on the frontend, NodeJS on the backend, and Firebase for the database.",
+    imgSource:
+      "https://uploads-ssl.webflow.com/6336a6e39a019c76640a4d88/64186876d8dd5be913cd377d_Logo%20Posto%20black%20(word)-p-500.png",
+    technologies: ["Flutter", "Firebase", "Express", "NodeJS"],
+    linkIcons: ["Website"],
+    linkDestinations: ["https://www.postosocial.com/"],
+  },
+  {
+    projectTitle: "SWiiFT",
+    shortDescription: "Cross Platform Frontend Mobile Development",
+    aboutClient:
+      "SWiiFT is a Berkeley Skydeck backed startup looking to change the way we travel. SWiiFT connects travelers with locals to help foster global connections and long lasting friendships.",
+    aboutProject:
+      "We worked to build the entire frontend of the SWiiFT app from scratch. We implemented a login flow, profiles, chat functionality, and more.",
+    imgSource:
+      "https://static.wixstatic.com/media/75207e_e6eab4112a4d4ef292e2297ce99a72bb~mv2.png/v1/fill/w_536,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/SWiiFT_full_logo_oulined_zig_zag_black.png",
+    technologies: ["React Native", "TypeScript"],
+    linkIcons: ["GitHub", "Website"],
+    linkDestinations: [
+      "https://github.com/Codify-Club-Berkeley/SWiiFT-frontend",
+      "https://www.swiiftapp.com/",
+    ],
+  },
+];
 
 const active_projects = [
   {
@@ -107,137 +176,3 @@ const active_projects = [
       "https://pbs.twimg.com/profile_images/1367335966386450442/u-8ipuoE_400x400.jpg",
   },
 ];
-
-export default function ButtonBases() {
-  //setting showModal to zero will not show any modal, setting it to a number
-  //larger than zero will show that particular modal
-
-  const [showModal, setShowModal] = useState(0);
-
-  return (
-    <div>
-      <div className="header">
-        <h1>
-          <span style={{ color: "#9641FD" }}>Codify's</span> Work
-        </h1>
-      </div>
-      {/* <div className="header">
-        <a
-          href="https://www.linkedin.com/pulse/codify-spring-2023-projects-preview-codify-berkeley/"
-          target="_blank"
-        >
-          Spring 2023 Project Breakdown
-        </a>
-      </div> */}
-      <div className="body">
-        <p>
-          Every semester, Codify gives members the opportunity to work on a new
-          project. We don’t limit ourselves to any one domain of computer
-          science or any one type of project. Most of our projects fall under
-          three main categories: internal, non-profit client, and for-profit
-          client. For-profit clients pay Codify to complete a project that
-          assists their business. Non-profit client projects are completed
-          pro-bono for an organization with a mission that Codify supports.
-          Internal projects are either an individual member's personal passion
-          project, or a startup being launched through the club.
-        </p>
-        <h1>Continued Support</h1>
-        <p>
-          Unlike many other organizations, we only work on projects that are
-          likely to result in a product that people will continue to use for
-          years to come. We actively update and maintain all of our projects.
-          This not only ensures all of our hand work isn't for nothing, but it
-          encourages writing maintainable code and minimizing technical debt. If
-          you see a project here you would like to work on, you can!
-        </p>
-      </div>
-
-      {/**Pass setShowModal so that the modal can close itself */}
-      {showModal ? (
-        <ProjectModal
-          setShowModal={setShowModal}
-          projectData={active_projects[showModal - 1]}
-        />
-      ) : null}
-      <div className="body">
-        <h2>Current Projects</h2>
-      </div>
-      <div className="grid">
-        {active_projects
-          .slice(0, 5)
-          .map(({ backgroundImageUrl, client, caption, index }) => (
-            <ProjectButton
-              backgroundImageUrl={backgroundImageUrl}
-              title={client}
-              action={setShowModal}
-              caption={caption}
-              index={index}
-            ></ProjectButton>
-          ))}
-      </div>
-      <div className="body">
-        <h2>Maintained Projects</h2>
-      </div>
-      {active_projects
-        .slice(5, 6)
-        .map(({ backgroundImageUrl, client, caption, index }) => (
-          <ProjectButton
-            backgroundImageUrl={backgroundImageUrl}
-            title={client}
-            action={setShowModal}
-            caption={caption}
-            index={index}
-          ></ProjectButton>
-        ))}
-      {/* Project buttons to be uncommented */}
-
-      {/* 
-      <h1 style={{ paddingLeft: 15 }}>Fall '22</h1>
-
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-        }}
-      >
-        <ProjectButton
-          url={
-            "https://chabotspace.org/wp-content/uploads/2020/04/observatory-main.png"
-          }
-          title={"Chabot Science Center"}
-          width={"80%"}
-          path={"https://chabotspace.org/"}
-          pathUrl={true}
-          caption={"Build a mobile app to enrich the visitor experience."}
-        ></ProjectButton>
-
-        <ProjectButton
-          url={
-            "https://www.ruthbancroftgarden.org/wp/wp-content/uploads/main-banner-img.jpg"
-          }
-          title={"Ruth Bancroft Gardens"}
-          width={"80%"}
-          path={"https://www.ruthbancroftgarden.org/"}
-          pathUrl={true}
-          caption={"Build a mobile app to house an interactive garden tour."}
-        ></ProjectButton>
-
-        <ProjectButton
-          url={
-            "https://i.pinimg.com/originals/32/60/cd/3260cd08c8fc795c59af655e4dd26bf9.jpg"
-          }
-          title={"Punjabi Art Collective"}
-          width={"80%"}
-          path={"https://www.instagram.com/punjabiartcollective/"}
-          pathUrl={true}
-          caption={
-            "Build a club website to host general information, a monthly newsletter, and an online store."
-          }
-        ></ProjectButton>
-      </div> */}
-
-      {/* Todo uncomment me and replace all the old project displays with these */}
-      {/* <ProjectView></ProjectView> */}
-    </div>
-  );
-}
