@@ -56,7 +56,7 @@ export default function Footer() {
           return (
             <Link
               to={"/" + lowercaseFooterLinks[index]}
-              class="no-underline hover:underline text-black hover:text-link-blue"
+              class="no-underline hover:underline text-white hover:text-link-blue"
             >
               <h4 className="text-base font-normal">{link}</h4>
             </Link>
