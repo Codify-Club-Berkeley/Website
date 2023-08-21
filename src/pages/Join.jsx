@@ -3,7 +3,34 @@ import "./Join.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Timeline from "../components/Timeline";
 
+//Reusable Tile component
+function Tile({ title, description }) {
+  return (
+    <div className="grid-item">
+      <div className="pathway-title">{title}</div>
+      <p>{description}</p>
+    </div>
+  );
+}
 export default function Join() {
+  const tilesData = [
+    {
+      title: "Project Team",
+      description:
+        "For those with a strong foundation in full stack development and want to gain experience working at industry standard, which comes with team collaboration and stricter time commitments.",
+    },
+    {
+      title: "Fellowship",
+      description:
+        "For individuals looking to explore real-world projects and are dedicated to investing time in learning. Students will collaborate in teams, working on less complex projects.",
+    },
+    {
+      title: "Education Program",
+      description:
+        "For students new to development, our semester-long curriculum will guide you in creating your full-stack application and equip you with the skills to excel in our project teams.",
+    },
+  ];
+
   return (
     <div>
       <div className="header">
@@ -27,30 +54,13 @@ export default function Join() {
           className="grid-container"
           style={{ display: "flex", flexWrap: "wrap" }}
         >
-          <div className="grid-item">
-            <div className="pathway-title">Project Team</div>
-            <p>
-              For those with a strong foundation in full stack development and
-              want to gain experience working at industry standard, which comes
-              with team collaboration and stricter time commitments.
-            </p>
-          </div>
-          <div className="grid-item">
-            <div className="pathway-title">Fellowship</div>
-            <p>
-              For individuals looking to explore real-world projects and are
-              dedicated to investing time in learning. Students will collaborate
-              in teams, working on less complex projects.
-            </p>
-          </div>
-          <div className="grid-item">
-            <div className="pathway-title">Education Program</div>
-            <p>
-              For students new to development, our semester-long curriculum will
-              guide you in creating your full-stack application and equip you
-              with the skills to excel in our project teams.
-            </p>
-          </div>
+          {tilesData.map((tile, index) => (
+            <Tile
+              key={index}
+              title={tile.title}
+              description={tile.description}
+            />
+          ))}
         </div>
 
         <br></br>
