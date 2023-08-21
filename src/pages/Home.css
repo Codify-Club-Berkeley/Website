@@ -1,15 +1,14 @@
 .container {
   justify-items: center;
   justify-content: center;
-
   display: grid;
   grid-gap: 1rem;
   grid-auto-flow: row;
   column-gap: 20px;
-  row-gap: 50px;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 350px 350px 350px;
 }
+
 .header {
   display: flex;
   right: 400px;
@@ -19,22 +18,26 @@
 .body-section-row {
   display: flex;
   flex-direction: row;
-  padding: 30px;
-  background-color: rgb(181, 127, 232);
+  padding: 35px;
+  font-size: 17px;
+  border-radius: 30px;
+  background-color: rgb(216, 188, 241);
 }
 .body-section-column {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: rgb(181, 127, 232);
-}
+  background-color: rgb(216, 188, 241);
+} */
 
 .body-section:hover {
   margin-top: -5px;
   margin-bottom: +5px;
   transition-duration: 0.5s;
-}
+} 
+
+
 .link {
-  text-decoration: none;
-  color: black;
+  text-decoration: underline;
+  color:rgb(255, 255, 255);
 }

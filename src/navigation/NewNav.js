@@ -8,7 +8,16 @@ import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
   return (
-    <Navbar expand="md" fixed="top" style={{ backgroundColor: "#9741FD" }}>
+    <Navbar
+      expand="md"
+      fixed="top"
+      style={{
+        backgroundColor: "#9741FD",
+        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
+        paddingLeft: "20px",
+        paddingRight: "20px"
+      }}
+    >
       <Navbar.Brand as={Link} to="/">
         <img
           src={require("../assets/Images/Codify Berkeley.png")}

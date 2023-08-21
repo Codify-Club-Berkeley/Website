@@ -1,6 +1,5 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import ProjectButton from "../components/ProjectButton";
 import { useState } from "react";
 import "./Projects.css";
 import ModalButton from "../components/ModalComponents/ModalButton";

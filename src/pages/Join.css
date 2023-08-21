@@ -1,6 +1,20 @@
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-item {
+  color: white;
+  flex: 1;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #a887dd;
+  margin: 20px;
+  width: 100%; 
+  display: inline-block;
 }
 
 .grid-container1 {
@@ -8,19 +22,10 @@
   grid-template-columns: auto auto auto auto;
 }
 
-.grid-item {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 20px;
-  background-color: #a887dd;
-  margin: 20px;
-}
-
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 350px;
+  width: 275px;
+  height: 300px;
   border-radius: 25px;
   margin: 20px;
 }
@@ -66,35 +71,26 @@
 .flip-card-back {
   transform: rotateY(180deg);
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   border-radius: 25px;
   background-color: #a887dd;
   box-sizing: border-box;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 25px;
+  padding: 30px;
 }
 
 .application-info {
   background-color: #d3c3ee;
   padding: 40px;
-  font-size: 23px;
-  margin-left: 100px;
-  margin-right: 100px;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
   border-radius: 25px;
-}
-
-.app-info-title {
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
-  height: 40px;
 }
 
 .pathway-title {
   color: white;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   height: 30px;
   margin:20px;
@@ -102,10 +98,10 @@
 
 .pathway-title1 {
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   height: 30px;
-  margin-top: 10px;
+  padding-top: 30px;
 }
 
 .big-black-title {

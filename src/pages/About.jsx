@@ -9,7 +9,7 @@ export default function About() {
     <div>
       <div className="header">
         <h1>
-          About <span style={{ color: "#9641FD" }}>Codify</span>
+          We are <span style={{ color: "#9641FD" }}>Codify</span>
         </h1>
       </div>
       {/** <div className="underline"></div>*/}
@@ -17,14 +17,12 @@ export default function About() {
       <div className="body">
         <h1>Our Mission</h1>
         <p>
-          Codify was founded to harvest the boundless energy and creativity of
-          the Berkeley Computer Science community. Thousands of passionate
-          students want to gain real world experience working on projects, but
-          individual projects are more susceptible to roadblocks and are more
-          likely to be abandoned after completion. Codify harnesses this passion
-          for creating and puts it behind efforts to build and maintain projects
-          with real world impact. We give our members the skills and experience
-          they need to start a company or land their dream job.{" "}
+          Founded to channel the boundless energy of Berkeley's Computer Science
+          community, Codify aims to cultivate a community of students passionate
+          about working in the dynamic and fast-paced world of emerging tech
+          startups. Our goal is to merge students' limitless creativity and
+          ambition to craft a variety of software projects that make a tangible
+          impact on the real world.
         </p>
       </div>
       <div className="body">

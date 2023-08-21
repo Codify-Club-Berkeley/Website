@@ -9,6 +9,7 @@ module.exports = {
       "codify-light-purple": "#B57EE8",
       "link-blue": "#4A90E2",
       "subheader-gray": "#808080",
+      "footer-dark-purple": "#29274C"
     },
   },
   plugins: [require("daisyui")],

@@ -10,7 +10,6 @@ export default function WordSpin() {
     "a new social network",
     "a community of makers",
     "a new startup",
-    "a tutor matching algorithm",
   ];
   return (
     <div class="slidingVertical">
