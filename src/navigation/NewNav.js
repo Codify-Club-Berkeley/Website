@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, Route, Routes } from "react-router-dom";
-import { footerLinks } from "../data/navBarLinks";
+import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
@@ -22,11 +22,12 @@ function NewNav() {
         style={{ flexDirection: "row-reverse" }}
       >
         <Nav className="">
-          {footerLinks.map((link) => {
+          {footerLinks.map((link, index) => {
             return (
-            <Nav.Link as={Link} to={"/" + link.replace(/\s/g, "")}>
-              <h5 className="text-white">{link}</h5>
-            </Nav.Link>)
+              <Nav.Link as={Link} to={"/" + lowercaseFooterLinks[index]}>
+                <h5 className="text-white">{link}</h5>
+              </Nav.Link>
+            );
           })}
         </Nav>
       </Navbar.Collapse>

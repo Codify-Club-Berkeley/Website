@@ -21,11 +21,11 @@ function App() {
       <div style={{ paddingTop: "120px" }}>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/About" element={<About />}></Route>
-          <Route path="/Join" element={<Join />}></Route>
-          <Route path="/Projects" element={<Projects />}></Route>
-          <Route path="/WorkWithUs" element={<WorkWithUs />}></Route>
-          <Route path="/Education" element={<Education />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/join" element={<Join />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/workwithus" element={<WorkWithUs />}></Route>
+          <Route path="/education" element={<Education />}></Route>
         </Routes>
       </div>
 
