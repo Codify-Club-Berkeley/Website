@@ -21,7 +21,7 @@ export default function Education() {
         </p>
         <div style={{ paddingTop: "100px" }}></div>
 
-        <div>
+        {/* <div>
           <table className="table-format">
             <tr>
               <th>Topic</th>
@@ -40,8 +40,7 @@ export default function Education() {
               <td><a target = "_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/18h7ak5WbQcEAyGLufj6LSVzKpKKwplfxLSw4K2mFQQg/edit?usp=share_link">Slides</a></td>
             </tr>
           </table>
-        </div>
-
+        </div> */}
       </div>
     </div>
   );

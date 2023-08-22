@@ -114,7 +114,7 @@ export default function Join() {
         <div className="big-black-title">What we're looking for</div>
         <div
           className="grid-container1"
-          style={{ display: "flex", flexWrap: "wrap" }}
+          style={{ display: "flex", flexWrap: "wrap", placeContent: "center" }}
         >
           {flipCardsData.map((card, index) => (
             <FlipCard
