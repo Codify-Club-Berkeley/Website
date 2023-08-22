@@ -1,5 +1,4 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
 import { useState } from "react";
 import "./Projects.css";
 import ModalButton from "../components/ModalComponents/ModalButton";
@@ -77,22 +76,50 @@ export default function ButtonBases() {
         closeModal={closeModal}
       ></ModalView>
 
+      {/* Current Projects */}
       <div className="flex flex-wrap place-content-center">
-        {allProjectsData.map((project) => {
-          return (
-            <ModalButton
-              projectTitle={project.projectTitle}
-              shortDescription={project.shortDescription}
-              aboutClient={project.aboutClient}
-              aboutProject={project.aboutProject}
-              imgSource={project.imgSource}
-              technologies={project.technologies}
-              linkIcons={project.linkIcons}
-              linkDestinations={project.linkDestinations}
-              openModal={openModal}
-            ></ModalButton>
-          );
-        })}
+        {allProjectsData
+          .filter((project) => project.currentProject)
+          .map((project) => {
+            return (
+              <ModalButton
+                projectTitle={project.projectTitle}
+                shortDescription={project.shortDescription}
+                aboutClient={project.aboutClient}
+                aboutProject={project.aboutProject}
+                imgSource={project.imgSource}
+                technologies={project.technologies}
+                linkIcons={project.linkIcons}
+                linkDestinations={project.linkDestinations}
+                openModal={openModal}
+              ></ModalButton>
+            );
+          })}
+      </div>
+
+      <div className="body">
+        <h2>Past Projects</h2>
+      </div>
+
+      {/* Current Projects */}
+      <div className="flex flex-wrap place-content-center">
+        {allProjectsData
+          .filter((project) => !project.currentProject)
+          .map((project) => {
+            return (
+              <ModalButton
+                projectTitle={project.projectTitle}
+                shortDescription={project.shortDescription}
+                aboutClient={project.aboutClient}
+                aboutProject={project.aboutProject}
+                imgSource={project.imgSource}
+                technologies={project.technologies}
+                linkIcons={project.linkIcons}
+                linkDestinations={project.linkDestinations}
+                openModal={openModal}
+              ></ModalButton>
+            );
+          })}
       </div>
     </div>
   );
