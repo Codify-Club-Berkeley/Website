@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.25a4b426.css",
-    "main.js": "/static/js/main.e5c91073.js",
+    "main.css": "/static/css/main.2fba994d.css",
+    "main.js": "/static/js/main.f4869c8d.js",
     "static/media/sp23Group.jpg": "/static/media/sp23Group.952c7ea09dd9cb6fec17.jpg",
     "static/media/Elaine.png": "/static/media/Elaine.19f9ab1c2f3b2bcc16c0.png",
+    "static/media/Kyle Casbon.JPG": "/static/media/Kyle Casbon.fdbeab59240adda07e4c.JPG",
     "static/media/Sydney Tsai.jpeg": "/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
+    "static/media/Satwik Pattanaik.jpg": "/static/media/Satwik Pattanaik.47e07a58a559775efb4e.jpg",
     "static/media/Aidan Sunbury.png": "/static/media/Aidan Sunbury.842d242025361cda0109.png",
     "static/media/Ayush Goel.png": "/static/media/Ayush Goel.d5ea29429b5bf26617b7.png",
+    "static/media/Shruti Sathi.jpg": "/static/media/Shruti Sathi.6c3738ac9a1733a45ee3.jpg",
     "static/media/Elaine Shu.jpeg": "/static/media/Elaine Shu.9d309f6bbe3e0983c64a.jpeg",
+    "static/media/Logan Krause.jpg": "/static/media/Logan Krause.8175205d2c4fc787dac4.jpg",
+    "static/media/Chi Tam Nguyen.JPG": "/static/media/Chi Tam Nguyen.4c1cd8085c2a890c6396.JPG",
     "static/media/Stacey Lei.jpg": "/static/media/Stacey Lei.dd955dcefdd7e73f86f9.jpg",
+    "static/media/Anshul Jambula.jpg": "/static/media/Anshul Jambula.0f9f3147534e97383758.jpg",
+    "static/media/Cady He.jpeg": "/static/media/Cady He.9a66d541b11435d58aa8.jpeg",
     "static/media/Rayna Bhattacharyya.jpeg": "/static/media/Rayna Bhattacharyya.4d8c075bfc9ee81cf25a.jpeg",
     "static/media/gate.jpeg": "/static/media/gate.0066c476c85b572412cf.jpeg",
     "static/media/Beach.jpg": "/static/media/Beach.b5c996fbb0cc20d14f85.jpg",
@@ -18,11 +25,11 @@
     "static/media/Aanvi Kothari.jpeg": "/static/media/Aanvi Kothari.7b9cc0656b2e021a67b5.jpeg",
     "static/media/Nemerjit Singh.jpg": "/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
     "index.html": "/index.html",
-    "main.25a4b426.css.map": "/static/css/main.25a4b426.css.map",
-    "main.e5c91073.js.map": "/static/js/main.e5c91073.js.map"
+    "main.2fba994d.css.map": "/static/css/main.2fba994d.css.map",
+    "main.f4869c8d.js.map": "/static/js/main.f4869c8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.25a4b426.css",
-    "static/js/main.e5c91073.js"
+    "static/css/main.2fba994d.css",
+    "static/js/main.f4869c8d.js"
   ]
 }
