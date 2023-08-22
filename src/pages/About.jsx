@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
-import Grid from "../components/Grid.jsx";
-import Quote from "../components/Quote";
 import { members } from "../data/members";
+import MemberCard from "../components/MemberCard";
 
 export default function About() {
   return (
@@ -40,11 +39,9 @@ export default function About() {
         <h1>Our Team</h1>
       </div>
 
-      <div className="grid-containerw">
+      <div className="flex flex-wrap place-content-center">
         {members.map(({ imagePath, name, title }) => (
-          <div class="grid-item">
-            <Quote name={name} title={title} imagePath={imagePath}></Quote>
-          </div>
+          <MemberCard name={name} title={title} imagePath={imagePath} />
         ))}
       </div>
     </div>
