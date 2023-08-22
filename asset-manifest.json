@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.89d98f49.css",
-    "main.js": "/static/js/main.d6defb56.js",
+    "main.css": "/static/css/main.25a4b426.css",
+    "main.js": "/static/js/main.e5c91073.js",
+    "static/media/sp23Group.jpg": "/static/media/sp23Group.952c7ea09dd9cb6fec17.jpg",
     "static/media/Elaine.png": "/static/media/Elaine.19f9ab1c2f3b2bcc16c0.png",
     "static/media/Sydney Tsai.jpeg": "/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
     "static/media/Aidan Sunbury.png": "/static/media/Aidan Sunbury.842d242025361cda0109.png",
@@ -17,11 +18,11 @@
     "static/media/Aanvi Kothari.jpeg": "/static/media/Aanvi Kothari.7b9cc0656b2e021a67b5.jpeg",
     "static/media/Nemerjit Singh.jpg": "/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
     "index.html": "/index.html",
-    "main.89d98f49.css.map": "/static/css/main.89d98f49.css.map",
-    "main.d6defb56.js.map": "/static/js/main.d6defb56.js.map"
+    "main.25a4b426.css.map": "/static/css/main.25a4b426.css.map",
+    "main.e5c91073.js.map": "/static/js/main.e5c91073.js.map"
   },
   "entrypoints": [
-    "static/css/main.89d98f49.css",
-    "static/js/main.d6defb56.js"
+    "static/css/main.25a4b426.css",
+    "static/js/main.e5c91073.js"
   ]
 }
