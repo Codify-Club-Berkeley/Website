@@ -58,7 +58,18 @@ export default function Home() {
             width: "80%",
           }}
         >
-          <h1>Fall 2023 Applications Open August 23!</h1>
+          <h1>Fall 2023 Applications Open Until 9/5!</h1>
+          <a
+            href={"https://forms.gle/rtMPqxFFkeMSxnqf7"}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: "24px",
+              color: "purple"
+            }}
+          >
+            Apply Now
+          </a>
         </div>
       </div>
 
