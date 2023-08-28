@@ -11,36 +11,33 @@ export default function Education() {
       </div>
       <div className="body">
         <p>
-          New Codify members with minimal programming experience have the option
-          to spend one semester completing our new member education program. The
-          goal of the new member education program is to prepare new Codify
-          members to work on project teams. The semester long program covers all
-          the concepts needed to build, test, and deploy a full stack
-          application. The program walks teams of two through the planning,
-          development, and deployment of their own full stack project.
+          Codify offers a semester long comprehensive course on full stack web
+          and mobile development. The course is completely open access, all you
+          need to do to sign up is fill out a google form. Completion of the
+          course with a high enough grade guarantees acceptance into Codify for
+          the following semester.
         </p>
+        <p>
+          If you are unsure if you are ready to join a project or fellowship
+          team, or should instead complete the education program first, the best
+          way to tell is to just apply for a project team. Completing the
+          application will give you good practice polishing and presenting your
+          work, and it will help the us determine if you are ready to join a
+          project team yet. All applicants who we deny are invited to enroll in
+          the education program, and will be offered a place on a project team
+          the following semester if they complete the program.
+        </p>
+        <a
+          href="https://codify-berkeley-education.github.io/DecalWebsite/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3 className="text-center">
+            For More Information and to Enroll, Check Out the Education Program
+            Website
+          </h3>
+        </a>
         <div style={{ paddingTop: "100px" }}></div>
-
-        {/* <div>
-          <table className="table-format">
-            <tr>
-              <th>Topic</th>
-              <th>Links</th>
-            </tr>
-            <tr>
-              <td>Project Formation + Getting Started</td>
-              <td><a target = "_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/1Y_WC--wT3EhWAxofXTE5gPLbRqOCZLKm2vLdfBlVzDw/edit?usp=share_link">Slides</a></td>
-            </tr>
-            <tr>
-              <td>Version Control, Git, and Setting Up Environment</td>
-              <td><a target = "_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/14_6wsfcxIgkF9XzdSOe2hgfmMok4BtMVhvM9kZFiK7M/edit?usp=share_link">Slides</a></td>
-            </tr>
-            <tr>
-              <td>React Native</td>
-              <td><a target = "_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/18h7ak5WbQcEAyGLufj6LSVzKpKKwplfxLSw4K2mFQQg/edit?usp=share_link">Slides</a></td>
-            </tr>
-          </table>
-        </div> */}
       </div>
     </div>
   );
