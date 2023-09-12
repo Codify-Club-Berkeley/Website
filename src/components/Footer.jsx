@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsInstagram, BsLinkedin, BsGithub, BsDiscord } from "react-icons/bs";
+import {
+  BsInstagram,
+  BsLinkedin,
+  BsGithub,
+  BsDiscord,
+  BsSpotify,
+} from "react-icons/bs";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
 export default function Footer() {
@@ -10,7 +16,9 @@ export default function Footer() {
       <div class="flex flex-col">
         <div class="text-left">
           <h2 className="text-white text-xl">Codify Berkeley</h2>
-          <p className="text-white text-base">A UC Berkeley Student Organization</p>
+          <p className="text-white text-base">
+            A UC Berkeley Student Organization
+          </p>
         </div>
         {/**Link Icons */}
         <div class="flex flex-row place-content-evenly">
@@ -45,6 +53,14 @@ export default function Footer() {
             class="text-white"
           >
             <BsDiscord size="30"></BsDiscord>
+          </a>
+          <a
+            href="https://open.spotify.com/playlist/3DVxp7bz1heKBx6S2hEmAY?si=d7e0c2e144fe44ed"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+          >
+            <BsSpotify size="30"></BsSpotify>
           </a>
         </div>
       </div>
