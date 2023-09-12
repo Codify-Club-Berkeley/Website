@@ -64,7 +64,7 @@ export const timelineData = [
     title: "Education Program Begins",
     description:
       "Our education program teaches the fundamentals of full stack web and mobile development. Completing the entire program with a high enough grade guarantees acceptance into Codify for the following semester.",
-    date: "9/6/23",
+    date: "9/7/23",
   },
   {
     title: "Final Application Decisions Released",
