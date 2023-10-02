@@ -6,6 +6,7 @@ import {
   BsGithub,
   BsDiscord,
   BsSpotify,
+  BsYoutube,
 } from "react-icons/bs";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
@@ -53,6 +54,14 @@ export default function Footer() {
             class="text-white"
           >
             <BsDiscord size="30"></BsDiscord>
+          </a>
+          <a
+            href="https://www.youtube.com/@codifyberkeley"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white"
+          >
+            <BsYoutube size="30"></BsYoutube>
           </a>
           <a
             href="https://open.spotify.com/playlist/3DVxp7bz1heKBx6S2hEmAY?si=d7e0c2e144fe44ed"
