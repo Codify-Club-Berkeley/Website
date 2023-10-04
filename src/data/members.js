@@ -1,7 +1,7 @@
 export const members = [
   {
     imagePath: require("../assets/Images/Headshots/Nemerjit Singh.jpg"),
-    name: "Nemerjit Sigh",
+    name: "Nemerjit Singh",
     title: "Co-President",
   },
   {
