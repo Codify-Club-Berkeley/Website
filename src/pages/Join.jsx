@@ -105,8 +105,12 @@ export default function Join() {
 
         <br></br>
 
-        <div className="big-black-title">Recruitment Timeline</div>
-        <Timeline />
+        <div className="big-black-title">Semester Timeline</div>
+        <div className="application-info"// removed timeline temporarily, changed recruitment timeline to semester timeline
+        >
+          TBD
+        </div>
+        // <Timeline />
 
         <br></br>
         <br></br>
