@@ -2,6 +2,7 @@
 // subHeadings are optional
 
 export const timelineData = [
+  /* NEED TO UPDATE TIMELINE DATA
   {
     title: "Applications Open",
     description: (
@@ -72,4 +73,5 @@ export const timelineData = [
       "Check your email to see if you've been accepted! Every semester we receive many more applications than we can accept, so if you are not accepted, we encourage you to apply again next semester.",
     date: "9/8/23",
   },
+  */
 ];

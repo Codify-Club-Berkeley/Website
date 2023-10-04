@@ -58,17 +58,10 @@ export default function Home() {
             width: "80%",
           }}
         >
-          <h1>Fall 2023 Applications Open Until 9/5!</h1>
-          <a
-            href={"https://forms.gle/rtMPqxFFkeMSxnqf7"}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              fontSize: "24px",
-              color: "purple"
-            }}
+          <h1>Spring 2024 Applications Coming Soon!</h1>
+          <a //deleted apply now and old link to fall 2023 applications
           >
-            Apply Now
+
           </a>
         </div>
       </div>

@@ -13,7 +13,12 @@ export default function WorkWithUs() {
           To inquire about working with Codify or joining Codify, please email
           us at{" "}
         </h2>
-        <h1>codify.berkeley@gmail.com</h1>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=codify.berkeley@gmail.com">
+        <h1 // update hyperlink
+        >
+          codify.berkeley@gmail.com</h1>
+        </a>
+        
       </div>
       <div style={{ paddingTop: "250px" }}></div>
       {/* <div className="body">
