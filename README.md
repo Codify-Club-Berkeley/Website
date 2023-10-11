@@ -19,7 +19,7 @@ The website was initially created using vanilla css. For better overall maintain
 Create a branch, make changes, and submit a pull request (PR) to the main branch.
 PRs should include a clear title, description, and reference to the related issue.
 
-Branch naming convention: When you create a branch from master, name it [initials_page/feature]. For example, “ES_home” or "ES_navbar".
+Branch naming convention: When you create a branch from master, name it [initials_page/feature]. For example, `ES_home` or `ES_navbar`.
 
 If the commit is related to an issue or pull request, include references to them: eg. "Fix #123" to indicate that the commit resolves the issue.
 
@@ -27,10 +27,10 @@ If the commit is related to an issue or pull request, include references to them
 
 Start with these key words:
 
-1. "Add:" for adding new features or functionality.
-2. "Fix:" for bug fixes.
-3. "Update:" for general updates or improvements.
-4. "Refactor:" for code refactoring without changing functionality.
+1. "Added:" for adding new features or functionality.
+2. "Fixed:" for bug fixes.
+3. "Updated:" for general updates or improvements.
+4. "Refactored:" for code refactoring without changing functionality.
 5. "Docs:" for documentation updates.
-6. "Test:" for test-related changes.
-7. "Style:" for code style or formatting changes.
+6. "Tested:" for test-related changes.
+7. "Styled:" for code style or formatting changes.
