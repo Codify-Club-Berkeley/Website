@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, Route, Routes } from "react-router-dom";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
+import Clickable from "../components/Clickable";
 
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
@@ -34,7 +35,7 @@ function NewNav() {
           {footerLinks.map((link, index) => {
             return (
               <Nav.Link as={Link} to={"/" + lowercaseFooterLinks[index]}>
-                <h5 className="text-white">{link}</h5>
+                <div style={{color:'white', fontSize:20}}><Clickable name={link} color='black'></Clickable></div>
               </Nav.Link>
             );
           })}
