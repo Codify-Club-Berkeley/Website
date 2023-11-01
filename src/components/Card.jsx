@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
+import Clickable from "../components/Clickable";
 
 export default function Card(props) {
     const isMobileDevice = useMediaQuery({
@@ -21,7 +22,7 @@ export default function Card(props) {
             alt="placeholder"
             style={{
               paddingRight: isMobileDevice ? "0" : "20px", // Adjust spacing for mobile
-              borderRadius: isMobileDevice ? "0" : "40px", // Adjust border radius for mobile
+              borderRadius: isMobileDevice ? "0" : "10px", // Adjust border radius for mobile
               width: isMobileDevice ? "100%" : "300px", // Adjust width for mobile
               height: isMobileDevice ? "auto" : "200px", // Adjust height for mobile
               objectFit: "cover",
@@ -35,7 +36,7 @@ export default function Card(props) {
             <h1>{props.header}</h1>
             <p>{props.body}</p>
             <Link to={props.link} className="link" onClick={scrollToTop}>
-              <h2>{props.linkText}</h2>
+              <h2><Clickable name={props.linkText} color='#7f34f7'></Clickable></h2>
             </Link>
           </div>
         </div>
