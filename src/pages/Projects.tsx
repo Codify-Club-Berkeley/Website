@@ -100,8 +100,6 @@ export default function ButtonBases() {
       <div className="body">
         <h2>Past Projects</h2>
       </div>
-
-      {/* Current Projects */}
       <div className="flex flex-wrap place-content-center">
         {allProjectsData
           .filter((project) => !project.currentProject)

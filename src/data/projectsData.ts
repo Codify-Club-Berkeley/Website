@@ -12,6 +12,46 @@ export type Project = {
 
 export const allProjectsData: Project[] = [
   {
+    projectTitle: "SkyPortal",
+    shortDescription: "Scientific tool for astronomical data analysis",
+    aboutClient:
+      "SkyPortal is a web application that interactively displays astronomical datasets for annotation, analysis, and discovery. It is designed to be modular and extensible, so it can be customized for various scientific use-cases.",
+    aboutProject:
+      "We are working on a frontend redesign of the SkyPortal web application, as well as making larger structural changes to the application.",
+    imgSource: "https://skyportal.io/static/skyportal_logo.png",
+    technologies: ["React Native"],
+    linkIcons: ["GitHub", "Website"],
+    linkDestinations: [
+      "https://github.com/skyportal/skyportal",
+      "https://skyportal.io/",
+    ],
+    currentProject: true,
+  },
+  {
+    projectTitle: "Kopernicus AI",
+    shortDescription: "Market analysis using AI tools for enterprises",
+    aboutClient: "Kopernicus AI is focused on [insert text] ",
+    aboutProject: "We are working on [insert text]",
+    imgSource:
+      "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
+    technologies: ["React Native"],
+    linkIcons: ["Website"],
+    linkDestinations: ["https://www.kopernicus.com/"],
+    currentProject: true,
+  },
+  {
+    projectTitle: "TrailMarker",
+    shortDescription: "Mobile app to connect you to nearby events and activities ",
+    aboutClient: "Trailmarker is a platform that allows people find fun activities in the area and also earn prizes for attending events. ",
+    aboutProject: "We are building a platform which displays to users nearby destinations and events that are going on, implementing a login portal, an interactive map, and more.",
+    imgSource: "",
+      // "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
+    technologies: ["Flutter", "Firebase"],
+    linkIcons: [],
+    linkDestinations: [],
+    currentProject: true,
+  },
+  {
     projectTitle: "Scribble AI",
     shortDescription: "Build a keyboard that allows you to use AI anywhere",
     aboutClient:
@@ -45,7 +85,7 @@ export const allProjectsData: Project[] = [
       "https://github.com/Codify-Club-Berkeley/cssc-mobile-app",
       "https://chabotspace.org/",
     ],
-    currentProject: true,
+    currentProject: false,
   },
   {
     projectTitle: "Posto Social",
@@ -106,6 +146,6 @@ export const allProjectsData: Project[] = [
     technologies: ["Python"],
     linkIcons: [],
     linkDestinations: [],
-    currentProject: true,
+    currentProject: false,
   },
 ];
