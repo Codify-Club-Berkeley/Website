@@ -20,7 +20,7 @@
   flex-direction: row;
   padding: 35px;
   font-size: 17px;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: rgb(216, 188, 241);
 }
 .body-section-column {
@@ -37,6 +37,6 @@
 }
 
 .link {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
