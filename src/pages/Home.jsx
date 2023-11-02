@@ -70,23 +70,23 @@ export default function Home() {
       <Card
         imageSource={require("../assets/Images/General/Beach.jpg")}
         header="A Community Of Makers..."
-        body="Codify is a recently established student organization at UC Berkeley focused on bringing students together to work on impactful software projects. Our mission is to provide students with the opportunity to develop new skills, gain real-world development experience, and connect with a community of like-minded peers."
+        body="We are a recently established organization at UC Berkeley bringing students together to work on impactful software projects. With us, you can develop new skills, gain real-world development experience, and connect with a community of like-minded peers."
         link="/About"
-        linkText="About Our Team and Mission >"
+        linkText="Who we are >"
       ></Card>
       <Card
         imageSource={require("../assets/Images/General/Elaine.png")}
-        header="Building Exciting Things..."
-        body="Every semester, Codify works on projects in web development, data analysis, mobile development, and other fields of computing that our members are passionate about. We uniquely focus on developing projects for startups and launching our own internal projects for the good of the Berkeley community."
+        header="Building Impactful Tech..."
+        body="Every semester, Codify works on projects in web development, data analysis, mobile development, and other fields of computing that our members are passionate about. We uniquely focus on developing projects for startups and launching our own internal projects for the good of the community."
         link="/Projects"
-        linkText="Current work >"
+        linkText="What we do >"
       ></Card>
       <Card
         imageSource={require("../assets/Images/General/gate.jpeg")}
         header="Within the Berkeley Community."
-        body="Codify is an organization created by and for the Berkeley computer science community. We strive to provide opportunities for students to find their place in tech, explore their entrepreneurial aspirations, and use their skills to give back to their communities. We are always looking for passionate students to join our ranks and partner with organizations to work toward our mutual goals."
+        body="Created by and for the Berkeley computer science community: we help students to find their place in tech, explore their entrepreneurial aspirations, and use their skills to give back to their communities. We are always looking for passionate students to join our ranks and partner with organizations to work toward our mutual goals."
         link="/WorkWithUs"
-        linkText="Collaborate with us >"
+        linkText="Why work with us>"
       ></Card>
     </div>
   );
