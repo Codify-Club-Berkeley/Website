@@ -4,6 +4,7 @@ import "./Projects.css";
 import ModalButton from "../components/ModalComponents/ModalButton";
 import ModalView from "../components/ModalComponents/ModalView";
 import { allProjectsData, Project } from "../data/projectsData";
+import { BADQUERY } from "dns";
 
 // Todo lock height when adding more tiles
 
@@ -43,26 +44,31 @@ export default function ButtonBases() {
         </h1>
       </div>
 
-      <div className="body">
+      <div className="body m-4">
         <p>
-          Every semester, Codify gives members the opportunity to work on a new
-          project. We don’t limit ourselves to any one domain of computer
-          science or any one type of project. Most of our projects fall under
-          three main categories: internal, non-profit client, and for-profit
-          client. For-profit clients pay Codify to complete a project that
-          assists their business. Non-profit client projects are completed
-          pro-bono for an organization with a mission that Codify supports.
-          Internal projects are either an individual member's personal passion
-          project, or a startup being launched through the club.
+          Projects are Codify’s lifeblood. Each semester, we give members the
+          opportunity to work on projects ranging from full stack mobile and web
+          development to building machine learning models.
+          <p>
+          </p>
+          Our projects fall under two main categories: internal and client
+          projects. Internal projects are either an individual member's personal
+          passion project, or a startup being launched through the club. Client
+          projects may be for-profit or non-profit. For-profit clients pay
+          Codify to complete a project that assists their business. Non-profit
+          client projects are completed pro-bono for an organization with a
+          mission that Codify supports. Internal projects are either an
+          individual member's personal passion project, or a startup being
+          launched through the club.
         </p>
+        <br/>
         <h1>Continued Support</h1>
         <p>
-          Unlike many other organizations, we only work on projects that are
-          likely to result in a product that people will continue to use for
-          years to come. We actively update and maintain all of our projects.
-          This not only ensures all of our hand work isn't for nothing, but it
-          encourages writing maintainable code and minimizing technical debt. If
-          you see a project here you would like to work on, you can!
+          We actively maintain all of projects to ensure a product that people
+          will continue to use for years to come. This not only ensures all of
+          our hand work isn't for nothing, but it encourages writing
+          maintainable code and minimizing technical debt. If you see a project
+          here you would like to work on, you can!
         </p>
       </div>
       <div className="body">
