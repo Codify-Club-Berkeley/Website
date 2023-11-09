@@ -36,7 +36,7 @@ export default function Card(props) {
             <h1>{props.header}</h1>
             <p>{props.body}</p>
             <Link to={props.link} className="link" onClick={scrollToTop}>
-              <h2><Clickable name={props.linkText} color='#7f34f7'></Clickable></h2>
+              <h3 style={{color:'black'}}><Clickable name={props.linkText} hoverColor="blueviolet"></Clickable></h3>
             </Link>
           </div>
         </div>

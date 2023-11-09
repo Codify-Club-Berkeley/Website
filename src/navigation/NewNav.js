@@ -13,7 +13,7 @@ function NewNav() {
       expand="md"
       fixed="top"
       style={{
-        backgroundColor: "#9741FD",
+        backgroundColor: "codify-purple",
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
         paddingLeft: "20px",
         paddingRight: "20px"
@@ -35,7 +35,7 @@ function NewNav() {
           {footerLinks.map((link, index) => {
             return (
               <Nav.Link as={Link} to={"/" + lowercaseFooterLinks[index]}>
-                <div style={{color:'white', fontSize:20}}><Clickable name={link} color='black'></Clickable></div>
+                <div style={{color:'lavender', fontSize:20}}><Clickable name={link} hoverColor='white'></Clickable></div>
               </Nav.Link>
             );
           })}
