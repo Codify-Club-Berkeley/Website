@@ -5,7 +5,6 @@ import { useMediaQuery } from "react-responsive";
 import WordSpin from "../components/WordSpin";
 import Card from "../components/Card";
 
-
 export default function Home() {
   const isMobileDevice = useMediaQuery({
     query: "(max-width: 768px)", // Breakpoint
@@ -59,11 +58,12 @@ export default function Home() {
             width: "80%",
           }}
         >
-          <h1>Spring 2024 Applications Coming Soon!</h1>
-          <a //deleted apply now and old link to fall 2023 applications
-          >
-
-          </a>
+          <h1 className="text-codify-purple" >What will you build?</h1>
+          <h5>
+            Codify puts your finger on the pulse of Silicon Valley startup
+            culture, fostering a community of Berkeley students passionate about
+            working in the vibrant world of fledgling software companies.
+          </h5>
         </div>
       </div>
 

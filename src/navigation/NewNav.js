@@ -16,7 +16,7 @@ function NewNav() {
         backgroundColor: "#9741FD",
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
         paddingLeft: "20px",
-        paddingRight: "20px"
+        paddingRight: "20px",
       }}
     >
       <Navbar.Brand as={Link} to="/">
@@ -35,7 +35,11 @@ function NewNav() {
           {footerLinks.map((link, index) => {
             return (
               <Nav.Link as={Link} to={"/" + lowercaseFooterLinks[index]}>
-                <div style={{color:'white', fontSize:20}}><Clickable name={link} color='black'></Clickable></div>
+                <div style={{ color: "white", fontSize: 20 }}>
+                  <div style={{ color: "lavender", fontSize: 20 }}>
+                    <Clickable name={link} hoverColor="white"></Clickable>
+                  </div>
+                </div>
               </Nav.Link>
             );
           })}
