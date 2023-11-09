@@ -4,18 +4,34 @@ import { useMediaQuery } from "react-responsive";
 import Clickable from "../components/Clickable";
 
 export default function Card(props) {
-    const isMobileDevice = useMediaQuery({
-      query: "(max-width: 768px)", // Adjust the breakpoint as needed
-    });
-  
-    const scrollToTop = () => {
-      window.scrollTo(0, 0); // Scroll to the top of the page
-    };
-  
-    return (
-      <div style={{ padding: isMobileDevice ? "10px" : "20px", margin: "40px" }}>
+  const isMobileDevice = useMediaQuery({
+    query: "(max-width: 768px)", // Adjust the breakpoint as needed
+  });
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
+
+  return (
+    <div style={{ padding: isMobileDevice ? "10px" : "20px", margin: "40px" }}>
+      <div
+        className={isMobileDevice ? "body-section-column" : "body-section-row"}
+      >
+        <img
+          src={props.imageSource}
+          alt="placeholder"
+          style={{
+            paddingRight: isMobileDevice ? "0" : "20px", // Adjust spacing for mobile
+            borderRadius: isMobileDevice ? "0" : "10px", // Adjust border radius for mobile
+            width: isMobileDevice ? "100%" : "300px", // Adjust width for mobile
+            height: isMobileDevice ? "auto" : "200px", // Adjust height for mobile
+            objectFit: "cover",
+          }}
+        ></img>
         <div
-          className={isMobileDevice ? "body-section-column" : "body-section-row"}
+          style={{
+            flexDirection: "column",
+          }}
         >
           <img
             src={props.imageSource}
@@ -39,8 +55,18 @@ export default function Card(props) {
               <h3 style={{color:'black'}}><Clickable name={props.linkText} hoverColor="blueviolet"></Clickable></h3>
             </Link>
           </div>
+          <h1>{props.header}</h1>
+          <p>{props.body}</p>
+          <Link to={props.link} className="link" onClick={scrollToTop}>
+            <h3 style={{ color: "black" }}>
+              <Clickable
+                name={props.linkText}
+                hoverColor="blueviolet"
+              ></Clickable>
+            </h3>
+          </Link>
         </div>
       </div>
-    );
-  }
-  
+    </div>
+  );
+}

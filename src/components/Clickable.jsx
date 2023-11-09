@@ -13,11 +13,9 @@ export default function Clickable(props) {
 
   const customStyle = {
     color: isHovered ? props.hoverColor : props.color,
-    textDecoration: isHovered ? "underline" : "none",
-
-    transition: "color 0.3s, transform 0.3s, text-decoration 0.3s",
-    // transform: isHovered ? "translateY(-3px)" : "translateY(0)", (for the nudge effect)
-
+    textDecoration: isHovered ? "underline" : "none", // Add underline on hover
+    // transform: isHovered ? "translateY(-3px)" : "translateY(0)",
+    transition: "color 0.3s, transform 0.3s, text-decoration 0.3s", // Add text-decoration to the transition
     // Add any other styles you want to customize here
   };
 
