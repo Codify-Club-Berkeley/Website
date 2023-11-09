@@ -13,7 +13,7 @@ function NewNav() {
       expand="md"
       fixed="top"
       style={{
-        backgroundColor: "codify-purple",
+        backgroundColor: "#9741FD",
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
         paddingLeft: "20px",
         paddingRight: "20px",
