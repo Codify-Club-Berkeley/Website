@@ -33,17 +33,6 @@ export default function Card(props) {
             flexDirection: "column",
           }}
         >
-          <img
-            src={props.imageSource}
-            alt="placeholder"
-            style={{
-              paddingRight: isMobileDevice ? "0" : "20px", // Adjust spacing for mobile
-              borderRadius: isMobileDevice ? "0" : "10px", // Adjust border radius for mobile
-              width: isMobileDevice ? "100%" : "300px", // Adjust width for mobile
-              height: isMobileDevice ? "auto" : "200px", // Adjust height for mobile
-              objectFit: "cover",
-            }}
-          ></img>
           <div
             style={{
               flexDirection: "column",
@@ -55,16 +44,6 @@ export default function Card(props) {
               <h3 style={{color:'black'}}><Clickable name={props.linkText} hoverColor="blueviolet"></Clickable></h3>
             </Link>
           </div>
-          <h1>{props.header}</h1>
-          <p>{props.body}</p>
-          <Link to={props.link} className="link" onClick={scrollToTop}>
-            <h3 style={{ color: "black" }}>
-              <Clickable
-                name={props.linkText}
-                hoverColor="blueviolet"
-              ></Clickable>
-            </h3>
-          </Link>
         </div>
       </div>
     </div>

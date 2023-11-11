@@ -2,23 +2,25 @@ export const members = [
   {
     imagePath: require("../assets/Images/Headshots/Nemerjit Singh.jpg"),
     name: "Nemerjit Singh",
-    title: "Co-President",
+    title: "President",
   },
+
   {
     imagePath: require("../assets/Images/Headshots/Elaine Shu.jpeg"),
     name: "Elaine Shu",
-    title: "Co-President",
+    title: "President",
   },
+
   {
     imagePath: require("../assets/Images/Headshots/Aidan Sunbury.png"),
     name: "Aidan Sunbury",
     title: "Vice President of Education",
   },
-  {
-    imagePath: require("../assets/Images/Headshots/Shruti Sathi.jpg"),
-    name: "Shruti Sathi",
-    title: "Vice President of Education",
-  },
+  // {
+  //   imagePath: require("../assets/Images/Headshots/Shruti Sathi.jpg"),
+  //   name: "Shruti Sathi",
+  //   title: "Vice President of Education",
+  // },
   {
     imagePath: require("../assets/Images/Headshots/Dhruv Agarwal.jpeg"),
     name: "Dhruv Agarwal",
@@ -34,11 +36,11 @@ export const members = [
     name: "Ayush Goel",
     title: "Vice President of Projects",
   },
-  {
-    imagePath: require("../assets/Images/Headshots/Logan Krause.jpg"),
-    name: "Logan Krause",
-    title: "Vice President of Operations",
-  },
+  // {
+  //   imagePath: require("../assets/Images/Headshots/Logan Krause.jpg"),
+  //   name: "Logan Krause",
+  //   title: "Vice President of Operations",
+  // },
   {
     imagePath: require("../assets/Images/Headshots/blank.jpeg"),
     name: "Andrea Lou",
