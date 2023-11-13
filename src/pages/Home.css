@@ -1,4 +1,4 @@
-.container {
+/* .container {
   justify-items: center;
   justify-content: center;
   display: grid;
@@ -7,7 +7,7 @@
   column-gap: 20px;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 350px 350px 350px;
-}
+} */
 
 .header {
   display: flex;
@@ -20,15 +20,16 @@
   flex-direction: row;
   padding: 35px;
   font-size: 17px;
-  border-radius: 10px;
-  background-color: rgb(216, 188, 241);
+  border-top: 0.5px solid silver; /* Add a solid black line at the top */
+
 }
-.body-section-column {
+
+/* .body-section-column {
   display: flex;
   flex-direction: column;
   padding: 20px;
   background-color: rgb(216, 188, 241);
-}
+} */
 
 /* .body-section:hover {
   margin-top: -5px;
@@ -36,7 +37,7 @@
   transition-duration: 0.5s;
 } */
 
-.link {
+/* .link {
   text-decoration: none;
   color: black;
-}
+} */

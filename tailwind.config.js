@@ -8,7 +8,8 @@ module.exports = {
       "codify-lavender": "#B19CD8",
       "codify-light-purple": "#B57EE8",
       "subheader-gray": "#808080",
-      "footer-dark-purple": "#29274C"
+      "footer-dark-purple": "#29274C",
+      "highlight-yellow": "#FFD700",
     },
   },
   plugins: [require("daisyui")],

@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, Route, Routes } from "react-router-dom";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
-import Clickable from "../components/Clickable";
+import Clickable from "../components/ClickableText";
 
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
