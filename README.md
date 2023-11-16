@@ -21,10 +21,15 @@ If the commit is related to an issue or pull request, include references to them
 
 ## Run Locally
 
-To start the server locally run
+To start, install all dependencies locally
+```bash
+  yarn install
+```
+
+then run the frontend
 
 ```bash
-  npm start
+  yarn start
 ```
 
 
@@ -32,7 +37,7 @@ To start the server locally run
 
 1. Run the site locally to make sure everything is working as expected 
 ```bash
-  npm start
+  yarn start
 ```
 
 2. Push or merge updates into the master branch
