@@ -7,7 +7,6 @@ module.exports = {
       "codify-purple": "#9741FD",
       "codify-lavender": "#B19CD8",
       "codify-light-purple": "#B57EE8",
-      "link-blue": "#4A90E2",
       "subheader-gray": "#808080",
       "footer-dark-purple": "#29274C"
     },

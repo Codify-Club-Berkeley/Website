@@ -59,11 +59,12 @@ export default function Home() {
             width: "80%",
           }}
         >
-          <h1>Spring 2024 Applications Coming Soon!</h1>
-          <a //deleted apply now and old link to fall 2023 applications
-          >
-
-          </a>
+          <h1 className="text-codify-purple" >What will you build?</h1>
+          <h5>
+            Codify puts your finger on the pulse of Silicon Valley startup
+            culture, fostering a community of Berkeley students passionate about
+            working in the vibrant world of fledgling software companies.
+          </h5>
         </div>
       </div>
 
@@ -72,6 +73,7 @@ export default function Home() {
         header="A Community Of Makers..."
         body="We are a recently established organization at UC Berkeley bringing students together to work on impactful software projects. With us, you can develop new skills, gain real-world development experience, and connect with a community of like-minded peers."
         link="/About"
+
         linkText="Who we are >"
       ></Card>
       <Card
@@ -79,6 +81,7 @@ export default function Home() {
         header="Building Impactful Tech..."
         body="Every semester, Codify works on projects in web development, data analysis, mobile development, and other fields of computing that our members are passionate about. We uniquely focus on developing projects for startups and launching our own internal projects for the good of the community."
         link="/Projects"
+
         linkText="What we do >"
       ></Card>
       <Card

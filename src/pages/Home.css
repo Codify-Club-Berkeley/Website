@@ -30,13 +30,13 @@
   background-color: rgb(216, 188, 241);
 }
 
-.body-section:hover {
+/* .body-section:hover {
   margin-top: -5px;
   margin-bottom: +5px;
   transition-duration: 0.5s;
-}
+} */
 
 .link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: black;
 }
