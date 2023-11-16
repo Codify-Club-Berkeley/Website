@@ -35,6 +35,7 @@ function NewNav() {
           {footerLinks.map((link, index) => {
             return (
               <Nav.Link as={Link} to={"/" + lowercaseFooterLinks[index]}>
+
                 <div style={{ color: "white", fontSize: 20 }}>
                   <div style={{ color: "lavender", fontSize: 20 }}>
                     <Clickable name={link} hoverColor="white"></Clickable>
