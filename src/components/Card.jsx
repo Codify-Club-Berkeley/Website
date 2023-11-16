@@ -33,6 +33,7 @@ export default function Card(props) {
             flexDirection: "column",
           }}
         >
+
           <div
             style={{
               flexDirection: "column",
@@ -41,7 +42,7 @@ export default function Card(props) {
             <h1>{props.header}</h1>
             <p>{props.body}</p>
             <Link to={props.link} className="link" onClick={scrollToTop}>
-              <h3 style={{color:'black'}}><Clickable name={props.linkText} hoverColor="blueviolet"></Clickable></h3>
+
             </Link>
           </div>
         </div>
