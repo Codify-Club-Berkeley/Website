@@ -38,7 +38,7 @@ export default function ButtonBases() {
 
   return (
     <div>
-      <div className="header">
+      <div className="header text-center">
         <h1>
           <span style={{ color: "#9641FD" }}>Codify's</span> Work
         </h1>

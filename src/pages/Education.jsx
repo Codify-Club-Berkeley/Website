@@ -4,7 +4,7 @@ import "./Education.css";
 export default function Education() {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <div className="header">
+      <div className="header text-center">
         <h1>
           Learn With <span style={{ color: "#9641FD" }}>Codify</span>
         </h1>
