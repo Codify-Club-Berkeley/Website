@@ -19,15 +19,15 @@ export default function Home() {
       <div
         className="large-banner relative flex items-center justify-center bg-cover bg-center w-full "
         style={{
-          backgroundImage: `url(${require("../assets/Images/General/sp23Group.jpg")})`,
-          marginTop: "-40px", // Adjust marginTop as needed
+          backgroundImage: `url(${require("../assets/Images/General/Fa23Group.jpeg")})`,
+          marginTop: "-60px", // Adjust marginTop as needed
           height: "35rem",
         }}
       >
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
 
         <div className="z-10 header-overlay text-white body-section flex flex-col text-center w-75 text-shadow-lg">
-          <h1 className="text-highlight-yellow text-2xl md:text-5xl">
+          <h1 className="text-highlight-yellow text-4xl md:text-6xl">
             What will you build?
           </h1>
           <br></br>
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
       </div>
       <Card
-        imageSource={require("../assets/Images/General/Beach.jpg")}
+        imageSource={require("../assets/Images/General/donut social close.JPEG")}
         header="A Community Of Makers..."
         body="Codify is a recently established student organization at UC Berkeley focused on bringing students together to work on impactful software projects. Our mission is to provide students with the opportunity to develop new skills, gain real-world development experience, and connect with a community of like-minded peers."
         link="/About"
