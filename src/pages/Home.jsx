@@ -25,7 +25,7 @@ export default function Home() {
           height: "35rem",
         }}
       >
-        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
 
         <div className="z-10 header-overlay text-white body-section flex flex-col text-center w-75 text-shadow-lg">
           <h1 className="text-highlight-yellow text-4xl md:text-6xl">
@@ -44,21 +44,21 @@ export default function Home() {
         header="A Community Of Makers..."
         body="We are a recently established organization at UC Berkeley bringing students together to work on impactful software projects. With us, you can develop new skills, gain real-world development experience, and connect with a community of like-minded peers."
         link="/About"
-        linkText="About Our Team and Mission >"
+        linkText="About Our Team and Mission"
       ></Card>
       <Card
         imageSource={require("../assets/Images/General/Elaine.png")}
         header="Building Impactful Tech..."
         body="Every semester, Codify works on projects in web development, data analysis, mobile development, and other fields of computing that our members are passionate about. We uniquely focus on developing projects for startups and launching our own internal projects for the good of the community."
         link="/Projects"
-        linkText="Current work >"
+        linkText="Current work"
       ></Card>
       <Card
         imageSource={require("../assets/Images/General/gate.jpeg")}
         header="Within the Berkeley Community."
         body="Created by and for the Berkeley computer science community: we help students to find their place in tech, explore their entrepreneurial aspirations, and use their skills to give back to their communities. We are always looking for passionate students to join our ranks and partner with organizations to work toward our mutual goals."
         link="/WorkWithUs"
-        linkText="Collaborate with us >"
+        linkText="Collaborate with us"
       ></Card>
     </div>
   );
