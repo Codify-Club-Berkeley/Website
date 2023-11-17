@@ -5,7 +5,7 @@ import "./Home.css";
 import { useMediaQuery } from "react-responsive";
 import WordSpin from "../components/WordSpin";
 import Card from "../components/Card";
-
+import Accordion from "../components/Accordion";
 
 export default function Home() {
   const isMobileDevice = useMediaQuery({
