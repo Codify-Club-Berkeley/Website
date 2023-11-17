@@ -5,7 +5,7 @@ import "./Home.css";
 import { useMediaQuery } from "react-responsive";
 import WordSpin from "../components/WordSpin";
 import Card from "../components/Card";
-import Accordion from "../components/Accordion";
+import BarChart from "../components/BarChart";
 
 export default function Home() {
   const isMobileDevice = useMediaQuery({
@@ -38,6 +38,9 @@ export default function Home() {
             working in the vibrant world of fledgling software companies.
           </h5>
         </div>
+      </div>
+      <div className="flex justify-center p-10 ">
+        <BarChart />
       </div>
       <Card
         imageSource={require("../assets/Images/General/donut social close.JPEG")}
