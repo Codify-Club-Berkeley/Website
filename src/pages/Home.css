@@ -1,4 +1,17 @@
-/* I am not sure what this .container class styles. May be unnecessary */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out; /* Adjust the animation duration and timing function as needed */
+}
+
+
 .container {
   justify-items: center;
   justify-content: center;

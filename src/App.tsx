@@ -4,7 +4,7 @@ import Join from "./pages/Join";
 import Projects from "./pages/Projects";
 import WorkWithUs from "./pages/WorkWithUs";
 import Education from "./pages/Education";
-import Footer from "./components/Footer";
+import Footer from "./navigation/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import NewNav from "./navigation/NewNav";
