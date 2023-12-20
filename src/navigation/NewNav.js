@@ -5,9 +5,11 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link, Route, Routes } from "react-router-dom";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 import Clickable from "../components/ClickableText";
+import { NavLink, useLocation } from "react-router-dom";
 
 //https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
+  const location = useLocation();
   return (
     <Navbar
       expand="md"
@@ -24,7 +26,7 @@ function NewNav() {
         <img
           src={require("../assets/Images/Codify Berkeley.png")}
           alt="error"
-          style={{ height: 60 }}
+          style={{ height: 50 }}
         ></img>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -34,16 +36,25 @@ function NewNav() {
       >
         <Nav className="">
           {footerLinks.map((link, index) => {
+            const navLinkIsActive = () => {
+              // Check if the current location matches the NavLink's "to" prop
+              return location.pathname === "/" + lowercaseFooterLinks[index];
+            };
+
             return (
               <Nav.Link
-                as={Link}
+                as={NavLink}
                 to={"/" + lowercaseFooterLinks[index]}
                 className="mr-2"
+                activeClassName="active-link"
+                style={{
+                  textDecoration: navLinkIsActive() ? "underline" : "none",
+                  color: "white",
+                  fontSize: 18,
+                }}
               >
-                <div style={{ color: "white", fontSize: 18 }}>
-                  <div style={{ color: "lavender", fontSize: 18 }}>
-                    <Clickable name={link} hoverColor="white"></Clickable>
-                  </div>
+                <div style={{ color: "lavender", fontSize: 18 }}>
+                  <Clickable name={link} hoverColor="white"></Clickable>
                 </div>
               </Nav.Link>
             );

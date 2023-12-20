@@ -9,7 +9,7 @@ const PageHeader = ({ title, body }) => {
         minHeight: "20rem", // Changed 'height' to 'minHeight'
       }}
     >
-      <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-4">{title}</h1>
       <br></br>
       <p className="text-base md:text-lg font-medium mb-6 md:mr-8">{body}</p>
     </div>

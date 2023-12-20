@@ -7,9 +7,7 @@ export const timelineData = [
     title: "Applications Open",
     description: (
       <span>
-        We are looking for students who want to apply their technical skills to
-        solve real-world challenges for startups, whether as a developer or
-        UI/UX designer.
+        Looking for passionate developers or UI/UX designers!
         <br></br>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfnDCGZPdlGBtKN2-5oAuNnzv57tU4093MrI_pCDpDoyxM5Qw/viewform"
@@ -24,7 +22,7 @@ export const timelineData = [
   },
   {
     title: "Tabling",
-    description: "Come talk to us on the glade to learn more about Codify!",
+    description: "Come talk to us on the glade to learn more about Codify.",
     date: "1/16/24-1/23/24",
   },
   {
@@ -32,7 +30,7 @@ export const timelineData = [
     description:
       "Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 45 minute presentation will be followed by a Q & A period and a mixer with members.",
     date: "1/18/24",
-    subHeading: "Time: 8-10:00 PM, Location: TBD",
+    subHeading: "Time: 8-10 PM, Location: TBD",
   },
   {
     title: "Game Night Social",

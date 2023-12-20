@@ -145,11 +145,11 @@ Provide a 24-hour prior notice to your project team for any unavoidable absence
         <hr className="border-b-2 border-purple-500" />
 
         <br></br>
-        <hr className="border-b-2 border-purple-500" />
 
         <div className="big-black-title">Recruitment Timeline</div>
+        <div className="mx-80">
         <Timeline />
-
+        </div>
         <br></br>
         <hr className="border-b-2 border-purple-500" />
 
