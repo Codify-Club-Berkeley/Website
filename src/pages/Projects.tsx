@@ -1,14 +1,21 @@
 import * as React from "react";
 import { useState } from "react";
 import "./Projects.css";
+import { useMediaQuery } from "react-responsive";
 import ModalButton from "../components/ModalComponents/ModalButton";
 import ModalView from "../components/ModalComponents/ModalView";
 import { allProjectsData, Project } from "../data/projectsData";
 import { BADQUERY } from "dns";
+import PageHeader from "../components/PageHeader";
+import TextBlock from "../components/TextBlock";
 
 // Todo lock height when adding more tiles
 
 export default function ButtonBases() {
+  const isMobileDevice = useMediaQuery({
+    query: "(max-width: 768px)", // Breakpoint
+  });
+
   //setting showModal to zero will not show any modal, setting it to a number
   //larger than zero will show that particular modal
 
@@ -38,19 +45,24 @@ export default function ButtonBases() {
 
   return (
     <div>
-      <div className="header text-center">
+      <PageHeader
+        title="Projects"
+        body="Projects are Codify’s lifeblood. Each semester, we give members the
+        opportunity to work on projects ranging from full stack mobile and web
+        development to building machine learning models."
+      />
+      {/* <div className="header text-center">
         <h1>
           <span style={{ color: "#9641FD" }}>Codify's</span> Work
         </h1>
-      </div>
+      </div> */}
 
       <div className="body m-4">
-        <p>
+        {/* <p>
           Projects are Codify’s lifeblood. Each semester, we give members the
           opportunity to work on projects ranging from full stack mobile and web
           development to building machine learning models.
-          <p>
-          </p>
+          <p></p>
           Our projects fall under two main categories: internal and client
           projects. Internal projects are either an individual member's personal
           passion project, or a startup being launched through the club. Client
@@ -60,18 +72,24 @@ export default function ButtonBases() {
           mission that Codify supports. Internal projects are either an
           individual member's personal passion project, or a startup being
           launched through the club.
-        </p>
-        <br/>
-        <h1>Continued Support</h1>
-        <p>
-          We actively maintain all of projects to ensure a product that people
+        </p> */}
+        <br />
+
+        <TextBlock
+          title="Continued Support"
+          text=" We actively maintain all of projects to ensure a product that people
           will continue to use for years to come. This not only ensures all of
           our hand work isn't for nothing, but it encourages writing
           maintainable code and minimizing technical debt. If you see a project
           here you would like to work on, you can!
-        </p>
+"
+          isMobile={isMobileDevice}
+          marginLeft={isMobileDevice ? "0px" : "100px"}
+          marginRight={isMobileDevice ? "0px" : "200px"}
+        />
       </div>
-      <div className="body">
+      <hr className="border-b-2 border-purple-500" />
+      <div className="body flex flex-wrap place-content-center">
         <h2>Current Projects</h2>
       </div>
 
@@ -102,8 +120,9 @@ export default function ButtonBases() {
             );
           })}
       </div>
+      <hr className="border-b-2 border-purple-500" />
 
-      <div className="body">
+      <div className="body flex flex-wrap place-content-center">
         <h2>Past Projects</h2>
       </div>
       <div className="flex flex-wrap place-content-center">
