@@ -106,8 +106,8 @@ export default function Join() {
         <br></br>
 
         {/* an updated timeline will go up during recruitment season */}
-        {/* <div className="big-black-title">Recruitment Timeline</div>
-        <Timeline /> */}
+        <div className="big-black-title">Recruitment Timeline</div>
+        <Timeline />
         
 
         <br></br>

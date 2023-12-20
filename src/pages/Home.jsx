@@ -24,7 +24,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
 
         <div className="z-10 header-overlay text-white body-section flex flex-col text-center w-75 text-shadow-lg">
-          <h1 className="text-highlight-yellow text-5xl md:text-5xl shadow-lg p-4 ">
+          <h1 className="text-wh text-5xl md:text-5xl p-4">
             What will you build?
           </h1>
 
@@ -44,7 +44,7 @@ export default function Home() {
       <div>
         {/* Card 1 */}
         <Card
-          imageSource={require("../assets/Images/General/donut social close.JPEG")}
+          imageSource={require("../assets/Images/General/donutClose.JPEG")}
           header="A Community of Makers"
           body="We are a tight-knit community bringing students together to work on impactful software projects. With us, you will gain real-world development experience, find your place in tech, and connect with a community of like-minded peers."
           link="/About"
