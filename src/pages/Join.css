@@ -10,9 +10,10 @@
   font-size: 16px;
   text-align: center;
   padding: 20px;
-  background-color: #d4d4d4;
+  background-color: #e3e3e3;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
   margin: 30px;
-  width: 100%; 
+  width: 100%;
   display: inline-block;
 }
 
@@ -92,7 +93,7 @@
   font-size: 23px;
   font-weight: bold;
   height: 30px;
-  margin:20px;
+  margin: 20px;
 }
 
 .pathway-title1 {
@@ -107,7 +108,7 @@
   color: black;
   text-align: center;
   font-size: 35px;
-  margin-top: 50px;
-  margin-bottom: 15px;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
   font-weight: 500;
 }

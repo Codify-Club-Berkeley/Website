@@ -40,19 +40,19 @@ export default function Join() {
 
   const tilesData = [
     {
-      title: "Project Team",
+      title: "1. Attend Recruiting Events",
       description:
-        "For those with a strong foundation in full stack development and want to gain experience working at industry standard, which comes with team collaboration and stricter time commitments.",
+        "Learn more about Codify and meet our members! We will be hosting a variety of events, including infosessions, mixers, and socials.",
     },
     {
-      title: "Fellowship",
+      title: "2. Written Application",
       description:
-        "For individuals looking to explore real-world projects and are dedicated to investing time in learning. Students will collaborate in teams, working on less complex projects.",
+        "Complete a brief application to tell us more about yourself and your interests. You will be asked to indicate interest in a particular project.",
     },
     {
-      title: "Education Program",
+      title: "3. Solo Interview",
       description:
-        "For students new to development, our semester-long curriculum will guide you in creating your full-stack application and equip you with the skills to excel in our project teams.",
+        "Meet with interviewers for a 20-minute solo interview to discuss your application and your goals for the semester.",
     },
   ];
 
@@ -90,24 +90,22 @@ export default function Join() {
             equitable. Keep reading to see where you fit into Codify!"
       />
 
-      <br></br>
+      <div className="p-4">
+        <TextBlock
+          title="A Week in the Life..."
+          text="Dedicate 6-8 hours weekly to Codify, including general meetings, project team meetings, project work, and socials.
+Represent Codify during recruitment by tabling, meeting prospective members, and attending recruitment events.
+Stay active and responsive on Discord and via email when communicating with team members and your Project Lead (PL).
+Make consistent progress on tasks, commit code, and submit pull requests to GitHub each sprint.
+Attend mandatory Codify events, including Orientation and General Meetings.
+Attend weekly project team meetings to address blockers and adhere to project timelines.
+Provide a 24-hour prior notice to your project team for any unavoidable absence
+"
+          isMobile={isMobileDevice}
+          marginLeft={isMobileDevice ? "0px" : "100px"}
+          marginRight={isMobileDevice ? "0px" : "200px"}
+        />
 
-      <div className="text-center p-8">
-        <h2>Testimonials</h2>
-        <div className="flex items-center justify-center">
-          <QuoteCarousel />
-        </div>
-      </div>
-
-      {/* <TextBlock
-        title="hello"
-        text="this is a test"
-        isMobile={isMobileDevice}
-        marginLeft={isMobileDevice ? "0px" : "50px"}
-        marginRight={isMobileDevice ? "0px" : "350px"}
-      /> */}
-
-      <div className="p-20">
         {/* <div className="application-info">
           <div>
             Recruitment for Spring 2024 consists of two rounds: a written
@@ -118,28 +116,42 @@ export default function Join() {
           </div>
         </div>
         <br></br> */}
-        <div className="big-black-title">Finding your fit</div>
-        <div
-          className="grid-container"
-          style={{ display: "flex", flexWrap: "wrap" }}
-        >
-          {tilesData.map((tile, index) => (
-            <Tile
-              key={index}
-              title={tile.title}
-              description={tile.description}
-            />
-          ))}
+
+        <hr className="border-b-2 border-purple-500" />
+
+        <div className="text-center p-8">
+          <h2>Testimonials</h2>
+          <div className="flex items-center justify-center">
+            <QuoteCarousel />
+          </div>
         </div>
+        <hr className="border-b-2 border-purple-500" />
+
+        <div className="text-center p-8">
+          <h2>A 3-Step Process</h2>
+          <div
+            className="grid-container"
+            style={{ display: "flex", flexWrap: "wrap" }}
+          >
+            {tilesData.map((tile, index) => (
+              <Tile
+                key={index}
+                title={tile.title}
+                description={tile.description}
+              />
+            ))}
+          </div>
+        </div>
+        <hr className="border-b-2 border-purple-500" />
 
         <br></br>
+        <hr className="border-b-2 border-purple-500" />
 
-        {/* an updated timeline will go up during recruitment season */}
         <div className="big-black-title">Recruitment Timeline</div>
         <Timeline />
 
         <br></br>
-        <br></br>
+        <hr className="border-b-2 border-purple-500" />
 
         <div className="big-black-title">What we're looking for</div>
         <div

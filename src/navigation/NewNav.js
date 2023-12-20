@@ -41,7 +41,7 @@ function NewNav() {
                 className="mr-2"
               >
                 <div style={{ color: "white", fontSize: 18 }}>
-                  <div style={{ color: "lightgray", fontSize: 18 }}>
+                  <div style={{ color: "lavender", fontSize: 18 }}>
                     <Clickable name={link} hoverColor="white"></Clickable>
                   </div>
                 </div>
