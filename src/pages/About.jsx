@@ -4,7 +4,7 @@ import { members } from "../data/members";
 import MemberCard from "../components/MemberCard";
 import { useMediaQuery } from "react-responsive";
 import TextBlock from "../components/TextBlock";
-import PageBanner from "../components/PageBanner";
+import PageHeader from "../components/PageHeader";
 import FilmStrip from "../components/FilmStrip"; // Make sure to import the FilmStrip component
 
 export default function About() {
@@ -40,7 +40,7 @@ export default function About() {
         "We believe that the best way to learn is by doing. Codify provides a space for students to build real-world software projects and gain industry experience.",
     },
     {
-      title: "Commmunity",
+      title: "Community",
       description:
         "Beyond the projects we work on, Codify is a community. From hosting social events, tech talks, and workshops, we foster a vibrant network of friends and mentors.",
     },
@@ -53,23 +53,14 @@ export default function About() {
 
   return (
     <div>
-      <PageBanner
-        backgroundImage={require("../assets/Images/General/gameGroup.JPG")}
-        title="We are Codify"
+      <PageHeader
+        title="Nice to meet you! We're Codify."
+        body="We're a community of developers, designers, and leaders collaborating with startups, which ensures that we work on a diverse range of projects. What we build is what the world sees,  ranging from full stack to data science to machine learning."
       />
 
       <br></br>
 
-      <TextBlock
-        title="What we build is what the world sees."
-        text="We are a community of developers, designers, and leaders collaborating primarily with startups, which ensures that we work on a diverse range of projects, ranging from full stack to data science and machine learning. This ensures that every member finds their niche within the technology industry. We are constantly building and maintaining new software from the ground up, uniquely allowing students to have a tangible impact on the design and architecture of the projects we work on."
-        isMobile={isMobileDevice}
-        marginLeft={isMobileDevice ? "0px" : "50px"}
-        marginRight={isMobileDevice ? "0px" : "350px"}
-      />
-      <hr className="border-b-2 border-purple-500" />
-
-      <div className="text-center">
+      <div className="text-center p-4">
         <h2>Our Mission & Values</h2>
         <p>
           Codify aims to foster a vibrant network of Berkeley students
@@ -87,19 +78,21 @@ export default function About() {
         ))}
       </div>
 
+      <FilmStrip images={imageUrls} />
+
       <hr className="border-b-2 border-purple-500" />
 
-      <div className="text-center">
+      <div className="text-center p-4">
         <h2>Our Structure</h2>
         <p>[insert leadership tree here]</p>
       </div>
       <hr className="border-b-2 border-purple-500" />
 
-      <FilmStrip images={imageUrls} />
+   
 
       <hr className="border-b-2 border-purple-500" />
 
-      <div className="text-center">
+      <div className="text-center p-4">
         <h2>Our Team</h2>
       </div>
       <div className="flex flex-wrap place-content-center">

@@ -1,7 +1,11 @@
 import React from "react";
 import "./Join.css";
+import { useMediaQuery } from "react-responsive";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Timeline from "../components/Timeline";
+import TextBlock from "../components/TextBlock";
+import PageHeader from "../components/PageHeader";
+import QuoteCarousel from "../components/QuoteCarousel";
 
 //Reusable Tile component
 function Tile({ title, description }) {
@@ -30,6 +34,10 @@ function FlipCard({ frontTitle, backContent }) {
 }
 
 export default function Join() {
+  const isMobileDevice = useMediaQuery({
+    query: "(max-width: 768px)", // Breakpoint
+  });
+
   const tilesData = [
     {
       title: "Project Team",
@@ -73,22 +81,43 @@ export default function Join() {
 
   return (
     <div>
-      <div className="header">
-        <h1>
-          Welcome to <span style={{ color: "#9741FD" }}>Codify</span>
-        </h1>
+      <PageHeader
+        title="Join Us!"
+        body=" Recruitment for Spring 2024 consists of two rounds: a written
+            application and then a solo interview. We are looking for students
+            who are passionate about learning and committed to growth. We strive
+            to keep our application process transparent, uncomplicated, and
+            equitable. Keep reading to see where you fit into Codify!"
+      />
+
+      <br></br>
+
+      <div className="text-center p-8">
+        <h2>Testimonials</h2>
+        <div className="flex items-center justify-center">
+          <QuoteCarousel />
+        </div>
       </div>
+
+      {/* <TextBlock
+        title="hello"
+        text="this is a test"
+        isMobile={isMobileDevice}
+        marginLeft={isMobileDevice ? "0px" : "50px"}
+        marginRight={isMobileDevice ? "0px" : "350px"}
+      /> */}
+
       <div className="p-20">
-        <div className="application-info">
+        {/* <div className="application-info">
           <div>
-            Applications open the first two weeks of every semester and are
-            reviewed on a rolling basis, after which EVERY applicant will be
-            given an interview. We strive to keep our application process
-            transparent, uncomplicated, and equitable. Keep reading to see where
-            you fit into Codify!
+            Recruitment for Spring 2024 consists of two rounds: a written
+            application and then a solo interview. We are looking for students
+            who are passionate about learning and committed to growth. We strive
+            to keep our application process transparent, uncomplicated, and
+            equitable. Keep reading to see where you fit into Codify!
           </div>
         </div>
-        <br></br>
+        <br></br> */}
         <div className="big-black-title">Finding your fit</div>
         <div
           className="grid-container"
@@ -108,7 +137,6 @@ export default function Join() {
         {/* an updated timeline will go up during recruitment season */}
         <div className="big-black-title">Recruitment Timeline</div>
         <Timeline />
-        
 
         <br></br>
         <br></br>

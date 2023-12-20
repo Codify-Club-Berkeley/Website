@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     colors: {
       "codify-purple": "#9741FD",
+      "navbar-purple": "#8658D0",
       "codify-lavender": "#B19CD8",
       "codify-light-purple": "#B57EE8",
       "subheader-gray": "#808080",

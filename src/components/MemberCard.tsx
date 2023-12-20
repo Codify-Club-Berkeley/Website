@@ -2,9 +2,9 @@ import React from "react";
 
 export default function MemberCard({ imagePath, name, title }) {
   return (
-    <div className="flex-col h-80 w-60 rounded-2xl shadow-lg overflow-hidden m-3">
+    <div className="flex-col h-80 w-60 shadow-lg overflow-hidden m-3">
       <img
-        className="h-60 w-full object-cover rounded-3xl p-3"
+        className="h-60 w-full object-cover p-3"
         src={imagePath}
         alt="alt"
       />

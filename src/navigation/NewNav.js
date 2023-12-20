@@ -12,9 +12,10 @@ function NewNav() {
     <Navbar
       expand="md"
       fixed="top"
+      className="sticky-top"
       style={{
-        backgroundColor: "#4d0e96",
-        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
+        backgroundColor: "#8658D0",
+        // boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
         paddingLeft: "60px",
         paddingRight: "60px",
       }}
