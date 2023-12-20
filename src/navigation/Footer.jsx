@@ -12,78 +12,78 @@ import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
 export default function Footer() {
   return (
-    <div class="flex flex-col sm:flex-row bg-footer-dark-purple justify-between p-4">
+    <div className="flex flex-col sm:flex-row bg-footer-light-gray justify-between p-4 sm:px-10">
       {/**Codify Berkeley Logo and Icon Links */}
-      <div class="flex flex-col">
-        <div class="text-left">
-          <h2 className="text-white text-xl">Codify Berkeley</h2>
-          <p className="text-white text-base">
-            A UC Berkeley Student Organization
+      <div className="flex flex-col">
+        <div className="text-left">
+          <h2 className="text-black text-xl">Codify Berkeley</h2>
+          <p className="text-black text-small">
+            @2023 UC Berkeley Student Organization
           </p>
         </div>
         {/**Link Icons */}
-        <div class="flex flex-row place-content-evenly">
+        <div className="flex flex-row place-content-evenly">
           <a
             href="https://github.com/Codify-Club-Berkeley"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white"
+            className="text-black"
           >
-            <BsGithub size="30"></BsGithub>
+            <BsGithub size="20"></BsGithub>
           </a>
           <a
             href="https://www.instagram.com/codifyberkeley/"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white"
+            className="text-black"
           >
-            <BsInstagram size="30"></BsInstagram>
+            <BsInstagram size="20"></BsInstagram>
           </a>
           <a
             href="https://www.linkedin.com/company/codify-berkeley/"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white"
+            className="text-black"
           >
-            <BsLinkedin size="30"></BsLinkedin>
+            <BsLinkedin size="20"></BsLinkedin>
           </a>
           <a
             href="https://discord.gg/mBEnPjDSQG"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white"
+            className="text-black"
           >
-            <BsDiscord size="30"></BsDiscord>
+            <BsDiscord size="20"></BsDiscord>
           </a>
           <a
             href="https://www.youtube.com/@codifyberkeley"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white"
+            className="text-black"
           >
-            <BsYoutube size="30"></BsYoutube>
+            <BsYoutube size="20"></BsYoutube>
           </a>
           <a
             href="https://open.spotify.com/playlist/3DVxp7bz1heKBx6S2hEmAY?si=d7e0c2e144fe44ed"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-white"
+            className="text-black"
           >
-            <BsSpotify size="30"></BsSpotify>
+            <BsSpotify size="20"></BsSpotify>
           </a>
         </div>
       </div>
 
       {/**Footer Links */}
-      <div class="flex flex-wrap space-x-3 place-content-around py-5 sm:py-0">
+      <div className="flex flex-wrap space-x-3 place-content-around py-5 sm:py-0">
         {footerLinks.map((link, index) => {
           // link.replace(/\s/g, "") removes all whitespace for the routing to work
           return (
             <Link
               to={"/" + lowercaseFooterLinks[index]}
-              class="no-underline hover:underline text-white hover:text-link-blue"
+              className="no-underline hover:underline text-black hover:text-link-blue"
             >
-              <h4 className="text-base font-normal">{link}</h4>
+              <h4 className="text-base font-small">{link}</h4>
             </Link>
           );
         })}

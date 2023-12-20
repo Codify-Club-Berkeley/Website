@@ -13,7 +13,16 @@ export default function Card(props) {
   };
 
   return (
-    <div style={{ padding: isMobileDevice ? "10px" : "10px", margin: "0px" }}>
+    <div
+      style={{
+        padding: isMobileDevice ? "10px" : "10px",
+        margin: "20px",
+        display: "flex",
+        width: "90%",
+        flexDirection: isMobileDevice ? "column" : "row",
+        alignItems: "center", // Center vertically
+      }}
+    >
       <div
         className={isMobileDevice ? "body-section-column" : "body-section-row"}
       >
@@ -22,9 +31,9 @@ export default function Card(props) {
           alt="placeholder"
           style={{
             paddingRight: isMobileDevice ? "0" : "60px", // Adjust spacing for mobile
-            // borderRadius: isMobileDevice ? "0" : "10px", // Adjust border radius for mobile
-            width: isMobileDevice ? "60%" : "350px", // Adjust width for mobile
-            height: isMobileDevice ? "auto" : "200px", // Adjust height for mobile
+            borderRadius: isMobileDevice ? "0" : "5px", // Adjust border radius for mobile
+            width: isMobileDevice ? "100%" : "500px", // Adjust width for mobile
+            height: isMobileDevice ? "auto" : "300px", // Adjust height for mobile
             objectFit: "cover",
           }}
         ></img>
@@ -36,9 +45,10 @@ export default function Card(props) {
           <div
             style={{
               flexDirection: "column",
+              padding: "20px",
             }}
           >
-            <h3>{props.header}</h3>
+            <h3 className="text-codify-purple">{props.header}</h3>
             <p>{props.body}</p>
             <Link to={props.link} className="link" onClick={scrollToTop}>
               <h3 style={{ color: "black" }}>

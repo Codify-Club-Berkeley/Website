@@ -2,7 +2,7 @@ export const footerLinks = [
   "About",
   "Join",
   "Projects",
-  "Education",
+  // "Education",
   "Work With Us",
 ];
 
@@ -11,6 +11,6 @@ export const lowercaseFooterLinks = [
   "about",
   "join",
   "projects",
-  "education",
+  // "education",
   "workwithus",
 ];

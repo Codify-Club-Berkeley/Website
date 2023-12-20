@@ -13,10 +13,10 @@ function NewNav() {
       expand="md"
       fixed="top"
       style={{
-        backgroundColor: "#9741FD",
+        backgroundColor: "#4d0e96",
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
-        paddingLeft: "20px",
-        paddingRight: "20px",
+        paddingLeft: "60px",
+        paddingRight: "60px",
       }}
     >
       <Navbar.Brand as={Link} to="/">
@@ -34,10 +34,13 @@ function NewNav() {
         <Nav className="">
           {footerLinks.map((link, index) => {
             return (
-              <Nav.Link as={Link} to={"/" + lowercaseFooterLinks[index]}>
-
-                <div style={{ color: "white", fontSize: 20 }}>
-                  <div style={{ color: "lavender", fontSize: 20 }}>
+              <Nav.Link
+                as={Link}
+                to={"/" + lowercaseFooterLinks[index]}
+                className="mr-2"
+              >
+                <div style={{ color: "white", fontSize: 18 }}>
+                  <div style={{ color: "lightgray", fontSize: 18 }}>
                     <Clickable name={link} hoverColor="white"></Clickable>
                   </div>
                 </div>
