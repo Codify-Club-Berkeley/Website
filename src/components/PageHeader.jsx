@@ -11,7 +11,7 @@ const PageHeader = ({ title, body }) => {
     // transition: "all 10s", // Adjust the transition duration
     background: `radial-gradient(circle at ${gradientPosition.x}px ${
       gradientPosition.y + 0
-    }px, rgba(176, 88, 208,0.3) 0%, rgba(255,255,255,0) 50%)`,
+    }px, rgba(176, 88, 208,0.5) 0%, rgba(255,255,255,0) 20%)`,
     zIndex: -1, // Set the z-index of the gradient
   };
 
