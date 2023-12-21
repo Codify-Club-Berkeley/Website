@@ -1,11 +1,21 @@
 import React from "react";
 import Button from "@mui/material/Button";
 
-const CustomButton = ({ size = "large", color = "#59544b", children, onClick }) => {
+const CustomButton = ({
+  size = "large",
+  color = "#59544b",
+  children,
+  onClick,
+}) => {
   const buttonStyle = {
     textTransform: "none",
     backgroundColor: color,
-    // You can add more custom styles here
+    border: "1px solid white",
+    borderRadius: "5px",
+    "&:hover": {
+      backgroundColor: "#25171A", // Change the color on hover
+      // Add more hover effect styles here
+    },
   };
 
   return (
@@ -13,7 +23,7 @@ const CustomButton = ({ size = "large", color = "#59544b", children, onClick }) 
       variant="contained"
       size={size}
       onClick={onClick}
-      style={buttonStyle}
+      sx={buttonStyle} // Use `sx` instead of `style` for Material-UI components
     >
       {children}
     </Button>
@@ -21,6 +31,3 @@ const CustomButton = ({ size = "large", color = "#59544b", children, onClick }) 
 };
 
 export default CustomButton;
-
-// 
-// #25171A

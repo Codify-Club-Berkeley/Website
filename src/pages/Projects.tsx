@@ -9,8 +9,6 @@ import { BADQUERY } from "dns";
 import PageHeader from "../components/PageHeader";
 import TextBlock from "../components/TextBlock";
 
-// Todo lock height when adding more tiles
-
 export default function ButtonBases() {
   const isMobileDevice = useMediaQuery({
     query: "(max-width: 768px)", // Breakpoint
@@ -74,8 +72,10 @@ export default function ButtonBases() {
       <div
         style={{ background: "linear-gradient(to bottom, white, #d9d9d9 )" }}
       >
-        <div className="body flex flex-wrap  justify-center">
+        <div className="body  flex-wrap  text-center">
           <h2>Current Projects</h2>
+          <br></br>
+          <p>Click into each project to learn more!</p>
         </div>
 
         <ModalView
@@ -110,7 +110,6 @@ export default function ButtonBases() {
                 ></ModalButton>
               );
             })}
-         
         </div>
       </div>
       <div

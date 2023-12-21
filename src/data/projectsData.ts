@@ -18,7 +18,7 @@ export const allProjectsData: Project[] = [
     aboutClient:
       "Homies is an organization dedicated to bringing choice and power to the disability industry. They offer a wide range of housing options and supportive roommates for adults with disabilities.",
     aboutProject:
-      "The objective of the Homies app is to help individuals with autism find a caregiver roommate. The app will provide a platform for individuals with autism and their parents/guardians to find and connect with potential roommates, and to share information about their needs and preferences in one place.",
+      "The app will provide a platform for individuals with autism and their parents/guardians to find and connect with potential caregiver roommates, and to share information about their needs and preferences in one place.",
     imgSource: "https://www.meethomies.com/wp-content/uploads/2023/07/logo.png",
     technologies: ["NextJS", "PostgreSQL", "TailwindCSS", "DigitalOcean"],
     linkIcons: ["Website"],
@@ -54,7 +54,7 @@ export const allProjectsData: Project[] = [
     shortDescription: "sproul.club reboot",
     aboutClient: "XXX is a club directory for UC Berkeley students. ",
     aboutProject:
-      "XXX is an interactive, online club directory for UC Berkeley students that makes filtering and finding organizations easy",
+      "XXX will be an application which connects students with clubs and organizations on the Berkeley campus. The platform will allow for clubs to post pertinent and up-to-date information about club culture, recruiting, and more!",
     imgSource:
       "https://images.squarespace-cdn.com/content/v1/5ce73121a5c3bd0001d046b3/1624924176393-2T6VIAXLX1HUALQHTURN/logo-01.png?format=2500w",
     technologies: [],
@@ -82,11 +82,13 @@ export const allProjectsData: Project[] = [
   {
     projectTitle: "Kopernicus AI",
     shortDescription: "Market analysis using AI tools for enterprises",
-    aboutClient: "Kopernicus AI is focused on [insert text] ",
-    aboutProject: "We are working on [insert text]",
+    aboutClient:
+      "Kopernicus is an AI powered data analytics and business intelligence platform that empowers businesses to understand threats, seize opportunities, and formulate strategies with unmatched precision. ",
+    aboutProject:
+      "We are building a data connector that allows companies to seamlessly import their accounting data from Quickbooks into the Kopernicus platform to power even more accurate and actionable insights",
     imgSource:
       "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/cg4pfmt3up843ubu2h5s",
-    technologies: ["React Native"],
+    technologies: ["React", "JavaScript"],
     linkIcons: ["Website"],
     linkDestinations: ["https://www.kopernicus.com/"],
     currentProject: false,
@@ -192,9 +194,10 @@ export const allProjectsData: Project[] = [
   },
   {
     projectTitle: "UCSF",
-    shortDescription: "Plant Directory and Digital Catalog",
+    shortDescription:
+      "Protein Clustering algorithm for Cystic Fibrosis Research ",
     aboutClient:
-      "We worked with Dr. Ruchika Bajaj on a research team to analyzing treatments for Cystic Fibrosis.",
+      "We worked with Dr. Ruchika Bajaj on a research team that is analyzing treatments for Cystic Fibrosis.",
     aboutProject:
       "We built a clustering algorithm to analyze h-bonds, contacts, and clashes to identify mutations in proteins using UCSF's open source ChimeraX software. ",
     imgSource: "https://www.ucsf.edu/themes/custom/ucsf/logo.svg",

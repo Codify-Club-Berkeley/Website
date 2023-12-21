@@ -66,16 +66,20 @@ export default function About() {
           Codify aims to foster a vibrant network of Berkeley students
           passionate about making tangible impacts with tech.
         </p>
-      </div>
 
-      <div
-        className="grid-container"
-        marginLeft={isMobileDevice ? "0px" : "100px"}
-        style={{ display: "flex", flexWrap: "wrap" }}
-      >
-        {tilesData.map((tile, index) => (
-          <Tile key={index} title={tile.title} description={tile.description} />
-        ))}
+        <div
+          className="grid-container"
+          marginLeft={isMobileDevice ? "0px" : "100px"}
+          style={{ display: "flex", flexWrap: "wrap" }}
+        >
+          {tilesData.map((tile, index) => (
+            <Tile
+              key={index}
+              title={tile.title}
+              description={tile.description}
+            />
+          ))}
+        </div>
       </div>
 
       <FilmStrip images={imageUrls} />

@@ -71,7 +71,7 @@ function QuoteCarousel() {
         onChangeIndex={(index) => setActiveStep(index)}
         enableMouseEvents
       >
-        {/* flexDirection: isMobile ? "column" : "row", */}
+       
         {quotes.map((quote, index) => (
           <Box
             key={index}

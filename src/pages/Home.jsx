@@ -5,11 +5,23 @@ import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import Button from "../components/Button";
 import Card from "../components/Card";
+import FilmStrip from "../components/FilmStrip";
+import { allProjectsData, Project } from "../data/projectsData";
+import ProjectCarousel from "../components/ProjectCarousel";
 
 export default function Home() {
   const isMobileDevice = useMediaQuery({
     query: "(max-width: 768px)",
   });
+
+  const imageUrls = [
+    require("../assets/Images/General/Cady_Andrea.JPG"),
+    require("../assets/Images/General/karaokeGroup.JPG"),
+    require("../assets/Images/General/gameGroup.JPG"),
+    require("../assets/Images/General/halloween1.JPG"),
+
+    // Add more image URLs as needed
+  ];
 
   return (
     <div className="marginTop: -90px">
@@ -51,14 +63,47 @@ export default function Home() {
           linkText="Our Team & Mission"
         ></Card>
 
+        <FilmStrip images={imageUrls} />
+
         {/* Card 2 */}
-        <Card
+        {/* <Card
           imageSource={require("../assets/Images/General/Elaine.png")}
           header="Building Impactful Tech"
           body="Every semester, Codify works on projects in web development, data analysis, mobile development, and other fields of computing that our members are passionate about. We uniquely focus on developing projects for startups and launching our own internal projects for the good of the community."
           link="/Projects"
-          linkText="View Projects"
+          linkText="View All Projects"
         ></Card>
+ */}
+
+        <div
+          style={{
+            padding: isMobileDevice ? "10px" : "10px",
+            margin: "20px",
+            display: "flex",
+            width: "90%",
+            flexDirection: isMobileDevice ? "column" : "row",
+            alignItems: "center", // Center vertically
+            justifyContent: "space-between", // Add this line to space items apart
+          }}
+          className={
+            isMobileDevice ? "body-section-column" : "body-section-row"
+          }
+        >
+          <div className="p-16" style={{ flex: 1 }}>
+            <h3 className="text-codify-purple">Building Impactful Tech</h3>
+            <p>
+              Every semester, Codify works on projects in web development, data
+              analysis, mobile development, and other fields of computing that
+              our members are passionate about. We uniquely focus on developing
+              projects for startups and launching our own internal projects for
+              the good of the community.
+            </p>
+            <Link to="/Projects">
+              <Button>View All Projects</Button>
+            </Link>
+          </div>
+          <ProjectCarousel projects={allProjectsData} />
+        </div>
 
         {/* Card 3 */}
         <Card
