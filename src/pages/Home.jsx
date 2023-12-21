@@ -42,7 +42,7 @@ export default function Home() {
 
           {/* Flex container for buttons */}
           <div className="flex justify-center">
-            <Link to="/Join" className="mr-4">
+            <Link to="/About" className="mr-4">
               <Button>Learn More</Button>
             </Link>
 
