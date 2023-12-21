@@ -49,6 +49,7 @@ function NewNav() {
                 activeClassName="active-link"
                 style={{
                   textDecoration: navLinkIsActive() ? "underline" : "none",
+                  textDecorationColor: navLinkIsActive() ? "lavender" : "white",
                   color: "white",
                   fontSize: 18,
                 }}

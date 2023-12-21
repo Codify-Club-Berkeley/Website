@@ -7,6 +7,8 @@ import Button from "@mui/material/Button";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import SwipeableViews from "react-swipeable-views";
+import useTheme from "@mui/system/useTheme";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const quotes = [
   {
@@ -41,6 +43,8 @@ const quotes = [
 function QuoteCarousel() {
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = quotes.length;
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => (prevActiveStep + 1) % maxSteps);
@@ -55,8 +59,9 @@ function QuoteCarousel() {
   return (
     <Box
       sx={{
-        maxWidth: 1000,
-        flexGrow: 1,
+        width: "100%", // Full width
+        maxWidth: 1000, // Adjust the maximum width as needed
+        margin: "auto", // Center the box
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Add the drop shadow
       }}
     >
@@ -65,16 +70,17 @@ function QuoteCarousel() {
         onChangeIndex={(index) => setActiveStep(index)}
         enableMouseEvents
       >
+
+{/* flexDirection: isMobile ? "column" : "row", */}
         {quotes.map((quote, index) => (
           <Box
             key={index}
             display="flex"
-            flexDirection="row"
             alignItems="center"
             padding={4}
             sx={{
+              flexDirection: isMobile ? "column" : "row",
               width: "100%",
-              maxWidth: 1000,
               boxSizing: "border-box", // Ensure padding is included in the width
             }}
           >

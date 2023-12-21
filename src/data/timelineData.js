@@ -53,8 +53,8 @@ export const timelineData = [
     date: "1/28/23-1/29/24",
   },
   {
-    title: "Application Decisions Released",
-    description: "We will release decisions deliberation.",
+    title: "Decisions Released",
+    description: "Check your email to see if you've been accepted!",
     date: "2/1/24",
   },
 

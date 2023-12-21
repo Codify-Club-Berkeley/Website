@@ -11,7 +11,7 @@ export default function MemberCard({ imagePath, name, title }) {
 
       <div className="ml-2">
         <h3 className="text-xl font-semibold mb-2">{name}</h3>
-        <p className="text-gray-600">{title}</p>
+        <p className="text-gray-600" >{title}</p>
       </div>
     </div>
   );

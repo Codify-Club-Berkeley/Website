@@ -88,10 +88,6 @@ export default function About() {
       </div>
       <hr className="border-b-2 border-purple-500" />
 
-   
-
-      <hr className="border-b-2 border-purple-500" />
-
       <div className="text-center p-4">
         <h2>Our Team</h2>
       </div>
