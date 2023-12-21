@@ -63,6 +63,7 @@ function QuoteCarousel() {
         maxWidth: 1000, // Adjust the maximum width as needed
         margin: "auto", // Center the box
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Add the drop shadow
+        backgroundColor: "white",
       }}
     >
       <SwipeableViews
@@ -70,8 +71,7 @@ function QuoteCarousel() {
         onChangeIndex={(index) => setActiveStep(index)}
         enableMouseEvents
       >
-
-{/* flexDirection: isMobile ? "column" : "row", */}
+        {/* flexDirection: isMobile ? "column" : "row", */}
         {quotes.map((quote, index) => (
           <Box
             key={index}

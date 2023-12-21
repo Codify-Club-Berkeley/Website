@@ -26,8 +26,8 @@ export default function About() {
   //Reusable Tile component
   function Tile({ title, description }) {
     return (
-      <div className="grid-item">
-        <div className="pathway-title">{title}</div>
+      <div className="grid-item  p-4 sm:flex sm:flex-col sm:items-center">
+        <div className="text-xl font-bold mb-2">{title}</div>
         <p>{description}</p>
       </div>
     );
@@ -83,15 +83,12 @@ export default function About() {
       <hr className="border-b-2 border-purple-500" />
 
       <div className="text-center p-4">
-        <h2>Our Structure</h2>
-        <p>[insert leadership tree here]</p>
-      </div>
-      <hr className="border-b-2 border-purple-500" />
-
-      <div className="text-center p-4">
         <h2>Our Team</h2>
       </div>
-      <div className="flex flex-wrap place-content-center">
+      <div
+        style={{ marginLeft: "5rem", marginRight: "5rem" }}
+        className="flex flex-wrap justify-center"
+      >
         {members.map(({ imagePath, name, title }) => (
           <MemberCard name={name} title={title} imagePath={imagePath} />
         ))}

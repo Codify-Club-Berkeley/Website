@@ -56,25 +56,7 @@ export default function ButtonBases() {
           <span style={{ color: "#9641FD" }}>Codify's</span> Work
         </h1>
       </div> */}
-
       <div className="body m-4">
-        {/* <p>
-          Projects are Codify’s lifeblood. Each semester, we give members the
-          opportunity to work on projects ranging from full stack mobile and web
-          development to building machine learning models.
-          <p></p>
-          Our projects fall under two main categories: internal and client
-          projects. Internal projects are either an individual member's personal
-          passion project, or a startup being launched through the club. Client
-          projects may be for-profit or non-profit. For-profit clients pay
-          Codify to complete a project that assists their business. Non-profit
-          client projects are completed pro-bono for an organization with a
-          mission that Codify supports. Internal projects are either an
-          individual member's personal passion project, or a startup being
-          launched through the club.
-        </p> */}
-        <br />
-
         <TextBlock
           title="Continued Support"
           text=" We actively maintain all of projects to ensure a product that people
@@ -89,60 +71,76 @@ export default function ButtonBases() {
         />
       </div>
       <hr className="border-b-2 border-purple-500" />
-      <div className="body flex flex-wrap place-content-center">
-        <h2>Current Projects</h2>
-      </div>
+      <div
+        style={{ background: "linear-gradient(to bottom, white, #d9d9d9 )" }}
+      >
+        <div className="body flex flex-wrap  justify-center">
+          <h2>Current Projects</h2>
+        </div>
 
-      <ModalView
-        visible={isModalOpen}
-        data={modalData}
-        handleModalClick={handleModalClick}
-        closeModal={closeModal}
-      ></ModalView>
+        <ModalView
+          visible={isModalOpen}
+          data={modalData}
+          handleModalClick={handleModalClick}
+          closeModal={closeModal}
+        ></ModalView>
 
-      {/* Current Projects */}
-      <div className="flex flex-wrap place-content-center">
-        {allProjectsData
-          .filter((project) => project.currentProject)
-          .map((project) => {
-            return (
-              <ModalButton
-                projectTitle={project.projectTitle}
-                shortDescription={project.shortDescription}
-                aboutClient={project.aboutClient}
-                aboutProject={project.aboutProject}
-                imgSource={project.imgSource}
-                technologies={project.technologies}
-                linkIcons={project.linkIcons}
-                linkDestinations={project.linkDestinations}
-                openModal={openModal}
-              ></ModalButton>
-            );
-          })}
+        {/* Current Projects */}
+        <div
+          style={{
+            marginLeft: "10rem",
+            marginRight: "10rem",
+          }}
+          className="flex flex-wrap justify-center p-4"
+        >
+          {allProjectsData
+            .filter((project) => project.currentProject)
+            .map((project) => {
+              return (
+                <ModalButton
+                  projectTitle={project.projectTitle}
+                  shortDescription={project.shortDescription}
+                  aboutClient={project.aboutClient}
+                  aboutProject={project.aboutProject}
+                  imgSource={project.imgSource}
+                  technologies={project.technologies}
+                  linkIcons={project.linkIcons}
+                  linkDestinations={project.linkDestinations}
+                  openModal={openModal}
+                ></ModalButton>
+              );
+            })}
+         
+        </div>
       </div>
-      <hr className="border-b-2 border-purple-500" />
-
-      <div className="body flex flex-wrap place-content-center">
-        <h2>Past Projects</h2>
-      </div>
-      <div className="flex flex-wrap place-content-center">
-        {allProjectsData
-          .filter((project) => !project.currentProject)
-          .map((project) => {
-            return (
-              <ModalButton
-                projectTitle={project.projectTitle}
-                shortDescription={project.shortDescription}
-                aboutClient={project.aboutClient}
-                aboutProject={project.aboutProject}
-                imgSource={project.imgSource}
-                technologies={project.technologies}
-                linkIcons={project.linkIcons}
-                linkDestinations={project.linkDestinations}
-                openModal={openModal}
-              ></ModalButton>
-            );
-          })}
+      <div
+        style={{ background: "linear-gradient(to bottom,#d9d9d9,  white )" }}
+      >
+        <div className="body flex flex-wrap p-4 mt-1">
+          <h2>Past Projects</h2>
+        </div>
+        <div
+          style={{ marginLeft: "10rem", marginRight: "10rem" }}
+          className="flex flex-wrap justify-center"
+        >
+          {allProjectsData
+            .filter((project) => !project.currentProject)
+            .map((project) => {
+              return (
+                <ModalButton
+                  projectTitle={project.projectTitle}
+                  shortDescription={project.shortDescription}
+                  aboutClient={project.aboutClient}
+                  aboutProject={project.aboutProject}
+                  imgSource={project.imgSource}
+                  technologies={project.technologies}
+                  linkIcons={project.linkIcons}
+                  linkDestinations={project.linkDestinations}
+                  openModal={openModal}
+                ></ModalButton>
+              );
+            })}
+        </div>
       </div>
     </div>
   );

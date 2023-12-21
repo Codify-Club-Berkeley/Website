@@ -13,40 +13,53 @@ export type Project = {
 export const allProjectsData: Project[] = [
   {
     projectTitle: "Homies",
-    shortDescription: "blank",
-    aboutClient: "Kopernicus AI is focused on [insert text] ",
-    aboutProject: "We are working on [insert text]",
-    imgSource:
-      "",
-    technologies: ["React Native"],
+    shortDescription:
+      "California's life-sharing program for people with disabilities",
+    aboutClient:
+      "Homies is an organization dedicated to bringing choice and power to the disability industry. They offer a wide range of housing options and supportive roommates for adults with disabilities.",
+    aboutProject:
+      "The objective of the Homies app is to help individuals with autism find a caregiver roommate. The app will provide a platform for individuals with autism and their parents/guardians to find and connect with potential roommates, and to share information about their needs and preferences in one place.",
+    imgSource: "https://www.meethomies.com/wp-content/uploads/2023/07/logo.png",
+    technologies: ["NextJS", "PostgreSQL", "TailwindCSS", "DigitalOcean"],
     linkIcons: ["Website"],
-    linkDestinations: ["https://www.kopernicus.com/"],
+    linkDestinations: ["https://www.meethomies.com/"],
     currentProject: true,
   },
 
   {
     projectTitle: "DayToDay",
-    shortDescription: "blank",
-    aboutClient: "Kopernicus AI is focused on [insert text] ",
-    aboutProject: "We are working on [insert text]",
-    imgSource:
-      "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
-    technologies: ["React Native"],
-    linkIcons: ["Website"],
-    linkDestinations: ["https://www.kopernicus.com/"],
+    shortDescription:
+      "The social location sharing app for your day-to-day life.",
+    aboutClient:
+      "DayToDay is an app that shares your location with your friends for the past 24 hours as a trail on the map. You can post stories, which are shown on the map and on a feed, and you can DM your friends - something to be used day-to-day. ",
+    aboutProject:
+      "Our project will help DayToday construct a universal search engine to search within your circles,for  places, and for nearby events.",
+    imgSource: "https://day.today/og.png",
+    technologies: [
+      "Python",
+      "DigitalOcean",
+      "ElasticSearch",
+      "Logstash",
+      "Kibana",
+    ],
+    linkIcons: ["App Store"],
+    linkDestinations: [
+      "https://apps.apple.com/us/app/daytoday-your-social-map/id6449508417",
+    ],
     currentProject: true,
   },
 
   {
     projectTitle: "XXX",
     shortDescription: "sproul.club reboot",
-    aboutClient: "Kopernicus AI is focused on [insert text] ",
-    aboutProject: "We are working on [insert text]",
+    aboutClient: "XXX is a club directory for UC Berkeley students. ",
+    aboutProject:
+      "XXX is an interactive, online club directory for UC Berkeley students that makes filtering and finding organizations easy",
     imgSource:
-      "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
-    technologies: ["React Native"],
-    linkIcons: ["Website"],
-    linkDestinations: ["https://www.kopernicus.com/"],
+      "https://images.squarespace-cdn.com/content/v1/5ce73121a5c3bd0001d046b3/1624924176393-2T6VIAXLX1HUALQHTURN/logo-01.png?format=2500w",
+    technologies: [],
+    linkIcons: [],
+    linkDestinations: [],
     currentProject: true,
   },
 
@@ -72,7 +85,7 @@ export const allProjectsData: Project[] = [
     aboutClient: "Kopernicus AI is focused on [insert text] ",
     aboutProject: "We are working on [insert text]",
     imgSource:
-      "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
+      "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/cg4pfmt3up843ubu2h5s",
     technologies: ["React Native"],
     linkIcons: ["Website"],
     linkDestinations: ["https://www.kopernicus.com/"],

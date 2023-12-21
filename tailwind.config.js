@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    
     colors: {
       "codify-purple": "#9741FD",
       "navbar-purple": "#8658D0",

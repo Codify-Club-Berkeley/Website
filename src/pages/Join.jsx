@@ -42,7 +42,7 @@ export default function Join() {
 
   const tilesData = [
     {
-      title: "1. Attend Recruiting Events",
+      title: "1. Recruiting Events",
       description:
         "Learn more about Codify and meet our members! We will be hosting a variety of events, including infosessions, mixers, and socials.",
     },
@@ -120,12 +120,13 @@ Provide a 24-hour prior notice to your project team for any unavoidable absence
 
       <hr className="border-b-2 border-purple-500" />
 
-      <div className="text-center p-8">
+      <div style={{ background: "linear-gradient(to bottom,  white,#ebebeb)" }} className="text-center p-8">
         <h2>Testimonials</h2>
         <div className="flex items-center justify-center">
           <QuoteCarousel />
         </div>
       </div>
+
       <hr className="border-b-2 border-purple-500" />
 
       <div className="text-center p-8">
@@ -143,17 +144,16 @@ Provide a 24-hour prior notice to your project team for any unavoidable absence
           ))}
         </div>
       </div>
-      <hr className="border-b-2 border-purple-500" />
 
       <br></br>
 
-      <div className="big-black-title p-4">Recruitment Timeline</div>
-      <div className="mx-8 md:mx-8 lg:mx-2 xl:mx-80 3xl:mx-80">
-        <Timeline />
+      <div style={{ background: "linear-gradient(to left,  white,#ebebeb)" }}>
+        <div className="big-black-title p-4">Recruitment Timeline</div>
+        <div className="mx-8 md:mx-8 lg:mx-2 xl:mx-80 3xl:mx-80">
+          <Timeline />
+        </div>
       </div>
-
       <br></br>
-      <hr className="border-b-2 border-purple-500" />
 
       <div className="big-black-title">Our Ideal Applicant</div>
       <div
