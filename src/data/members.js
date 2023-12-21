@@ -12,13 +12,13 @@ export const members = [
   },
 
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Andrea Lou.JPG"),
     name: "Andrea Lou",
     title: "Treasurer",
   },
 
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Krista Morales.JPG"),
     name: "Krista Morales",
     title: "Culture Director",
   },

@@ -47,12 +47,12 @@ export default function Join() {
         "Learn more about Codify and meet our members! We will be hosting a variety of events, including infosessions, mixers, and socials.",
     },
     {
-      title: "2. Written Application",
+      title: "2. Application",
       description:
         "Complete a brief application to tell us more about yourself and your interests. You will be asked to indicate interest in a particular project.",
     },
     {
-      title: "3. Solo Interview",
+      title: "3. Interview",
       description:
         "Meet with interviewers for a 20-minute solo interview to discuss your application and your goals for the semester.",
     },
@@ -107,16 +107,6 @@ Provide a 24-hour prior notice to your project team for any unavoidable absence
         marginRight={isMobileDevice ? "0px" : "200px"}
       />
 
-      {/* <div className="application-info">
-          <div>
-            Recruitment for Spring 2024 consists of two rounds: a written
-            application and then a solo interview. We are looking for students
-            who are passionate about learning and committed to growth. We strive
-            to keep our application process transparent, uncomplicated, and
-            equitable. Keep reading to see where you fit into Codify!
-          </div>
-        </div>
-        <br></br> */}
 
       <hr className="border-b-2 border-purple-500" />
 
