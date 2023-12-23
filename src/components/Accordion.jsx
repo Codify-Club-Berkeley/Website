@@ -1,4 +1,3 @@
-
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -10,6 +9,7 @@ function AccordionItem({ eventKey, header, body }) {
     </Accordion.Item>
   );
 }
+
 function CustomAccordion({ items }) {
   return (
     <Accordion defaultActiveKey={["0"]} flush alwaysOpen>
@@ -21,5 +21,8 @@ function CustomAccordion({ items }) {
           body={item.body}
         />
       ))}
+    </Accordion>
+  );
+}
 
 export default CustomAccordion;
