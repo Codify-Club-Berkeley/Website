@@ -1,20 +1,44 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link, Route, Routes } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 import Clickable from "../components/ClickableText";
 
-//https://react-bootstrap.github.io/components/navbar/#navbar-props
 function NewNav() {
+  const location = useLocation();
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isScrolledDown = prevScrollPos < currentScrollPos;
+
+      // If scrolling down, hide the Navbar; if scrolling up, show it
+      setIsVisible(!isScrolledDown || currentScrollPos === 0);
+
+      prevScrollPos = currentScrollPos;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <Navbar
       expand="md"
       fixed="top"
+      className={`transition-all duration-300 ${
+        isVisible
+          ? "bg-navbar-purple text-white"
+          : "bg-navbar-purple-transparent"
+      }`}
       style={{
-        backgroundColor: "#4d0e96",
-        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
         paddingLeft: "60px",
         paddingRight: "60px",
       }}
@@ -23,26 +47,36 @@ function NewNav() {
         <img
           src={require("../assets/Images/Codify Berkeley.png")}
           alt="error"
-          style={{ height: 60 }}
-        ></img>
+          style={{ height: 45, opacity: isVisible ? 1 : 0 }}
+        />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse
         id="basic-navbar-nav"
         style={{ flexDirection: "row-reverse" }}
       >
-        <Nav className="">
+        <Nav>
           {footerLinks.map((link, index) => {
+            const navLinkIsActive = () => {
+              return location.pathname === "/" + lowercaseFooterLinks[index];
+            };
+
             return (
               <Nav.Link
-                as={Link}
+                as={NavLink}
                 to={"/" + lowercaseFooterLinks[index]}
                 className="mr-2"
+                activeClassName="active-link"
+                style={{
+                  opacity: isVisible ? 1 : 0,
+                  textDecoration: navLinkIsActive() ? "underline" : "none",
+                  textDecorationColor: navLinkIsActive() ? "lavender" : "white",
+                  fontSize: 16,
+                }}
+                key={index}
               >
-                <div style={{ color: "white", fontSize: 18 }}>
-                  <div style={{ color: "lightgray", fontSize: 18 }}>
-                    <Clickable name={link} hoverColor="white"></Clickable>
-                  </div>
+                <div style={{ color: "lavender", fontSize: 16 }}>
+                  <Clickable name={link} hoverColor="white" />
                 </div>
               </Nav.Link>
             );

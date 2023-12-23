@@ -35,6 +35,20 @@ export const technologyLogos = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
   Figma:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+  NextJS:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  PostgreSQL:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  TailwindCSS:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+  DigitalOcean:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
+  ElasticSearch:
+    "https://user-images.githubusercontent.com/9143253/47912437-f749bc00-de98-11e8-9669-e97f58b8be2e.png",
+  Logstash:
+    "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt8b679e63f2b49b27/5d082d93877575d0584761c0/logo-logstash-32-color.svg",
+  Kibana:
+    "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt4466841eed0bf232/5d082a5e97f2babb5af907ee/logo-kibana-32-color.svg",
 };
 
 // While the text for the technology logos is always just the name of the tecnology, for linking to the github repo,

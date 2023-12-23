@@ -12,7 +12,7 @@ import { footerLinks, lowercaseFooterLinks } from "../data/navBarLinks";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col sm:flex-row bg-footer-light-gray justify-between p-4 sm:px-10">
+    <div className="flex flex-grow   sm:flex-row bg-footer-light-gray justify-between p-4 sm:px-10">
       {/**Codify Berkeley Logo and Icon Links */}
       <div className="flex flex-col">
         <div className="text-left">
