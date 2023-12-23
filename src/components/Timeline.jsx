@@ -27,7 +27,7 @@ function TimelineItem({ title, date, description, subHeading = "" }) {
       {/** Timeline Item on the right */}
       <div>
         <span class="text-subheader-gray">{date}</span>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <span class="text-subheader-gray font-semibold">{subHeading}</span>
         {subHeading && <br></br>}
         {description}

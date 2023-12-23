@@ -11,46 +11,103 @@ export type Project = {
 };
 
 export const allProjectsData: Project[] = [
-  // {
-  //   projectTitle: "SkyPortal",
-  //   shortDescription: "Scientific tool for astronomical data analysis",
-  //   aboutClient:
-  //     "SkyPortal is a web application that interactively displays astronomical datasets for annotation, analysis, and discovery. It is designed to be modular and extensible, so it can be customized for various scientific use-cases.",
-  //   aboutProject:
-  //     "We are working on a frontend redesign of the SkyPortal web application, as well as making larger structural changes to the application.",
-  //   imgSource: "https://skyportal.io/static/skyportal_logo.png",
-  //   technologies: ["React Native"],
-  //   linkIcons: ["GitHub", "Website"],
-  //   linkDestinations: [
-  //     "https://github.com/skyportal/skyportal",
-  //     "https://skyportal.io/",
-  //   ],
-  //   currentProject: true,
-  // },
-  // {
-  //   projectTitle: "Kopernicus AI",
-  //   shortDescription: "Market analysis using AI tools for enterprises",
-  //   aboutClient: "Kopernicus AI is focused on [insert text] ",
-  //   aboutProject: "We are working on [insert text]",
-  //   imgSource:
-  //     "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
-  //   technologies: ["React Native"],
-  //   linkIcons: ["Website"],
-  //   linkDestinations: ["https://www.kopernicus.com/"],
-  //   currentProject: true,
-  // },
-  // {
-  //   projectTitle: "TrailMarker",
-  //   shortDescription: "Mobile app to connect you to nearby events and activities ",
-  //   aboutClient: "Trailmarker is a platform that allows people find fun activities in the area and also earn prizes for attending events. ",
-  //   aboutProject: "We are building a platform which displays to users nearby destinations and events that are going on, implementing a login portal, an interactive map, and more.",
-  //   imgSource: "",
-  //     // "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
-  //   technologies: ["Flutter", "Firebase"],
-  //   linkIcons: [],
-  //   linkDestinations: [],
-  //   currentProject: true,
-  // },
+  {
+    projectTitle: "Homies",
+    shortDescription:
+      "California's life-sharing program for people with disabilities",
+    aboutClient:
+      "Homies is an organization dedicated to bringing choice and power to the disability industry. They offer a wide range of housing options and supportive roommates for adults with disabilities.",
+    aboutProject:
+      "The app will provide a platform for individuals with autism and their parents/guardians to find and connect with potential caregiver roommates, and to share information about their needs and preferences in one place.",
+    imgSource: "https://www.meethomies.com/wp-content/uploads/2023/07/logo.png",
+    technologies: ["NextJS", "PostgreSQL", "TailwindCSS", "DigitalOcean"],
+    linkIcons: ["Website"],
+    linkDestinations: ["https://www.meethomies.com/"],
+    currentProject: true,
+  },
+
+  {
+    projectTitle: "DayToDay",
+    shortDescription:
+      "The social location sharing app for your day-to-day life.",
+    aboutClient:
+      "DayToDay is an app that shares your location with your friends for the past 24 hours as a trail on the map. You can post stories, which are shown on the map and on a feed, and you can DM your friends - something to be used day-to-day. ",
+    aboutProject:
+      "Our project will help DayToday construct a universal search engine to search within your circles,for  places, and for nearby events.",
+    imgSource: "https://day.today/og.png",
+    technologies: [
+      "Python",
+      "DigitalOcean",
+      "ElasticSearch",
+      "Logstash",
+      "Kibana",
+    ],
+    linkIcons: ["App Store"],
+    linkDestinations: [
+      "https://apps.apple.com/us/app/daytoday-your-social-map/id6449508417",
+    ],
+    currentProject: true,
+  },
+
+  {
+    projectTitle: "XXX",
+    shortDescription: "sproul.club reboot",
+    aboutClient: "XXX is a club directory for UC Berkeley students. ",
+    aboutProject:
+      "XXX will be an application which connects students with clubs and organizations on the Berkeley campus. The platform will allow for clubs to post pertinent and up-to-date information about club culture, recruiting, and more!",
+    imgSource:
+      "https://images.squarespace-cdn.com/content/v1/5ce73121a5c3bd0001d046b3/1624924176393-2T6VIAXLX1HUALQHTURN/logo-01.png?format=2500w",
+    technologies: [],
+    linkIcons: [],
+    linkDestinations: [],
+    currentProject: true,
+  },
+
+  {
+    projectTitle: "SkyPortal",
+    shortDescription: "Scientific tool for astronomical data analysis",
+    aboutClient:
+      "SkyPortal is a web application that interactively displays astronomical datasets for annotation, analysis, and discovery. It is designed to be modular and extensible, so it can be customized for various scientific use-cases.",
+    aboutProject:
+      "We are working on a frontend redesign of the SkyPortal web application, as well as making larger structural changes to the application.",
+    imgSource: "https://skyportal.io/static/skyportal_logo.png",
+    technologies: ["React Native"],
+    linkIcons: ["GitHub", "Website"],
+    linkDestinations: [
+      "https://github.com/skyportal/skyportal",
+      "https://skyportal.io/",
+    ],
+    currentProject: false,
+  },
+  {
+    projectTitle: "Kopernicus AI",
+    shortDescription: "Market analysis using AI tools for enterprises",
+    aboutClient:
+      "Kopernicus is an AI powered data analytics and business intelligence platform that empowers businesses to understand threats, seize opportunities, and formulate strategies with unmatched precision. ",
+    aboutProject:
+      "We are building a data connector that allows companies to seamlessly import their accounting data from Quickbooks into the Kopernicus platform to power even more accurate and actionable insights",
+    imgSource:
+      "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/cg4pfmt3up843ubu2h5s",
+    technologies: ["React", "JavaScript"],
+    linkIcons: ["Website"],
+    linkDestinations: ["https://www.kopernicus.com/"],
+    currentProject: false,
+  },
+  {
+    projectTitle: "TrailMarker",
+    shortDescription:
+      "Mobile app to connect you to nearby events and activities ",
+    aboutClient:
+      "Trailmarker is a platform that allows people find fun activities in the area and also earn prizes for attending events. ",
+    aboutProject:
+      "We are building a platform which displays to users nearby destinations and events that are going on, implementing a login portal, an interactive map, and more.",
+    imgSource: "",
+    // "https://uploads-ssl.webflow.com/641972dc646e3e6408706267/641972dc646e3edd27706318_Kopernicus-Logo_Primary.jpg",
+    technologies: ["Flutter", "Firebase"],
+    linkIcons: [],
+    linkDestinations: [],
+    currentProject: true,
+  },
   {
     projectTitle: "Scribble AI",
     shortDescription: "Build a keyboard that allows you to use AI anywhere",
@@ -99,7 +156,7 @@ export const allProjectsData: Project[] = [
     technologies: ["Flutter", "Firebase", "Express", "NodeJS"],
     linkIcons: ["Website"],
     linkDestinations: ["https://www.postosocial.com/"],
-    currentProject: true,
+    currentProject: false,
   },
   {
     projectTitle: "SWiiFT",
@@ -133,13 +190,14 @@ export const allProjectsData: Project[] = [
       "https://github.com/Codify-Club-Berkeley/garden-app",
       "https://www.ruthbancroftgarden.org/",
     ],
-    currentProject: true,
+    currentProject: false,
   },
   {
     projectTitle: "UCSF",
-    shortDescription: "Plant Directory and Digital Catalog",
+    shortDescription:
+      "Protein Clustering algorithm for Cystic Fibrosis Research ",
     aboutClient:
-      "We worked with Dr. Ruchika Bajaj on a research team to analyzing treatments for Cystic Fibrosis.",
+      "We worked with Dr. Ruchika Bajaj on a research team that is analyzing treatments for Cystic Fibrosis.",
     aboutProject:
       "We built a clustering algorithm to analyze h-bonds, contacts, and clashes to identify mutations in proteins using UCSF's open source ChimeraX software. ",
     imgSource: "https://www.ucsf.edu/themes/custom/ucsf/logo.svg",

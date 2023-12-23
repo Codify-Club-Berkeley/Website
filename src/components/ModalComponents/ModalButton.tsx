@@ -57,14 +57,14 @@ const ProjectCard = ({
   //   console.log(technologies);
   return (
     <div className="card w-96 bg-base-100 shadow-xl hover:-translate-y-3 duration-300 z-2">
-      <div className="h-100">
+      <div className="h-80 flex flex-col mt-auto">
         <figure>
           <img className="h-24 pt-2" src={imgSource} alt={projectTitle} />
         </figure>
         <div className="card-body">
           <h2 className="text-center">{projectTitle}</h2>
-          <p className="text-sm">{shortDescription}</p>
-          <div className="mt-4 flex flex-wrap">
+          <p className="text-sm mb-0  ">{shortDescription}</p>
+          <div className="flex flex-wrap mt-0">
             {technologies.map((technology) => {
               return (
                 <TechnologyBadge
