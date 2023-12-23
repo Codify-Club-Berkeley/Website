@@ -1,3 +1,4 @@
+
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -20,8 +21,5 @@ function CustomAccordion({ items }) {
           body={item.body}
         />
       ))}
-    </Accordion>
-  );
-}
 
 export default CustomAccordion;
