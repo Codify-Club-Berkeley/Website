@@ -5,7 +5,6 @@ import { useMediaQuery } from "react-responsive";
 import ModalButton from "../components/ModalComponents/ModalButton";
 import ModalView from "../components/ModalComponents/ModalView";
 import { allProjectsData, Project } from "../data/projectsData";
-import { BADQUERY } from "dns";
 import PageHeader from "../components/PageHeader";
 import TextBlock from "../components/TextBlock";
 
@@ -61,7 +60,7 @@ export default function ButtonBases() {
           will continue to use for years to come. This not only ensures all of
           our hand work isn't for nothing, but it encourages writing
           maintainable code and minimizing technical debt. If you see a project
-          here you would like to work on, you can!
+          here you would like to work on, you can.
 "
           isMobile={isMobileDevice}
           marginLeft={isMobileDevice ? "0px" : "100px"}

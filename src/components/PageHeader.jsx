@@ -11,13 +11,13 @@ const PageHeader = ({ title, body }) => {
     // transition: "all 10s", // Adjust the transition duration
     background: `radial-gradient(circle at ${gradientPosition.x}px ${
       gradientPosition.y + 0
-    }px, rgba(176, 88, 208,0.5) 0%, rgba(255,255,255,0) 20%)`,
+    }px, rgba(176, 88, 208,0.5) 0%, rgba(134, 88, 208,1) 40%)`,
     zIndex: -1, // Set the z-index of the gradient
   };
 
   return (
     <div
-      className="bg-navbar-purple text-white p-8 md:p-16 sticky top-0 lg-shadow relative"
+      className="bg-navbar-purple text-white p-8 md:p-16 sticky top-0 lg-shadow"
       style={{
         marginTop: "-120px",
         minHeight: "20rem",
