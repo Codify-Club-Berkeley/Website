@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader";
 import CustomAccordion from "../components/Accordion";
 import TextBlock from "../components/TextBlock";
 import { useMediaQuery } from "react-responsive";
-import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/Unused/ContactForm";
 
 export default function WorkWithUs() {
   const isMobileDevice = useMediaQuery({
@@ -59,20 +59,22 @@ export default function WorkWithUs() {
       <br></br>
 
       <div
-        className="p-3 m-8"
-        style={{ backgroundColor: "#d9d9d9", textAlign: "center" }}
+        className="p-3 mx-8"
+        style={{
+          backgroundColor: "#f5f5f5",
+          textAlign: "center",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+        }}
       >
         <h5>
           To inquire about working with Codify or joining Codify, please email
           us at{" "}
         </h5>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=codify.berkeley@gmail.com">
-          <h4 // update hyperlink
-          >
-            codify.berkeley@gmail.com
-          </h4>
+          <h4>codify.berkeley@gmail.com</h4>
         </a>
       </div>
+      <br></br>
 
       <TextBlock
         title="Questions for Us"
