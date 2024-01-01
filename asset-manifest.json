@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc671aff.css",
-    "main.js": "/static/js/main.6d831a3b.js",
-    "static/media/sp23Group.jpg": "/static/media/sp23Group.952c7ea09dd9cb6fec17.jpg",
-    "static/media/Elaine.png": "/static/media/Elaine.19f9ab1c2f3b2bcc16c0.png",
+    "main.css": "/static/css/main.21284a6f.css",
+    "main.js": "/static/js/main.677dc7b3.js",
+    "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
+    "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
+    "static/media/karaokeGroup.JPG": "/static/media/karaokeGroup.242e160dc9140314299b.JPG",
+    "static/media/halloween1.JPG": "/static/media/halloween1.418369fcb4cd37b5d9c2.JPG",
+    "static/media/donutGroup.JPEG": "/static/media/donutGroup.129b0925214326474a45.JPEG",
+    "static/media/donutClose.JPEG": "/static/media/donutClose.e2c5fcd505240b7bd54a.JPEG",
+    "static/media/team.jpeg": "/static/media/team.486ee1a6526b1cef8947.jpeg",
     "static/media/Kyle Casbon.JPG": "/static/media/Kyle Casbon.fdbeab59240adda07e4c.JPG",
-    "static/media/Sydney Tsai.jpeg": "/static/media/Sydney Tsai.575dddeaa575c9ef9b50.jpeg",
-    "static/media/Satwik Pattanaik.jpg": "/static/media/Satwik Pattanaik.47e07a58a559775efb4e.jpg",
+    "static/media/Andrea Lou.JPG": "/static/media/Andrea Lou.1f5deaf10df4aa802e69.JPG",
+    "static/media/tabling.jpg": "/static/media/tabling.86e4286e682ef1e9a9ac.jpg",
+    "static/media/Krista Morales.JPG": "/static/media/Krista Morales.f3b51be423775952bee7.JPG",
     "static/media/Aidan Sunbury.png": "/static/media/Aidan Sunbury.842d242025361cda0109.png",
-    "static/media/Ayush Goel.png": "/static/media/Ayush Goel.d5ea29429b5bf26617b7.png",
-    "static/media/Shruti Sathi.jpg": "/static/media/Shruti Sathi.6c3738ac9a1733a45ee3.jpg",
+    "static/media/selfie.jpeg": "/static/media/selfie.88d6cd1fc87a35e5e22b.jpeg",
+    "static/media/Fa23Group.jpeg": "/static/media/Fa23Group.7f5e5f205e457a852b1d.jpeg",
     "static/media/Elaine Shu.jpeg": "/static/media/Elaine Shu.9d309f6bbe3e0983c64a.jpeg",
-    "static/media/Logan Krause.jpg": "/static/media/Logan Krause.8175205d2c4fc787dac4.jpg",
-    "static/media/Chi Tam Nguyen.JPG": "/static/media/Chi Tam Nguyen.4c1cd8085c2a890c6396.JPG",
+    "static/media/gameGroup.JPG": "/static/media/gameGroup.5875b478205947064af3.JPG",
+    "static/media/Paul Woo.png": "/static/media/Paul Woo.a1547962ddf0ccbf063e.png",
+    "static/media/Cameron Leung.jpg": "/static/media/Cameron Leung.8014fbb81b130b14d06d.jpg",
+    "static/media/genmeeting.jpeg": "/static/media/genmeeting.39038c2b44d149bdc21b.jpeg",
     "static/media/Stacey Lei.jpg": "/static/media/Stacey Lei.dd955dcefdd7e73f86f9.jpg",
+    "static/media/Sofia Garcia.jpeg": "/static/media/Sofia Garcia.7c09cb90fb748ea2948f.jpeg",
     "static/media/Anshul Jambula.jpg": "/static/media/Anshul Jambula.0f9f3147534e97383758.jpg",
     "static/media/Cady He.jpeg": "/static/media/Cady He.9a66d541b11435d58aa8.jpeg",
     "static/media/Rayna Bhattacharyya.jpeg": "/static/media/Rayna Bhattacharyya.4d8c075bfc9ee81cf25a.jpeg",
@@ -21,15 +30,12 @@
     "static/media/Beach.jpg": "/static/media/Beach.b5c996fbb0cc20d14f85.jpg",
     "static/media/CooperHewitt-Medium.otf": "/static/media/CooperHewitt-Medium.f963323a7b7f0b416d72.otf",
     "static/media/Codify Berkeley.png": "/static/media/Codify Berkeley.06bcade2dddba8164e7f.png",
-    "static/media/Dhruv Agarwal.jpeg": "/static/media/Dhruv Agarwal.8e119744ac0583730070.jpeg",
-    "static/media/Aanvi Kothari.jpeg": "/static/media/Aanvi Kothari.7b9cc0656b2e021a67b5.jpeg",
-    "static/media/Nemerjit Singh.jpg": "/static/media/Nemerjit Singh.64a8feeb0bb03a85a4e9.jpg",
     "index.html": "/index.html",
-    "main.cc671aff.css.map": "/static/css/main.cc671aff.css.map",
-    "main.6d831a3b.js.map": "/static/js/main.6d831a3b.js.map"
+    "main.21284a6f.css.map": "/static/css/main.21284a6f.css.map",
+    "main.677dc7b3.js.map": "/static/js/main.677dc7b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc671aff.css",
-    "static/js/main.6d831a3b.js"
+    "static/css/main.21284a6f.css",
+    "static/js/main.677dc7b3.js"
   ]
 }
