@@ -24,7 +24,7 @@ export const members = [
   },
 
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Cameron Leung.jpg"),
     name: "Cameron Leung",
     title: "Marketing Director",
   },
@@ -52,7 +52,7 @@ export const members = [
   },
 
   {
-    imagePath: require("../assets/Images/Headshots/blank.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Paul Woo.png"),
     name: "Paul Woo",
     title: "Project Lead",
   },
