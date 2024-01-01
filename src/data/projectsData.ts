@@ -50,13 +50,12 @@ export const allProjectsData: Project[] = [
   },
 
   {
-    projectTitle: "XXX",
-    shortDescription: "sproul.club reboot",
+    projectTitle: "Name Coming Soon...",
+    shortDescription: "Club Directory for UC Berkeley Students",
     aboutClient: "XXX is a club directory for UC Berkeley students. ",
     aboutProject:
       "XXX will be an application which connects students with clubs and organizations on the Berkeley campus. The platform will allow for clubs to post pertinent and up-to-date information about club culture, recruiting, and more!",
-    imgSource:
-      "https://images.squarespace-cdn.com/content/v1/5ce73121a5c3bd0001d046b3/1624924176393-2T6VIAXLX1HUALQHTURN/logo-01.png?format=2500w",
+    imgSource: "", // "https://images.squarespace-cdn.com/content/v1/5ce73121a5c3bd0001d046b3/1624924176393-2T6VIAXLX1HUALQHTURN/logo-01.png?format=2500w",
     technologies: [],
     linkIcons: [],
     linkDestinations: [],
