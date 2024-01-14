@@ -18,7 +18,7 @@ export const timelineData = [
         </a>
       </span>
     ),
-    date: "1/9/24",
+    date: "1/16/24",
   },
   {
     title: "Tabling",
@@ -29,7 +29,7 @@ export const timelineData = [
     title: "Infosession",
     description:
       "Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 45 minute presentation will be followed by a Q & A period and a mixer with members.",
-    date: "1/18/24",
+    date: "1/23/24",
     subHeading: "Time: 8-10 PM, Location: TBD",
   },
   {

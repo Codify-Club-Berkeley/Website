@@ -87,7 +87,7 @@ export default function Join() {
             equitable. Keep reading to see where you fit into Codify!"
       />
       <div className="flex justify-center items-center p-4">
-        <Link to="/Join">
+        <Link to="https://forms.gle/1MQECAiDeB1A4UnJA">
           <Button>Apply Now</Button>
         </Link>
       </div>

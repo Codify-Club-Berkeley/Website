@@ -46,7 +46,7 @@ export default function Home() {
               <Button>Learn More</Button>
             </Link>
 
-            <Link to="/Join">
+            <Link to="https://forms.gle/1MQECAiDeB1A4UnJA">
               <Button>Apply</Button>
             </Link>
           </div>

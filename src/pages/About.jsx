@@ -93,8 +93,14 @@ export default function About() {
         style={{ marginLeft: "5rem", marginRight: "5rem" }}
         className="flex flex-wrap justify-center"
       >
-        {members.map(({ imagePath, name, title }) => (
-          <MemberCard name={name} title={title} imagePath={imagePath} />
+        {members.map(({ imagePath, name, title, url }, index) => (
+          <MemberCard
+            key={index}
+            name={name}
+            title={title}
+            imagePath={imagePath}
+            url={url}
+          />
         ))}
       </div>
     </div>
