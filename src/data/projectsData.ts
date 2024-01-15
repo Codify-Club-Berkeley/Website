@@ -55,8 +55,9 @@ export const allProjectsData: Project[] = [
     aboutClient: "BearConnect is a club directory for UC Berkeley students. ",
     aboutProject:
       "BearConnect will be an application which connects students with clubs and organizations on the Berkeley campus. The platform will allow for clubs to post pertinent and up-to-date information about club culture, recruiting, and more!",
-    imgSource: "https://media.discordapp.net/attachments/1027064144614137928/1195971356953677914/file-bTxcBnK6ZZ5rYCob8rWcsk9Z.png?ex=65b5ee1f&is=65a3791f&hm=0a8c4bfa014a5780a70aa3b0e870ccd1c3a58f1941b826b3b038ff71a6192481&=&format=webp&quality=lossless&width=1114&height=1114", 
-    technologies: ["NextJS", "TailwindCSS", "DigitalOcean"],
+    imgSource:
+      "https://media.discordapp.net/attachments/1027064144614137928/1195971356953677914/file-bTxcBnK6ZZ5rYCob8rWcsk9Z.png?ex=65b5ee1f&is=65a3791f&hm=0a8c4bfa014a5780a70aa3b0e870ccd1c3a58f1941b826b3b038ff71a6192481&=&format=webp&quality=lossless&width=1114&height=1114",
+    technologies: ["NextJS", "TailwindCSS", "PostgreSQL"],
     linkIcons: [],
     linkDestinations: [],
     currentProject: true,
@@ -70,7 +71,7 @@ export const allProjectsData: Project[] = [
     aboutProject:
       "We are working on a frontend redesign of the SkyPortal web application, as well as making larger structural changes to the application.",
     imgSource: "https://skyportal.io/static/skyportal_logo.png",
-    technologies: ["React Native"],
+    technologies: ["React"],
     linkIcons: ["GitHub", "Website"],
     linkDestinations: [
       "https://github.com/skyportal/skyportal",
@@ -87,7 +88,7 @@ export const allProjectsData: Project[] = [
       "We are building a data connector that allows companies to seamlessly import their accounting data from Quickbooks into the Kopernicus platform to power even more accurate and actionable insights",
     imgSource:
       "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/cg4pfmt3up843ubu2h5s",
-    technologies: ["React", "JavaScript"],
+    technologies: ["React", "JavaScript", "Express", "NodeJS"],
     linkIcons: ["Website"],
     linkDestinations: ["https://www.kopernicus.com/"],
     currentProject: false,
