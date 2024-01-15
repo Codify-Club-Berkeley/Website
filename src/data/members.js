@@ -35,10 +35,10 @@ export const members = [
   },
 
   {
-    imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpg"),
     name: "Rayna Bhattacharyya",
     title: "Project Operations Director",
-    url: null
+    url: "https://cal.com/rayna-bhattacharyya/15min"
   },
 
   {

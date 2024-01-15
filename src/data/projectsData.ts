@@ -55,7 +55,7 @@ export const allProjectsData: Project[] = [
     aboutClient: "BearConnect is a club directory for UC Berkeley students. ",
     aboutProject:
       "BearConnect will be an application which connects students with clubs and organizations on the Berkeley campus. The platform will allow for clubs to post pertinent and up-to-date information about club culture, recruiting, and more!",
-    imgSource: "", // "https://images.squarespace-cdn.com/content/v1/5ce73121a5c3bd0001d046b3/1624924176393-2T6VIAXLX1HUALQHTURN/logo-01.png?format=2500w",
+    imgSource: "https://media.discordapp.net/attachments/1027064144614137928/1195971356953677914/file-bTxcBnK6ZZ5rYCob8rWcsk9Z.png?ex=65b5ee1f&is=65a3791f&hm=0a8c4bfa014a5780a70aa3b0e870ccd1c3a58f1941b826b3b038ff71a6192481&=&format=webp&quality=lossless&width=1114&height=1114", 
     technologies: ["NextJS", "TailwindCSS", "DigitalOcean"],
     linkIcons: [],
     linkDestinations: [],
