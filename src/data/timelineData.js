@@ -10,7 +10,7 @@ export const timelineData = [
         Looking for passionate developers or UI/UX designers!
         <br></br>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfnDCGZPdlGBtKN2-5oAuNnzv57tU4093MrI_pCDpDoyxM5Qw/viewform"
+          href="https://forms.gle/GJEixD4AFTwkWrbf6"
           target="_blank"
           rel="noreferrer"
         >
