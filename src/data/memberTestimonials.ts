@@ -15,4 +15,9 @@ export const quotes: Quote[] = [
     author: "Aidan Sunbury",
     avatar: require("../assets/Images/Headshots/Aidan Sunbury.png"),
   },
+  {
+    text: "I’ve gained so many valuable software engineering skills/experiences that are highly applicable to the industry since joining Codify! Codify members are always supportive and helpful.",
+    author: "Cady He",
+    avatar: require("../assets/Images/Headshots/Cady He.jpeg"),
+  },
 ];
