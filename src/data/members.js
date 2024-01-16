@@ -51,6 +51,7 @@ export const members = [
     imagePath: require("../assets/Images/Headshots/Cady He.jpeg"),
     name: "Cady He",
     title: "Project Lead",
+    url: "https://cal.com/cadyhe/30min?date=2024-01-15&month=2024-01"
   },
   {
     imagePath: require("../assets/Images/Headshots/Anshul Jambula.jpg"),
@@ -70,6 +71,48 @@ export const members = [
     imagePath: require("../assets/Images/Headshots/Stacey Lei.jpg"),
     name: "Stacey Lei",
     title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Saloni Khule.png"),
+    name: "Saloni Khule",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Michael West.jpeg"),
+    name: "Michael West",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Alivia Ding.jpg"),
+    name: "Alivia Ding",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Samar Farooqi.jpg"),
+    name: "Samar Farooqi",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Angela He.jpg"),
+    name: "Angela He",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Tiffany Huang.jpg"),
+    name: "Tiffany Huang",
+    title: "Designer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Allena Oglivie.jpeg"),
+    name: "Allena Oglivie",
+    title: "Designer",
     url: null
   },
 ];
