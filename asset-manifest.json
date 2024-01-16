@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.68c82fe8.css",
-    "main.js": "/static/js/main.2a4f8bd3.js",
+    "main.css": "/static/css/main.b1eea5cd.css",
+    "main.js": "/static/js/main.174ec50b.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
     "static/media/karaokeGroup.JPG": "/static/media/karaokeGroup.242e160dc9140314299b.JPG",
@@ -13,6 +13,7 @@
     "static/media/Andrea Lou.JPG": "/static/media/Andrea Lou.1f5deaf10df4aa802e69.JPG",
     "static/media/tabling.jpg": "/static/media/tabling.86e4286e682ef1e9a9ac.jpg",
     "static/media/Krista Morales.JPG": "/static/media/Krista Morales.f3b51be423775952bee7.JPG",
+    "static/media/Tiffany Huang.jpg": "/static/media/Tiffany Huang.6773cd0d6d4a545cc5b4.jpg",
     "static/media/Aidan Sunbury.png": "/static/media/Aidan Sunbury.842d242025361cda0109.png",
     "static/media/selfie.jpeg": "/static/media/selfie.88d6cd1fc87a35e5e22b.jpeg",
     "static/media/Fa23Group.jpeg": "/static/media/Fa23Group.7f5e5f205e457a852b1d.jpeg",
@@ -21,20 +22,26 @@
     "static/media/Paul Woo.png": "/static/media/Paul Woo.a1547962ddf0ccbf063e.png",
     "static/media/Cameron Leung.jpg": "/static/media/Cameron Leung.8014fbb81b130b14d06d.jpg",
     "static/media/genmeeting.jpeg": "/static/media/genmeeting.39038c2b44d149bdc21b.jpeg",
+    "static/media/Saloni Khule.png": "/static/media/Saloni Khule.7b29cf472da5f2d08fef.png",
     "static/media/Stacey Lei.jpg": "/static/media/Stacey Lei.dd955dcefdd7e73f86f9.jpg",
+    "static/media/Allena Oglivie.jpeg": "/static/media/Allena Oglivie.95788c40c05bcad16f69.jpeg",
+    "static/media/Angela He.jpg": "/static/media/Angela He.3f35835f3ae398bee046.jpg",
+    "static/media/Samar Farooqi.jpg": "/static/media/Samar Farooqi.4a8f8ac94830b6343aed.jpg",
     "static/media/Anshul Jambula.jpg": "/static/media/Anshul Jambula.0f9f3147534e97383758.jpg",
     "static/media/Cady He.jpeg": "/static/media/Cady He.9a66d541b11435d58aa8.jpeg",
     "static/media/gate.jpeg": "/static/media/gate.0066c476c85b572412cf.jpeg",
+    "static/media/Michael West.jpeg": "/static/media/Michael West.d8f8424833cb2be98c50.jpeg",
     "static/media/Beach.jpg": "/static/media/Beach.b5c996fbb0cc20d14f85.jpg",
     "static/media/CooperHewitt-Medium.otf": "/static/media/CooperHewitt-Medium.f963323a7b7f0b416d72.otf",
     "static/media/Codify Berkeley.png": "/static/media/Codify Berkeley.06bcade2dddba8164e7f.png",
     "static/media/Rayna Bhattacharyya.jpg": "/static/media/Rayna Bhattacharyya.c722b6c52af2dff96970.jpg",
+    "static/media/Alivia Ding.jpg": "/static/media/Alivia Ding.d425b8c9fc26f74d1f85.jpg",
     "index.html": "/index.html",
-    "main.68c82fe8.css.map": "/static/css/main.68c82fe8.css.map",
-    "main.2a4f8bd3.js.map": "/static/js/main.2a4f8bd3.js.map"
+    "main.b1eea5cd.css.map": "/static/css/main.b1eea5cd.css.map",
+    "main.174ec50b.js.map": "/static/js/main.174ec50b.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c82fe8.css",
-    "static/js/main.2a4f8bd3.js"
+    "static/css/main.b1eea5cd.css",
+    "static/js/main.174ec50b.js"
   ]
 }
