@@ -104,6 +104,12 @@ export const members = [
     url: null
   },
   {
+    imagePath: require("../assets/Images/Headshots/Chetan Goenka.jpg"),
+    name: "Chetan Goenka",
+    title: "Developer",
+    url: null
+  },
+  {
     imagePath: require("../assets/Images/Headshots/Tiffany Huang.jpg"),
     name: "Tiffany Huang",
     title: "Designer",
