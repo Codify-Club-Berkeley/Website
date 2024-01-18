@@ -21,7 +21,7 @@ export const members = [
   },
 
   {
-    imagePath: require("../assets/Images/Headshots/Krista Morales.JPG"),
+    imagePath: require("../assets/Images/Headshots/Krista Morales.jpeg"),
     name: "Krista Morales",
     title: "Culture Director",
     url: null
@@ -110,6 +110,18 @@ export const members = [
     url: null
   },
   {
+    imagePath: require("../assets/Images/Headshots/Hiro Xiangyuan.jpeg"),
+    name: "Hiro Xiangyuan",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Vrushank Prakash.JPG"),
+    name: "Vrushank Prakash",
+    title: "Developer",
+    url: null
+  },
+  {
     imagePath: require("../assets/Images/Headshots/Tiffany Huang.jpg"),
     name: "Tiffany Huang",
     title: "Designer",
@@ -119,7 +131,7 @@ export const members = [
     imagePath: require("../assets/Images/Headshots/Allena Oglivie.jpeg"),
     name: "Allena Oglivie",
     title: "Designer",
-    url: null
+    url: "https://cal.com/allena-oglivie-afog"
   },
 ];
 
