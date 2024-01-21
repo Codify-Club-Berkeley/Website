@@ -122,13 +122,31 @@ export const members = [
     url: null
   },
   {
+    imagePath: require("../assets/Images/Headshots/Keon Soltani.jpeg"),
+    name: "Keon Soltani",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/David Vu.jpeg"),
+    name: "David Vu",
+    title: "Developer",
+    url: null
+  },
+  {
+    imagePath: require("../assets/Images/Headshots/Alex Chow.JPG"),
+    name: "Alex Chow",
+    title: "Developer",
+    url: null
+  },
+  {
     imagePath: require("../assets/Images/Headshots/Tiffany Huang.jpg"),
     name: "Tiffany Huang",
     title: "Designer",
     url: null
   },
   {
-    imagePath: require("../assets/Images/Headshots/Allena Oglivie.jpeg"),
+    imagePath: require("../assets/Images/Headshots/Allena Oglivie.JPG"),
     name: "Allena Oglivie",
     title: "Designer",
     url: "https://cal.com/allena-oglivie-afog"
