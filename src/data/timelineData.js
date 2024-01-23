@@ -37,7 +37,7 @@ export const timelineData = [
     description:
       "Come to our game night to meet current Codify members, play games, eat food, and have fun!",
     date: "1/25/24",
-    subHeading: "Time: 7-9 PM, Location: Dwinelle 234",
+    subHeading: "Time: 8-10 PM, Location: Dwinelle 234",
   },
 
   {
