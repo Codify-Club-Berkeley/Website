@@ -24,7 +24,7 @@ export const members = [
     imagePath: require("../assets/Images/Headshots/Krista Morales.jpeg"),
     name: "Krista Morales",
     title: "Culture Director",
-    url: null
+    url: "https://cal.com/krista-espinosa-morales-rz7s9y/15min",
   },
 
   {

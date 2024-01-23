@@ -30,14 +30,14 @@ export const timelineData = [
     description:
       "Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 45 minute presentation will be followed by a Q & A period and a mixer with members.",
     date: "1/23/24",
-    subHeading: "Time: 8-10 PM, Location: TBD",
+    subHeading: "Time: 8-10 PM, Location: Dwinelle 179",
   },
   {
     title: "Game Night Social",
     description:
       "Come to our game night to meet current Codify members, play games, eat food, and have fun!",
     date: "1/25/24",
-    subHeading: "Time: 7-9 PM, Location: TBD",
+    subHeading: "Time: 7-9 PM, Location: Dwinelle 234",
   },
 
   {
