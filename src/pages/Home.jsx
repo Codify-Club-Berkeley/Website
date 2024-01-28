@@ -46,9 +46,11 @@ export default function Home() {
               <Button>Learn More</Button>
             </Link>
 
-            <Link to="https://forms.gle/1MQECAiDeB1A4UnJA">
+            {/* Application Link */}
+
+            {/* <Link to="https://forms.gle/1MQECAiDeB1A4UnJA">
               <Button>Apply</Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

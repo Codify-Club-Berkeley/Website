@@ -80,16 +80,17 @@ export default function Join() {
     <div>
       <PageHeader
         title="Join Us!"
-        body=" Recruitment for Spring 2024 consists of two rounds: a written
-            application and then a solo interview. We are looking for students
+        body="  Our application for 
+            Spring 2024 is closed, but check back in the Fall for our next round of recruitment! We are looking for students
             who are passionate about learning and committed to growth. We strive
             to keep our application process transparent, uncomplicated, and
-            equitable. Keep reading to see where you fit into Codify!"
+            equitable. Keep reading to see where you fit into Codify! "
       />
       <div className="flex justify-center items-center p-4">
-        <Link to="https://forms.gle/1MQECAiDeB1A4UnJA">
+        {/* Application link */}
+        {/* <Link to="https://forms.gle/1MQECAiDeB1A4UnJA">
           <Button>Apply Now</Button>
-        </Link>
+        </Link> */}
       </div>
 
       <TextBlock
@@ -107,10 +108,12 @@ Provide a 24-hour prior notice to your project team for any unavoidable absence
         marginRight={isMobileDevice ? "0px" : "200px"}
       />
 
-
       <hr className="border-b-2 border-purple-500" />
 
-      <div style={{ background: "linear-gradient(to bottom,  white,#ebebeb)" }} className="text-center p-8">
+      <div
+        style={{ background: "linear-gradient(to bottom,  white,#ebebeb)" }}
+        className="text-center p-8"
+      >
         <h2>Testimonials</h2>
         <div className="flex items-center justify-center">
           <QuoteCarousel />

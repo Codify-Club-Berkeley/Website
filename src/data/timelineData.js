@@ -9,13 +9,13 @@ export const timelineData = [
       <span>
         Looking for passionate developers or UI/UX designers!
         <br></br>
-        <a
+        {/* <a
           href="https://forms.gle/GJEixD4AFTwkWrbf6"
           target="_blank"
           rel="noreferrer"
         >
           Application Form
-        </a>
+        </a> */}
       </span>
     ),
     date: "1/16/24",
@@ -55,7 +55,7 @@ export const timelineData = [
   {
     title: "Decisions Released",
     description: "Check your email to see if you've been accepted!",
-    date: "2/1/24",
+    date: "1/29/24",
   },
 
   // {
