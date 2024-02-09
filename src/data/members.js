@@ -169,13 +169,12 @@ export const members = [
     title: "Developer",
     url: null,
   },
-  //TODO: Add Chloe Lin :-)
-  // {
-  //   imagePath: null,
-  //   name: null,
-  //   title: null,
-  //   url: null,
-  // },
+  {
+    imagePath: require("../assets/Images/Headshots/Chloe Lin.jpeg"),
+    name: "Chloe Lin",
+    title: "Developer",
+    url: null,
+  },
 
   {
     imagePath: require("../assets/Images/Headshots/Tiffany Huang.jpg"),
