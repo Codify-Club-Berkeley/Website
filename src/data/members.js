@@ -170,12 +170,12 @@ export const members = [
     url: null,
   },
   //TODO: Add Chloe Lin :-)
-  {
-    imagePath: null,
-    name: null,
-    title: null,
-    url: null,
-  },
+  // {
+  //   imagePath: null,
+  //   name: null,
+  //   title: null,
+  //   url: null,
+  // },
 
   {
     imagePath: require("../assets/Images/Headshots/Tiffany Huang.jpg"),
