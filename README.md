@@ -23,33 +23,14 @@ If the commit is related to an issue or pull request, include references to them
 
 To start, install all dependencies locally
 ```bash
-  yarn install
+  bun install
 ```
 
 then run the frontend
 
 ```bash
-  yarn start
+  bun start
 ```
-
-
-## Deployment
-
-1. Run the site locally to make sure everything is working as expected 
-```bash
-  yarn start
-```
-
-2. Push or merge updates into the master branch
-3. To build the site and publish it to GitHub Pages run 
-```bash
-  npm run deploy
-``` 
-4. IMPORTANT immediately after pushing the updates, go to settings -> pages -> Custom domain an update the domain to codifyberkeley.org
-
-5. It may take a second to run a DNS check, but once that is done, visit the site live and make sure the updates are reflected.
-
-
 
 
 ## Tech Stack
