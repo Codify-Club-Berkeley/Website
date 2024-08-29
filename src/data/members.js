@@ -2,7 +2,7 @@ export const members = [
 	{
 		imagePath: require("../assets/Images/Headshots/Kyle Casbon.JPG"),
 		name: "Kyle Casbon",
-		title: "Project Lead",
+		title: "President",
 		url: "https://cal.com/kyle-casbon/15min",
 	},
 	{
