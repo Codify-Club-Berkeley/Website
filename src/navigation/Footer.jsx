@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="text-left">
           <h2 className="text-black text-xl">Codify Berkeley</h2>
           <p className="text-black text-small">
-            @2023 UC Berkeley Student Organization
+            @2025 UC Berkeley Student Organization
           </p>
         </div>
         {/**Link Icons */}
