@@ -1,49 +1,31 @@
 export const members = [
 	{
+		imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpg"),
+		name: "Rayna Bhattacharyya",
+		title: "Co-President",
+		url: "https://cal.com/rayna-bhattacharyya/15min",
+	},
+	{
+		imagePath: require("../assets/Images/Headshots/Angela He.jpg"),
+		name: "Angela He",
+		title: "Co-President",
+		url: null,
+	},
+	{
 		imagePath: require("../assets/Images/Headshots/Aidan Sunbury.png"),
 		name: "Aidan Sunbury",
 		title: "Projects Director",
 		url: "https://cal.com/aidan-sunbury",
 	},
 	{
-		imagePath: require("../assets/Images/Headshots/Cameron Leung.jpg"),
-		name: "Cameron Leung",
-		title: "Marketing Director",
-		url: "https://cal.com/cameron-leung-a1jvxg/codifycoffeechat",
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Cady He.jpeg"),
-		name: "Cady He",
-		title: "Education Director",
-		url: "https://cal.com/cadyhe/30min",
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Niki Parker.jpeg"),
-		name: "Niki Parker",
-		title: "External Director",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpg"),
-		name: "Rayna Bhattacharyya",
-		title: "Project Lead",
-		url: "https://cal.com/rayna-bhattacharyya/15min",
-	},
-	{
 		imagePath: require("../assets/Images/Headshots/Henry Tsai.jpg"),
 		name: "Henry Tsai",
-		title: "Project Lead",
+		title: "Treasurer",
 		url: null,
 	},
 	{
 		imagePath: require("../assets/Images/Headshots/Samar Farooqi.jpg"),
 		name: "Samar Farooqi",
-		title: "Project Lead",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Shayan Arasan.jpg"),
-		name: "Shayan Arasan",
 		title: "Project Lead",
 		url: null,
 	},
@@ -54,32 +36,8 @@ export const members = [
 		url: null,
 	},
 	{
-		imagePath: require("../assets/Images/Headshots/Saloni Khule.png"),
-		name: "Saloni Khule",
-		title: "Developer",
-		url: null,
-	},
-	{
 		imagePath: require("../assets/Images/Headshots/Michael West.jpeg"),
 		name: "Michael West",
-		title: "Developer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Alivia Ding.jpg"),
-		name: "Alivia Ding",
-		title: "Developer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Angela He.jpg"),
-		name: "Angela He",
-		title: "Developer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Chetan Goenka.jpg"),
-		name: "Chetan Goenka",
 		title: "Developer",
 		url: null,
 	},
@@ -89,7 +47,6 @@ export const members = [
 		title: "Developer",
 		url: null,
 	},
-
 	{
 		imagePath: require("../assets/Images/Headshots/Rohan Kudchadker.jpeg"),
 		name: "Rohan Kudchadker",
@@ -99,12 +56,6 @@ export const members = [
 	{
 		imagePath: require("../assets/Images/Headshots/Joshua Chen.jpg"),
 		name: "Joshua Chen",
-		title: "Developer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Chloe Lin.jpeg"),
-		name: "Chloe Lin",
 		title: "Developer",
 		url: null,
 	},
