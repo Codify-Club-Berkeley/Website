@@ -6,12 +6,6 @@ export const members = [
 		url: "https://cal.com/kyle-casbon/15min",
 	},
 	{
-		imagePath: require("../assets/Images/Headshots/Aidan Sunbury.png"),
-		name: "Aidan Sunbury",
-		title: "Projects Director",
-		url: "https://cal.com/aidan-sunbury",
-	},
-	{
 		imagePath: require("../assets/Images/Headshots/Cameron Leung.jpg"),
 		name: "Cameron Leung",
 		title: "Marketing Director",
