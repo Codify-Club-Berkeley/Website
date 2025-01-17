@@ -39,7 +39,18 @@ export const allProjectsData: Project[] = [
 		linkDestinations: ["https://flexday.ai/"],
 		currentProject: true,
 	},
-
+	{
+		projectTitle: "Codify Website",
+		shortDescription: "Design and maintance of the Codify website, as an internal project",
+		aboutClient: "The website you are on right now, for our organization!",
+		aboutProject: "This is a very self-guided project. A large component will be revamping the design of the Codify website; deciding what should change design-wise is a lot of the project. A secondary component will be general fixing or updating maintenance.",
+		imgSource:
+			"https://media.licdn.com/dms/image/v2/C560BAQGKAulwPRUN8g/company-logo_200_200/company-logo_200_200/0/1669154615582/codify_berkeley_logo?e=2147483647&v=beta&t=jw_TeR5aQgXqPHvjMZyz8paH2fYUce7_vmUzTjzll0Q",
+		technologies: ["React", "JavaScript"],
+		linkIcons: ["Website"],
+		linkDestinations: ["https://codifyberkeley.org/"],
+		currentProject: true,
+	},
 	{
 		projectTitle: "berkeleyclubs.com",
 		shortDescription: "Club Directory for UC Berkeley Students",
@@ -48,11 +59,11 @@ export const allProjectsData: Project[] = [
 		aboutProject:
 			"berkeleyclubs.com provides a platform for making exploring and engaging with clubs at UC Berkeley easier.",
 		imgSource:
-			"https://media.licdn.com/dms/image/v2/D560BAQFasU7n5AHOdw/company-logo_200_200/company-logo_200_200/0/1707161474242/berkeleyclubs_logo?e=1732147200&v=beta&t=m33l42yJS29UtUoBfxIyaDcK_z15pRj_puz8YYgl-HI",
+			"https://media.licdn.com/dms/image/v2/D560BAQFasU7n5AHOdw/company-logo_200_200/company-logo_200_200/0/1707161474242/berkeleyclubs_logo?e=2147483647&v=beta&t=oLjeTItgHj5BC6sGm1GLHtE9FQc0s0-fEiJ63E2oFPc",
 		technologies: ["NextJS", "tRPC", "PostgreSQL"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://berkeleyclubs.com/"],
-		currentProject: true,
+		currentProject: false,
 	},
 	{
 		projectTitle: "Homies",
@@ -130,7 +141,7 @@ export const allProjectsData: Project[] = [
 		aboutProject:
 			"We are building a platform which displays to users nearby destinations and events that are going on, implementing a login portal, an interactive map, and more.",
 		imgSource:
-			"https://media.licdn.com/dms/image/v2/D560BAQEPfPerXDYFEw/company-logo_200_200/company-logo_200_200/0/1722730566956?e=1732147200&v=beta&t=YqHczfkpYGx0jW_fFfN7_0zO-BtqTdtS9joAnH8qoWs",
+			"https://media.licdn.com/dms/image/v2/D560BAQFeh18S8PhFKg/company-logo_200_200/company-logo_200_200/0/1725314881403/thetrailmarker_logo?e=1745452800&v=beta&t=BaRWf2FMC4m90to7j97bFo2Ty7sxk_Nt7Z9N2omppLU",
 		technologies: ["Flutter", "Firebase"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://thetrailmarker.com/"],

@@ -49,12 +49,12 @@ export default function Join() {
     {
       title: "2. Application",
       description:
-        "Complete a brief application to tell us more about yourself and your interests. You will be asked to indicate interest in a particular project.",
+        "Complete a brief application to tell us more about yourself and your interests.",
     },
     {
       title: "3. Interview",
       description:
-        "Meet with interviewers for a 20-minute solo interview to discuss your application and your goals for the semester.",
+        "Meet with interviewers for a 30-minute solo interview to discuss your application and your goals for the semester.",
     },
   ];
 
@@ -80,8 +80,8 @@ export default function Join() {
     <div>
       <PageHeader
         title="Join Us!"
-        body="  Our application for 
-            Spring 2024 is closed, but check back in the Fall for our next round of recruitment! We are looking for students
+        body="  Our application for Spring 2025 is open! 
+            We are looking for students
             who are passionate about learning and committed to growth. We strive
             to keep our application process transparent, uncomplicated, and
             equitable. Keep reading to see where you fit into Codify! "
@@ -101,7 +101,7 @@ Stay active and responsive on Discord and via email when communicating with team
 Make consistent progress on tasks, commit code, and submit pull requests to GitHub each sprint.
 Attend mandatory Codify events, including Orientation and General Meetings.
 Attend weekly project team meetings to address blockers and adhere to project timelines.
-Provide a 24-hour prior notice to your project team for any unavoidable absence
+Provide a 24-hour prior notice to your project team for any unavoidable absence.
 "
         isMobile={isMobileDevice}
         marginLeft={isMobileDevice ? "0px" : "100px"}
