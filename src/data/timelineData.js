@@ -38,7 +38,11 @@ export const timelineData = [
 		description:
 			"Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 30 minute presentation will be followed by a Q & A period and a mixer with members.",
 		date: "Friday, 1/31/25",
-		subHeading: "Time: 9-10 PM, Location: bNorth 82D (Basement of MLK)",
+		subHeading: (
+			<span>
+				Time: 9-10 PM, Location: <a href="https://berkeley.zoom.us/j/98253563390" target="_blank" rel="noreferrer">Zoom</a> & In-Person @ bNorth 82D (Basement of MLK)
+			</span>
+		),
 	},
 	{
 		title: "Final Application Deadline",
@@ -49,9 +53,9 @@ export const timelineData = [
 	{
 		title: "Interviews",
 		description:
-			"In the application, you will schedule one 30-minute technical/behavioral interview with us. Interview expectations can be found in the application.",
+			"In the application, you will schedule one 30-minute technical/behavioral interview with us. Interview expectations can be found in the application. Please indicate whether you'd prefer an in-person or virtual interview inside your application.",
 		date: "Weekend, 2/1/25-2/2/25",
-		subHeading: "Time: 10 AM-3 PM, Location: Haas Courtyard",
+		subHeading: "Time: 10 AM-3 PM, Location: Haas School of Business or Virtual",
 	},
 	{
 		title: "Decisions Released",
