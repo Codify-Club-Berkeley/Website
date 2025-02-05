@@ -28,18 +28,6 @@ export const allProjectsData: Project[] = [
 		currentProject: true,
 	},
 	{
-		projectTitle: "FlexDay",
-		shortDescription: "AI tooling for document processing",
-		aboutClient: "FlexDay is an AI and data science consulting company",
-		aboutProject: "Building an internal tool to automate document processing",
-		imgSource:
-			"https://flexday.ai/wp-content/uploads/2024/03/main-logo-flexday.svg",
-		technologies: ["Python", "Pytorch"],
-		linkIcons: ["Website"],
-		linkDestinations: ["https://flexday.ai/"],
-		currentProject: true,
-	},
-	{
 		projectTitle: "Codify Website",
 		shortDescription: "Design and maintance of the Codify website, as an internal project",
 		aboutClient: "The website you are on right now, for our organization!",
@@ -50,6 +38,18 @@ export const allProjectsData: Project[] = [
 		linkIcons: ["Website"],
 		linkDestinations: ["https://codifyberkeley.org/"],
 		currentProject: true,
+	},
+	{
+		projectTitle: "FlexDay",
+		shortDescription: "AI tooling for document processing",
+		aboutClient: "FlexDay is an AI and data science consulting company",
+		aboutProject: "Building an internal tool to automate document processing",
+		imgSource:
+			"https://flexday.ai/wp-content/uploads/2024/03/main-logo-flexday.svg",
+		technologies: ["Python", "Pytorch"],
+		linkIcons: ["Website"],
+		linkDestinations: ["https://flexday.ai/"],
+		currentProject: false,
 	},
 	{
 		projectTitle: "berkeleyclubs.com",
