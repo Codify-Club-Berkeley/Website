@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7a8094a.css",
-    "main.js": "/static/js/main.9d4d8310.js",
+    "main.js": "/static/js/main.a4996f5e.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
     "static/media/karaokeGroup.JPG": "/static/media/karaokeGroup.242e160dc9140314299b.JPG",
@@ -10,33 +10,43 @@
     "static/media/donutClose.JPEG": "/static/media/donutClose.e2c5fcd505240b7bd54a.JPEG",
     "static/media/team.jpeg": "/static/media/team.486ee1a6526b1cef8947.jpeg",
     "static/media/tabling.jpg": "/static/media/tabling.86e4286e682ef1e9a9ac.jpg",
-    "static/media/David Vu.jpeg": "/static/media/David Vu.ac6aaeac0a32a7c35522.jpeg",
+    "static/media/SP25_Lakshay_Soin.png": "/static/media/SP25_Lakshay_Soin.aa9278f4d2fe4e80d8ee.png",
+    "static/media/SP25_Rohan Kudchadker.jpg": "/static/media/SP25_Rohan Kudchadker.cf051101ad3da6961a49.jpg",
     "static/media/selfie.jpeg": "/static/media/selfie.88d6cd1fc87a35e5e22b.jpeg",
     "static/media/Fa23Group.jpeg": "/static/media/Fa23Group.7f5e5f205e457a852b1d.jpeg",
     "static/media/gameGroup.JPG": "/static/media/gameGroup.5875b478205947064af3.JPG",
     "static/media/Cameron Leung.jpg": "/static/media/Cameron Leung.8014fbb81b130b14d06d.jpg",
     "static/media/genmeeting.jpeg": "/static/media/genmeeting.39038c2b44d149bdc21b.jpeg",
+    "static/media/SP25_Trustin_Nguyen.jpg": "/static/media/SP25_Trustin_Nguyen.33b55bf35f781d0516d6.jpg",
     "static/media/Henry Tsai.jpg": "/static/media/Henry Tsai.79f14f11c1c2f0ee30e5.jpg",
+    "static/media/SP25_Vikram_Nandi.png": "/static/media/SP25_Vikram_Nandi.905e16f15d0f4c10bd76.png",
     "static/media/Kinjal Govil.png": "/static/media/Kinjal Govil.7f689a624e61d38bbbed.png",
-    "static/media/Angela He.jpg": "/static/media/Angela He.3f35835f3ae398bee046.jpg",
+    "static/media/SP25_Umesh_Gopi.jpeg": "/static/media/SP25_Umesh_Gopi.86ea68a3bd723bf830fa.jpeg",
+    "static/media/SP25_Brandon_Lai.jpg": "/static/media/SP25_Brandon_Lai.031fc8a86fc0e21a7a53.jpg",
+    "static/media/SP25_Christopher_I_Kim.png": "/static/media/SP25_Christopher_I_Kim.64c5b68305aa463a467e.png",
     "static/media/Samar Farooqi.jpg": "/static/media/Samar Farooqi.4a8f8ac94830b6343aed.jpg",
     "static/media/Cady He.jpeg": "/static/media/Cady He.9a66d541b11435d58aa8.jpeg",
     "static/media/Joshua Chen.jpg": "/static/media/Joshua Chen.c9ccc214b03e5d51c041.jpg",
     "static/media/gate.jpeg": "/static/media/gate.0066c476c85b572412cf.jpeg",
     "static/media/Michael West.jpeg": "/static/media/Michael West.d8f8424833cb2be98c50.jpeg",
     "static/media/Beach.jpg": "/static/media/Beach.b5c996fbb0cc20d14f85.jpg",
-    "static/media/Rohan Kudchadker.jpeg": "/static/media/Rohan Kudchadker.dfbef0131c18fc633097.jpeg",
+    "static/media/SP25_Neel_Gajare.jpg": "/static/media/SP25_Neel_Gajare.a3d0cccd248495824389.jpg",
+    "static/media/SP25_Angela_He.png": "/static/media/SP25_Angela_He.f7926f6ec439f0cfb509.png",
+    "static/media/SP25_Gabryel_Cher_Chin_Soh.jpg": "/static/media/SP25_Gabryel_Cher_Chin_Soh.c5cf1587bbfe247cf96c.jpg",
     "static/media/Nassib Chaya.jpeg": "/static/media/Nassib Chaya.985b82d4a408fc9e7a73.jpeg",
     "static/media/CooperHewitt-Medium.otf": "/static/media/CooperHewitt-Medium.f963323a7b7f0b416d72.otf",
+    "static/media/SP25_Rian_Puri.jpeg": "/static/media/SP25_Rian_Puri.52b6d15bcc3ddb48cdb4.jpeg",
     "static/media/Codify Berkeley.png": "/static/media/Codify Berkeley.06bcade2dddba8164e7f.png",
     "static/media/Emiliano Garcia.jpeg": "/static/media/Emiliano Garcia.f6668376f752eb606bff.jpeg",
     "static/media/Rayna Bhattacharyya.jpg": "/static/media/Rayna Bhattacharyya.c722b6c52af2dff96970.jpg",
+    "static/media/SP25_Sahil_Kumawat.jpg": "/static/media/SP25_Sahil_Kumawat.4b033b3806be3e74eafc.jpg",
+    "static/media/SP25_Arthur_Matthew_Sanchez.jpeg": "/static/media/SP25_Arthur_Matthew_Sanchez.2812dbdd0fd59036ab22.jpeg",
     "index.html": "/index.html",
     "main.d7a8094a.css.map": "/static/css/main.d7a8094a.css.map",
-    "main.9d4d8310.js.map": "/static/js/main.9d4d8310.js.map"
+    "main.a4996f5e.js.map": "/static/js/main.a4996f5e.js.map"
   },
   "entrypoints": [
     "static/css/main.d7a8094a.css",
-    "static/js/main.9d4d8310.js"
+    "static/js/main.a4996f5e.js"
   ]
 }
