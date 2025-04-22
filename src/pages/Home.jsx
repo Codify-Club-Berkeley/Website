@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+// import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./Home.css";
 
 import { Link } from "react-router-dom";
@@ -19,9 +20,20 @@ export default function Home() {
 		require("../assets/Images/General/karaokeGroup.JPG"),
 		require("../assets/Images/General/gameGroup.JPG"),
 		require("../assets/Images/General/halloween1.JPG"),
-
+		require("../assets/Images/General/donutClose.JPEG"),
 		// Add more image URLs as needed
 	];
+
+		// For rotating card images
+		const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+		useEffect(() => {
+			const interval = setInterval(() => {
+				setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageUrls.length);
+			}, 3000); // Change every 3 seconds
+	
+			return () => clearInterval(interval); // Cleanup on unmount
+		}, []);
 
 	return (
 		<div className="marginTop: 0px">
@@ -57,15 +69,15 @@ export default function Home() {
 
 			<div>
 				{/* Card 1 */}
-				<Card
-					imageSource={require("../assets/Images/General/donutClose.JPEG")}
-					header="A Community of Makers"
-					body="We are a tight-knit community bringing students together to work on impactful software projects. With us, you will gain real-world development experience, find your place in tech, and connect with a community of like-minded peers."
-					link="/About"
-					linkText="Our Team & Mission"
-				/>
+			<Card
+				imageSource={imageUrls[currentImageIndex]}
+				header="A Community of Makers"
+				body="We are a tight-knit community bringing students together to work on impactful software projects. With us, you will gain real-world development experience, find your place in tech, and connect with a community of like-minded peers."
+				link="/About"
+				linkText="Our Team & Mission"
+			/>
 
-				<FilmStrip images={imageUrls} />
+				{/* <FilmStrip images={imageUrls} /> */}
 
 				{/* Card 2 */}
 				{/* <Card
