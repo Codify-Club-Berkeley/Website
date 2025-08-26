@@ -1,5 +1,5 @@
-// All icons sourced from https://devicon.dev/
-
+// [DEPRECATED] All icons sourced from https://devicon.dev/
+//New source is https://techicons.dev/
 export const technologyLogos = {
 	"App Store":
 		"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",
@@ -42,7 +42,7 @@ export const technologyLogos = {
 	PostgreSQL:
 		"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
 	TailwindCSS:
-		"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+		"https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
 	DigitalOcean:
 		"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
 	ElasticSearch:

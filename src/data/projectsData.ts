@@ -16,13 +16,13 @@ export const allProjectsData: Project[] = [
 	{
 		projectTitle: "MyShake",
 		shortDescription:
-			"Complete Frontend Rewrite of Earthquake Reporting Application",
+			"Mobile Earthquake Reporting Application",
 		aboutClient:
 			"MyShake is an Earthquake reporting maintained by the Berkeley Seismology lab",
 		aboutProject:
-			"Reconciling the existing android and iOS codebase into a single React Native application while updating the UI/UX and brining the application to Windows and the Web",
+			"Using Swift to focus on user sharing and reporting of seismic events along with immediate earthquake notifications and map views of seismic events.",
 		imgSource: "https://myshake.berkeley.edu/img/Logo2022.png",
-		technologies: ["React Native", "TypeScript"],
+		technologies: ["Swift"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://myshake.berkeley.edu/"],
 		currentProject: true,
@@ -34,7 +34,7 @@ export const allProjectsData: Project[] = [
 		aboutProject: "This is a very self-guided project. A large component will be revamping the design of the Codify website; deciding what should change design-wise is a lot of the project. A secondary component will be general fixing or updating maintenance.",
 		imgSource:
 			"https://media.licdn.com/dms/image/v2/C560BAQGKAulwPRUN8g/company-logo_200_200/company-logo_200_200/0/1669154615582/codify_berkeley_logo?e=2147483647&v=beta&t=jw_TeR5aQgXqPHvjMZyz8paH2fYUce7_vmUzTjzll0Q",
-		technologies: ["React", "JavaScript"],
+		technologies: ["React", "JavaScript", "TypeScript", "TailwindCSS"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://codifyberkeley.org/"],
 		currentProject: true,
@@ -45,7 +45,7 @@ export const allProjectsData: Project[] = [
 		aboutClient: "FlexDay is an AI and data science consulting company",
 		aboutProject: "Building an internal tool to automate document processing",
 		imgSource:
-			"https://flexday.ai/wp-content/uploads/2024/03/main-logo-flexday.svg",
+			"https://flexday.ai/wp-content/uploads/2024/12/LOGO.svg",
 		technologies: ["Python", "Pytorch"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://flexday.ai/"],
