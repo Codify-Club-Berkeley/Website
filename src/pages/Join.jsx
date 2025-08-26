@@ -80,7 +80,7 @@ export default function Join() {
     <div>
       <PageHeader
         title="Join Us!"
-        body="  Our application for Spring 2025 is open! 
+        body="  Our application for Fall 2025 is open!
             We are looking for students
             who are passionate about learning and committed to growth. We strive
             to keep our application process transparent, uncomplicated, and

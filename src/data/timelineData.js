@@ -38,6 +38,12 @@ export const timelineData = [
 		date: "Thursday, 9/4/25",
 		subHeading: "Time: 8 - 9PM, Location: Wheeler 126",
 	},
+    {
+        title: "Game Night",
+        description: "Join us for game night where you'll get to meet and mix with existing club members and play exciting board games!",
+        date: "Friday, 9/5/25",
+        subHeading: "Time: 8 - 10PM, Location: Dwinelle 209",
+    },
 	{
 		title: "Final Application Deadline",
 		description:
