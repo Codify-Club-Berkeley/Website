@@ -2,7 +2,6 @@
 // subHeadings are optional
 
 export const timelineData = [
-	// /* NEED TO UPDATE TIMELINE DATA
 	{
 		title: "Applications Open",
 		description: (
@@ -10,7 +9,7 @@ export const timelineData = [
 				Looking for passionate developers!
 				<br></br>
 				<a
-					href="https://forms.gle/QhsMhaG9fhweLGew5"
+					href="https://forms.gle/kFhkQ14prjMyZkkL7"
 					target="_blank"
 					rel="noreferrer"
 					>
@@ -18,48 +17,48 @@ export const timelineData = [
 				</a>
 			</span>
 		),
-		date: "1/17/25",
+		date: "8/25/25",
 	},
 	{
 		title: "Tabling",
-		description: "Come talk to us on the Glade to learn more about Codify.",
-		date: "1/21/25-1/24/25",
-		subHeading: "Time: 10 AM-3 PM"
+		description: "Come talk to us on Upper Sproul to learn more about Codify.",
+		date: "8/27/25-9/5/25",
+		subHeading: "Time: 10AM - 2PM"
 	},
 	{
 		title: "Infosession #1",
-		description:
-			"Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 30 minute presentation will be followed by a Q & A period and a mixer with members.",
-		date: "Tuesday, 1/28/25",
-		subHeading: "Time: 9-10 PM, Location: bNorth 82D (Basement of MLK)",
+		description: "Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 30 minute presentation will be followed by a Q & A period and a mixer with members.",
+		date: "Wednesday, 9/3/25",
+		subHeading: "Time: 8 - 9PM, Location: Wheeler 126",
 	},
 	{
 		title: "Infosession #2",
 		description:
 			"Learn about current projects, club culture, and mingle with current Codify members at our info session. An initial 30 minute presentation will be followed by a Q & A period and a mixer with members.",
-		date: "Friday, 1/31/25",
-		subHeading: (
-			<span>
-				Time: 9-10 PM, Location: <a href="https://berkeley.zoom.us/j/98253563390" target="_blank" rel="noreferrer">Zoom</a> & In-Person @ bNorth 82D (Basement of MLK)
-			</span>
-		),
+		date: "Thursday, 9/4/25",
+		subHeading: "Time: 8 - 9PM, Location: Wheeler 126",
 	},
 	{
 		title: "Final Application Deadline",
 		description:
-			"All applications are due by 11:59 PM. If you have any last minute difficulties submitting, please email us at codify.berkeley@gmail.com",
-		date: "Friday, 1/31/25",
+			"All applications are due by 11:59PM. If you have any last minute difficulties submitting, please email us at codify.berkeley@gmail.com",
+		date: "Tuesday, 9/9/25",
 	},
 	{
 		title: "Interviews",
 		description:
 			"In the application, you will schedule one 30-minute technical/behavioral interview with us. Interview expectations can be found in the application. Please indicate whether you'd prefer an in-person or virtual interview inside your application.",
-		date: "Weekend, 2/1/25-2/2/25",
-		subHeading: "Time: 10 AM-3 PM, Location: Haas School of Business or Virtual",
+		date: "Weekend, 9/13/25-9/14/25",
+		subHeading: "Time: 10AM - 3PM, Location: Haas School of Business or Virtual",
 	},
 	{
 		title: "Decisions Released",
 		description: "Check your email to see if you've been accepted!",
-		date: "Tuesday, 2/4",
+		date: "Wednesday, 9/17/25",
 	},
+    {
+        title: "New Member Social!",
+        description: "Congrats on being accepted into Codify! Come meet your fellow new members and get to know each other. Location and time will be a secret until then ;).",
+        date: "Saturday, 9/20/25",
+    },
 ];
