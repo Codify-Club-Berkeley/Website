@@ -1,27 +1,21 @@
 export const members = [
 	{
+		imagePath: require("../assets/Images/Headshots/SP25_Arthur_Matthew_Sanchez.jpeg"),
+		name: "Arthur Sanchez",
+		title: "Co-President",
+		url: null,
+	},
+	{
+		imagePath: require("../assets/Images/Headshots/Michael West.jpeg"),
+		name: "Michael West",
+		title: "Co-President",
+		url: null,
+	},
+	{
 		imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpg"),
 		name: "Rayna Bhattacharyya",
-		title: "Co-President",
+		title: "Senior Advisor",
 		url: "https://cal.com/rayna-bhattacharyya/15min",
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/SP25_Angela_He.png"),
-		name: "Angela He",
-		title: "Co-President",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Henry Tsai.jpg"),
-		name: "Henry Tsai",
-		title: "Treasurer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Samar Farooqi.jpg"),
-		name: "Samar Farooqi",
-		title: "Project Lead",
-		url: null,
 	},
 	{
 		imagePath: require("../assets/Images/Headshots/SP25_Rohan Kudchadker.jpg"),
@@ -42,15 +36,9 @@ export const members = [
 		url: null,
 	},
 	{
-		imagePath: require("../assets/Images/Headshots/SP25_Arthur_Matthew_Sanchez.jpeg"),
-		name: "Arthur Sanchez",
-		title: "Education Director",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Michael West.jpeg"),
-		name: "Michael West",
-		title: "Education Director",
+		imagePath: require("../assets/Images/Headshots/SP25_Lakshay_Soin.png"),
+		name: "Lakshay Soin",
+		title: "Project Lead",
 		url: null,
 	},
 	{
@@ -58,22 +46,11 @@ export const members = [
 		name: "Emiliano Garcia",
 		title: "Education: Content",
 		url: null,
-	},	{
-		imagePath: require("../assets/Images/Headshots/Nassib Chaya.jpeg"),
-		name: "Nassib Chaya",
-		title: "Senior Developer",
-		url: null,
 	},
 	{
 		imagePath: require("../assets/Images/Headshots/Joshua Chen.jpg"),
 		name: "Joshua Chen",
 		title: "Senior Developer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/SP25_Brandon_Lai.jpg"),
-		name: "Brandon Lai",
-		title: "Developer",
 		url: null,
 	},
 	{
@@ -85,12 +62,6 @@ export const members = [
 	{
 		imagePath: require("../assets/Images/Headshots/SP25_Gabryel_Cher_Chin_Soh.jpg"),
 		name: "Gabryel Soh",
-		title: "Developer",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/SP25_Lakshay_Soin.png"),
-		name: "Lakshay Soin",
 		title: "Developer",
 		url: null,
 	},
@@ -122,12 +93,6 @@ export const members = [
 		imagePath: require("../assets/Images/Headshots/SP25_Vikram_Nandi.png"),
 		name: "Vikram Nandi",
 		title: "Student",
-		url: null,
-	},
-	{
-		imagePath: require("../assets/Images/Headshots/Aiji Li.jpeg"),
-		name: "Aiji Li",
-		title: "General Member",
 		url: null,
 	},
 ];
