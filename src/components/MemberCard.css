@@ -4,6 +4,12 @@
   height: 316px;
 }
 
+.regCard {
+    background-color: transparent;
+    width: 240px;
+    height: 316px;
+}
+
 .flipCardInner {
   position: relative;
   width: 100%;
@@ -27,7 +33,7 @@
 
 .flipCardFront {
   color: rgb(0, 0, 0);
-  
+
   ;
 }
 
