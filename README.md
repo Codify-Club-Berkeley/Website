@@ -44,3 +44,9 @@ React-Bootstrap: CSS framework of Bootstrap and replaces any existing JavaScript
 Material UI: any library of React UI components that implements Google's Material Design.
 
 
+## TASK LIST
+Any new tasks will be added below for simplicity ranked by priority e.g. 1 (most important)... nth task (least important, n denoting # of tasks).
+
+1. Convert jsx files to tsx files
+2. Combine new tsx (formerly jsx in task above) files with css files using TailwindCSS
+3. Remove any unused Files/Components
