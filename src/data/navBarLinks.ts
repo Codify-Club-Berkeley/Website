@@ -1,4 +1,4 @@
-export const footerLinks = [
+export const footerLinks: string[] = [
   "About",
   "Join",
   "Projects",
@@ -7,7 +7,7 @@ export const footerLinks = [
 ];
 
 // This is dumb, it should be fixed, but I'm lazy and tired
-export const lowercaseFooterLinks = [
+export const lowercaseFooterLinks: string[] = [
   "about",
   "join",
   "projects",

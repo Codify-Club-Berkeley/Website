@@ -66,7 +66,6 @@ function NewNav() {
                 as={NavLink}
                 to={"/" + lowercaseFooterLinks[index]}
                 className="mr-2"
-                activeClassName="active-link"
                 style={{
                   opacity: isVisible ? 1 : 0,
                   textDecoration: navLinkIsActive() ? "underline" : "none",

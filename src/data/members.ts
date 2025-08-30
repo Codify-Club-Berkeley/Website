@@ -1,4 +1,11 @@
-export const members = [
+export type Member = {
+    name: string;
+    title: string;
+    imagePath: string;
+    url: string | null;
+}
+
+export const members: Member[] = [
 	{
 		imagePath: require("../assets/Images/Headshots/SP25_Arthur_Matthew_Sanchez.jpeg"),
 		name: "Arthur Sanchez",

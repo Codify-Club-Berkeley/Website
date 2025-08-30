@@ -1,7 +1,17 @@
 // If descriptions are just text with no links, simply leave it as a string. Otherwise use JSX.
 // subHeadings are optional
 
-export const timelineData = [
+import React from "react";
+import {JSX} from "react";
+
+export type TimelineEntry = {
+    title: string;
+    description: string | JSX.Element;
+    date: string;
+    subHeading?: string;
+}
+
+export const timelineData: TimelineEntry[] = [
 	{
 		title: "Applications Open",
 		description: (
