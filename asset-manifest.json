@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3b5289f.css",
-    "main.js": "/static/js/main.ab97a019.js",
+    "main.css": "/static/css/main.01c89d1e.css",
+    "main.js": "/static/js/main.9777ce01.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
     "static/media/karaokeGroup.JPG": "/static/media/karaokeGroup.242e160dc9140314299b.JPG",
@@ -37,11 +37,11 @@
     "static/media/SP25_Sahil_Kumawat.jpg": "/static/media/SP25_Sahil_Kumawat.4b033b3806be3e74eafc.jpg",
     "static/media/SP25_Arthur_Matthew_Sanchez.jpeg": "/static/media/SP25_Arthur_Matthew_Sanchez.2812dbdd0fd59036ab22.jpeg",
     "index.html": "/index.html",
-    "main.d3b5289f.css.map": "/static/css/main.d3b5289f.css.map",
-    "main.ab97a019.js.map": "/static/js/main.ab97a019.js.map"
+    "main.01c89d1e.css.map": "/static/css/main.01c89d1e.css.map",
+    "main.9777ce01.js.map": "/static/js/main.9777ce01.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3b5289f.css",
-    "static/js/main.ab97a019.js"
+    "static/css/main.01c89d1e.css",
+    "static/js/main.9777ce01.js"
   ]
 }
