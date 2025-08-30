@@ -28,12 +28,12 @@ export default function Education() {
           the following semester if they complete the program.
         </p>
         <a
-          href="https://codify-berkeley-education.github.io/DecalWebsite/"
+          href="https://codify-berkeley-education.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h3 className="text-center">
-            For More Information and to Enroll, Check Out the Education Program
+            For More Information, Check Out the Education Program
             Website
           </h3>
         </a>

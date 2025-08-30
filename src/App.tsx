@@ -16,20 +16,20 @@ function App() {
   return (
     <div>
       <div>
-        <NewNav></NewNav>
+        <NewNav />
       </div>
       <div style={{ paddingTop: "120px" }}>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/join" element={<Join />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/workwithus" element={<WorkWithUs />}></Route>
-          <Route path="/education" element={<Education />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/workwithus" element={<WorkWithUs />} />
+          <Route path="/education" element={<Education />} />
         </Routes>
       </div>
 
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }

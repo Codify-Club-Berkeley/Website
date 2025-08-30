@@ -69,7 +69,6 @@ export default function About() {
 
         <div
           className="grid-container"
-          marginLeft={isMobileDevice ? "0px" : "100px"}
           style={{ display: "flex", flexWrap: "wrap" }}
         >
           {tilesData.map((tile, index) => (

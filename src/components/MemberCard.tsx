@@ -7,7 +7,7 @@ interface MemberCardProps {
   name: string;
   title: string;
   url?: string;
-  backContent: string;
+  backContent?: string;
 }
 
 const MemberCard: React.FC<MemberCardProps> = ({ imagePath, name, title, url, backContent }) => {
