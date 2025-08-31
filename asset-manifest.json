@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e723bb2.css",
-    "main.js": "/static/js/main.54458a56.js",
+    "main.css": "/static/css/main.41682982.css",
+    "main.js": "/static/js/main.f3880c59.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/FA25_Vikram_Nandi.png": "/static/media/FA25_Vikram_Nandi.68a8145770dbaaa3aaeb.png",
     "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
@@ -41,11 +41,11 @@
     "static/media/Rayna Bhattacharyya.jpg": "/static/media/Rayna Bhattacharyya.c722b6c52af2dff96970.jpg",
     "static/media/FA25_Lakshay_Soin.jpg": "/static/media/FA25_Lakshay_Soin.5335c76fda7f9af91e4c.jpg",
     "index.html": "/index.html",
-    "main.3e723bb2.css.map": "/static/css/main.3e723bb2.css.map",
-    "main.54458a56.js.map": "/static/js/main.54458a56.js.map"
+    "main.41682982.css.map": "/static/css/main.41682982.css.map",
+    "main.f3880c59.js.map": "/static/js/main.f3880c59.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e723bb2.css",
-    "static/js/main.54458a56.js"
+    "static/css/main.41682982.css",
+    "static/js/main.f3880c59.js"
   ]
 }
