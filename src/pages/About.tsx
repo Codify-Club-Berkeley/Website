@@ -5,28 +5,18 @@ import MemberCard from "../components/MemberCard";
 import { useMediaQuery } from "react-responsive";
 import TextBlock from "../components/TextBlock";
 import PageHeader from "../components/PageHeader";
-import FilmStrip from "../components/FilmStrip"; // Make sure to import the FilmStrip component
+import FilmStrip from "../components/FilmStrip";
+import {socialImageUrls} from "../data/socialImageUrls"; // Make sure to import the FilmStrip component
 
 export default function About() {
   const isMobileDevice = useMediaQuery({
     query: "(max-width: 768px)", // Breakpoint
   });
 
-  const imageUrls = [
-    require("../assets/Images/General/Beach.jpg"),
-    require("../assets/Images/General/donutGroup.JPEG"),
-    require("../assets/Images/General/Hike.png"),
-    require("../assets/Images/General/genmeeting.jpeg"),
-    require("../assets/Images/General/selfie.jpeg"),
-    require("../assets/Images/General/tabling.jpg"),
-    require("../assets/Images/General/team.jpeg"),
-    // Add more image URLs as needed
-  ];
-
   //Reusable Tile component
   function Tile({ title, description }) {
     return (
-      <div className="grid-item  p-4 sm:flex sm:flex-col sm:items-center">
+      <div className="grid-item p-4 sm:flex sm:flex-col sm:items-center">
         <div className="text-xl font-bold mb-2">{title}</div>
         <p>{description}</p>
       </div>
@@ -81,7 +71,7 @@ export default function About() {
         </div>
       </div>
 
-      <FilmStrip images={imageUrls} />
+      <FilmStrip images={socialImageUrls} />
 
       <hr className="border-b-2 border-purple-500" />
 
