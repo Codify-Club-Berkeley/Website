@@ -14,11 +14,11 @@ interface MemberCardProps {
 
 const MemberCard: React.FC<MemberCardProps> = ({ imagePath, name, title, url, backContent }) => {
     return (
-    <div className="flex-col h-90 w-60 shadow-lg overflow-hidden m-3 hover:shadow-lg hover:-translate-y-3 duration-300 z-2 hover:cursor-pointer rounded-md">
+    <div className="flex-col shadow-lg overflow-hidden m-3 hover:shadow-lg hover:-translate-y-3 duration-300 z-2 hover:cursor-pointer rounded-md">
       <div className={FLIPPABLE ? "flipCard" : "regCard"}>
         <div className="flipCardInner">
           <div className="flipCardFront">
-            <img className="image h-60 w-full object-cover p-3" src={imagePath} alt={name} />
+            <img className="image h-[280px] w-full object-cover p-3" src={imagePath} alt={name} />
             <div className="ml-2 flex-row">
               <h3 className="text-left text-xl font-semibold mb-2">{name}</h3>
               <div className="flex flex-row">
