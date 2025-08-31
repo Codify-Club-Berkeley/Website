@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01c89d1e.css",
-    "main.js": "/static/js/main.0c549b05.js",
+    "main.css": "/static/css/main.3e723bb2.css",
+    "main.js": "/static/js/main.54458a56.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/FA25_Vikram_Nandi.png": "/static/media/FA25_Vikram_Nandi.68a8145770dbaaa3aaeb.png",
     "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
@@ -11,6 +11,8 @@
     "static/media/donutClose.JPEG": "/static/media/donutClose.e2c5fcd505240b7bd54a.JPEG",
     "static/media/team.jpeg": "/static/media/team.486ee1a6526b1cef8947.jpeg",
     "static/media/tabling.jpg": "/static/media/tabling.86e4286e682ef1e9a9ac.jpg",
+    "static/media/SP25_Retreat_Snowman2.jpg": "/static/media/SP25_Retreat_Snowman2.b0f615ef5f464035fa6f.jpg",
+    "static/media/SP25_Retreat_Canes.jpg": "/static/media/SP25_Retreat_Canes.88758fc012e8a791847b.jpg",
     "static/media/SP25_Rohan Kudchadker.jpg": "/static/media/SP25_Rohan Kudchadker.cf051101ad3da6961a49.jpg",
     "static/media/selfie.jpeg": "/static/media/selfie.88d6cd1fc87a35e5e22b.jpeg",
     "static/media/Fa23Group.jpeg": "/static/media/Fa23Group.7f5e5f205e457a852b1d.jpeg",
@@ -30,7 +32,6 @@
     "static/media/gate.jpeg": "/static/media/gate.0066c476c85b572412cf.jpeg",
     "static/media/Michael West.jpeg": "/static/media/Michael West.d8f8424833cb2be98c50.jpeg",
     "static/media/FA25_Benjamin_Smothers.jpg": "/static/media/FA25_Benjamin_Smothers.33b52f26a5c2871311e2.jpg",
-    "static/media/Beach.jpg": "/static/media/Beach.b5c996fbb0cc20d14f85.jpg",
     "static/media/FA25_Samar_Farooqi.jpg": "/static/media/FA25_Samar_Farooqi.1c4f6abfa7c9a8137bdf.jpg",
     "static/media/SP25_Neel_Gajare.jpg": "/static/media/SP25_Neel_Gajare.a3d0cccd248495824389.jpg",
     "static/media/SP25_Angela_He.png": "/static/media/SP25_Angela_He.f7926f6ec439f0cfb509.png",
@@ -40,11 +41,11 @@
     "static/media/Rayna Bhattacharyya.jpg": "/static/media/Rayna Bhattacharyya.c722b6c52af2dff96970.jpg",
     "static/media/FA25_Lakshay_Soin.jpg": "/static/media/FA25_Lakshay_Soin.5335c76fda7f9af91e4c.jpg",
     "index.html": "/index.html",
-    "main.01c89d1e.css.map": "/static/css/main.01c89d1e.css.map",
-    "main.0c549b05.js.map": "/static/js/main.0c549b05.js.map"
+    "main.3e723bb2.css.map": "/static/css/main.3e723bb2.css.map",
+    "main.54458a56.js.map": "/static/js/main.54458a56.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c89d1e.css",
-    "static/js/main.0c549b05.js"
+    "static/css/main.3e723bb2.css",
+    "static/js/main.54458a56.js"
   ]
 }
