@@ -116,7 +116,7 @@ export const members: Member[] = [
     },
     {
         imagePath: require("../assets/Images/Headshots/Joshua Chen.jpg"),
-        name: "Umesh Gopi",
+        name: "Joshua Chen",
         title: "General Member",
         url: null,
     },
