@@ -28,7 +28,7 @@ export default function Home() {
 			<div
 				className="large-banner relative flex items-center justify-center bg-cover bg-center w-full fade-in"
 				style={{
-					backgroundImage: `url(${require("../assets/Images/General/Fa23Group.jpeg")})`,
+					backgroundImage: `url(${require("../assets/Images/General/SP25GroupPhoto.webp")})`,
 					marginTop: "-120px",
 					height: "35rem",
 				}}
