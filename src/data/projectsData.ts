@@ -29,14 +29,14 @@ export const allProjectsData: Project[] = [
 	},
 	{
 		projectTitle: "Codify Education",
-		shortDescription: "Design and maintance of the Codify website, as an internal project",
-		aboutClient: "The website you are on right now, for our organization!",
-		aboutProject: "This is a very self-guided project. A large component will be revamping the design of the Codify website; deciding what should change design-wise is a lot of the project. A secondary component will be general fixing or updating maintenance.",
+        shortDescription: "An introductory program where new members learn full-stack engineering fundamentals.",
+        aboutClient: "Codify Education Programs — the entry point for new Codify members.",
+        aboutProject: "The Codify Education Programs serves as an entry to Codify where students learn full stack engineering, including how to build a website. This program is designed to prepare new members for their transition from beginners to contributors on Codify client projects, where they will apply the skills they’ve learned to help write and merge code.",
 		imgSource:
 			"https://codify-berkeley-education.github.io/img/brackets.svg",
 		technologies: ["React", "JavaScript", "TypeScript", "TailwindCSS"],
 		linkIcons: ["Website"],
-		linkDestinations: ["https://codifyberkeley.org/"],
+		linkDestinations: ["https://codify-berkeley-education.github.io/"],
 		currentProject: true,
 	},
 	{
