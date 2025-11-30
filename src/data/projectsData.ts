@@ -132,6 +132,7 @@ export const allProjectsData: Project[] = [
 		linkDestinations: ["https://www.kopernicus.com/"],
 		currentProject: false,
 	},
+    /*
 	{
 		projectTitle: "TrailMarker",
 		shortDescription:
@@ -147,6 +148,7 @@ export const allProjectsData: Project[] = [
 		linkDestinations: ["https://thetrailmarker.com/"],
 		currentProject: false,
 	},
+	*/
 	{
 		projectTitle: "Scribble AI",
 		shortDescription: "Build a keyboard that allows you to use AI anywhere",
