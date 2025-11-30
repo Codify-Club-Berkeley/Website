@@ -28,12 +28,12 @@ export const allProjectsData: Project[] = [
 		currentProject: true,
 	},
 	{
-		projectTitle: "Codify Website",
+		projectTitle: "Codify Education",
 		shortDescription: "Design and maintance of the Codify website, as an internal project",
 		aboutClient: "The website you are on right now, for our organization!",
 		aboutProject: "This is a very self-guided project. A large component will be revamping the design of the Codify website; deciding what should change design-wise is a lot of the project. A secondary component will be general fixing or updating maintenance.",
 		imgSource:
-			"https://media.licdn.com/dms/image/v2/C560BAQGKAulwPRUN8g/company-logo_200_200/company-logo_200_200/0/1669154615582/codify_berkeley_logo?e=2147483647&v=beta&t=jw_TeR5aQgXqPHvjMZyz8paH2fYUce7_vmUzTjzll0Q",
+			"https://codify-berkeley-education.github.io/img/brackets.svg",
 		technologies: ["React", "JavaScript", "TypeScript", "TailwindCSS"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://codifyberkeley.org/"],
