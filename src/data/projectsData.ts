@@ -39,6 +39,17 @@ export const allProjectsData: Project[] = [
 		linkDestinations: ["https://codify-berkeley-education.github.io/"],
 		currentProject: true,
 	},
+    {
+        projectTitle: "Coni",
+        shortDescription: "A social platform connecting creators with brands through sponsored posts.",
+        aboutClient: "A creator-brand collaboration platform.",
+        aboutProject: "Coni is a social platform that connects creators with brands through sponsored posts. Users can share content, grow their audience, and get matched with sponsors that fit their level of reach — from small creators to rising influencers. With features like following, messaging, and a familiar feed, Coni works much like a creator-focused Instagram, making it easy for brands and users to collaborate as creators grow.",
+        imgSource: require("../assets/Images/General/Coni.jpg"),
+        technologies: ["React Native", "TypeScript", "Firebase"],
+        linkIcons: [],
+        linkDestinations: [],
+        currentProject: true,
+    },
 	{
 		projectTitle: "FlexDay",
 		shortDescription: "AI tooling for document processing",
