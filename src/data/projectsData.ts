@@ -28,17 +28,28 @@ export const allProjectsData: Project[] = [
 		currentProject: true,
 	},
 	{
-		projectTitle: "Codify Website",
-		shortDescription: "Design and maintance of the Codify website, as an internal project",
-		aboutClient: "The website you are on right now, for our organization!",
-		aboutProject: "This is a very self-guided project. A large component will be revamping the design of the Codify website; deciding what should change design-wise is a lot of the project. A secondary component will be general fixing or updating maintenance.",
+		projectTitle: "Codify Education",
+        shortDescription: "An introductory program where new members learn full-stack engineering fundamentals.",
+        aboutClient: "Codify Education Programs — the entry point for new Codify members.",
+        aboutProject: "The Codify Education Programs serves as an entry to Codify where students learn full stack engineering, including how to build a website. This program is designed to prepare new members for their transition from beginners to contributors on Codify client projects, where they will apply the skills they’ve learned to help write and merge code.",
 		imgSource:
-			"https://media.licdn.com/dms/image/v2/C560BAQGKAulwPRUN8g/company-logo_200_200/company-logo_200_200/0/1669154615582/codify_berkeley_logo?e=2147483647&v=beta&t=jw_TeR5aQgXqPHvjMZyz8paH2fYUce7_vmUzTjzll0Q",
+			"https://codify-berkeley-education.github.io/img/brackets.svg",
 		technologies: ["React", "JavaScript", "TypeScript", "TailwindCSS"],
 		linkIcons: ["Website"],
-		linkDestinations: ["https://codifyberkeley.org/"],
+		linkDestinations: ["https://codify-berkeley-education.github.io/"],
 		currentProject: true,
 	},
+    {
+        projectTitle: "Coni",
+        shortDescription: "A social platform connecting creators with brands through sponsored posts.",
+        aboutClient: "A creator-brand collaboration platform.",
+        aboutProject: "Coni is a social platform that connects creators with brands through sponsored posts. Users can share content, grow their audience, and get matched with sponsors that fit their level of reach — from small creators to rising influencers. With features like following, messaging, and a familiar feed, Coni works much like a creator-focused Instagram, making it easy for brands and users to collaborate as creators grow.",
+        imgSource: require("../assets/Images/General/Coni.jpg"),
+        technologies: ["React Native", "TypeScript", "Firebase"],
+        linkIcons: [],
+        linkDestinations: [],
+        currentProject: true,
+    },
 	{
 		projectTitle: "FlexDay",
 		shortDescription: "AI tooling for document processing",
@@ -132,6 +143,7 @@ export const allProjectsData: Project[] = [
 		linkDestinations: ["https://www.kopernicus.com/"],
 		currentProject: false,
 	},
+    /*
 	{
 		projectTitle: "TrailMarker",
 		shortDescription:
@@ -147,6 +159,7 @@ export const allProjectsData: Project[] = [
 		linkDestinations: ["https://thetrailmarker.com/"],
 		currentProject: false,
 	},
+	*/
 	{
 		projectTitle: "Scribble AI",
 		shortDescription: "Build a keyboard that allows you to use AI anywhere",
