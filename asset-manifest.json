@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af44ab88.css",
-    "main.js": "/static/js/main.083d70df.js",
+    "main.js": "/static/js/main.55beb9e8.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/FA25_Vikram_Nandi.png": "/static/media/FA25_Vikram_Nandi.68a8145770dbaaa3aaeb.png",
     "static/media/Cady_Andrea.JPG": "/static/media/Cady_Andrea.f0b22c2b4eb8777ff1d3.JPG",
@@ -42,10 +42,10 @@
     "static/media/FA25_Lakshay_Soin.jpg": "/static/media/FA25_Lakshay_Soin.5335c76fda7f9af91e4c.jpg",
     "index.html": "/index.html",
     "main.af44ab88.css.map": "/static/css/main.af44ab88.css.map",
-    "main.083d70df.js.map": "/static/js/main.083d70df.js.map"
+    "main.55beb9e8.js.map": "/static/js/main.55beb9e8.js.map"
   },
   "entrypoints": [
     "static/css/main.af44ab88.css",
-    "static/js/main.083d70df.js"
+    "static/js/main.55beb9e8.js"
   ]
 }
