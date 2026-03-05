@@ -15,12 +15,17 @@ export default function Home() {
 	});
 
 	const imageUrls = [
-		require("../assets/Images/General/Cady_Andrea.JPG"),
-		require("../assets/Images/General/karaokeGroup.JPG"),
-		require("../assets/Images/General/gameGroup.JPG"),
-		require("../assets/Images/General/halloween1.JPG"),
+		// old 2025 images
+		// require("../assets/Images/General/Cady_Andrea.JPG"),
+		// require("../assets/Images/General/karaokeGroup.JPG"),
+		// require("../assets/Images/General/gameGroup.JPG"),
+		// require("../assets/Images/General/halloween1.JPG"),
 
 		// Add more image URLs as needed
+		require("../assets/Images/General/fa25-game-night.jpg"),
+		require("../assets/Images/General/fa25-retreat.jpg"),
+		require("../assets/Images/General/fa25-sf.jpg"),
+		require("../assets/Images/General/fa26-sf.jpg"),
 	];
 
 	return (
