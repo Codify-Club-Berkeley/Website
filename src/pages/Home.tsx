@@ -26,6 +26,7 @@ export default function Home() {
 		require("../assets/Images/General/fa25-retreat.jpg"),
 		require("../assets/Images/General/fa25-sf.jpg"),
 		require("../assets/Images/General/fa26-sf.jpg"),
+		require("../assets/Images/General/fa25-social2.JPG"),
 	];
 
 	return (
@@ -33,8 +34,9 @@ export default function Home() {
 			<div
 				className="large-banner relative flex items-center justify-center bg-cover bg-center w-full fade-in"
 				style={{
-					backgroundImage: `url(${require("../assets/Images/General/SP25GroupPhoto.webp")})`,
-					marginTop: "-120px",
+					backgroundImage: `url(${require("../assets/Images/General/SP26GroupPhoto.jpg")})`,
+					backgroundPosition: "center 60%",
+					marginTop: "-100px",
 					height: "35rem",
 				}}
 			>
