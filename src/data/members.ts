@@ -81,6 +81,12 @@ export const members: Member[] = [
       url: null,
    },
    {
+      imagePath: require("../assets/Images/Headshots/SP26AliceWu.jpg"),
+      name: "Alice Wu",
+      title: "Project Lead",
+      url: null,
+   },
+   {
       imagePath: require("../assets/Images/Headshots/SP26KarthikSubramanian.png"),
       name: "Karthik Subramanian",
       title: "Education Co-Director",
@@ -116,12 +122,7 @@ export const members: Member[] = [
       title: "Developer",
       url: null,
    },
-   {
-      imagePath: require("../assets/Images/Headshots/SP26AliceWu.jpg"),
-      name: "Alice Wu",
-      title: "Developer",
-      url: null,
-   },
+   
    {
       imagePath: require("../assets/Images/Headshots/SP26GautamKathiravan.jpg"),
       name: "Gautam Kathiravan",
