@@ -28,13 +28,13 @@ export const members: Member[] = [
    {
        imagePath: require("../assets/Images/Headshots/FA25_Daniel_Smothers.jpg"),
        name: "Daniel Smothers",
-       title: "Treasurer, Project Lead, Marketing",
+       title: "Co-Treasurer/Marketing",
        url: null,
    },
    {
        imagePath: require("../assets/Images/Headshots/SP26Vikram.jpg"),
        name: "Vikram Nandi",
-       title: "Treasurer, Education Co-Director",
+       title: "Co-Treasurer/Education",
        url: null,
    },
    {
@@ -73,12 +73,7 @@ export const members: Member[] = [
       title: "Project Lead",
       url: null,
    },
-   {
-      imagePath: require("../assets/Images/Headshots/blank.jpeg"),
-      name: "Parsa Faraji",
-      title: "Project Lead",
-      url: null,
-   },
+   
    {
       imagePath: require("../assets/Images/Headshots/SP26LakshaySoin.png"),
       name: "Lakshay Soin",
