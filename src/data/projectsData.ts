@@ -25,7 +25,7 @@ export const allProjectsData: Project[] = [
 		technologies: ["Swift"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://myshake.berkeley.edu/"],
-		currentProject: true,
+		currentProject: false,
 	},
 	{
 		projectTitle: "Codify Education",
@@ -84,7 +84,7 @@ export const allProjectsData: Project[] = [
 			"Homies is an organization dedicated to bringing choice and power to the disability industry. They offer a wide range of housing options and supportive roommates for adults with disabilities.",
 		aboutProject:
 			"The app will provide a platform for individuals with autism and their parents/guardians to find and connect with potential caregiver roommates, and to share information about their needs and preferences in one place.",
-		imgSource: "https://www.meethomies.com/wp-content/uploads/2023/07/logo.png",
+		imgSource: "https://www.meethomies.com/logo.svg",
 		technologies: ["NextJS", "PostgreSQL", "DigitalOcean"],
 		linkIcons: ["Website"],
 		linkDestinations: ["https://www.meethomies.com/"],
