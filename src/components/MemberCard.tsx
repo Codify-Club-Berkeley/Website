@@ -1,5 +1,5 @@
 import React from "react";
-import LocalCafeIcon from "@mui/icons-material/LocalCafe";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import './MemberCard.css'; // Import the regular CSS file
 
 const FLIPPABLE = false; // Set to true to enable flip card functionality
@@ -24,9 +24,9 @@ const MemberCard: React.FC<MemberCardProps> = ({ imagePath, name, title, url, ba
               <div className="flex flex-row">
                 <p className="text-gray-600">{title}</p>
                 {url && (
-                  <a href={url} className="text-purple-500 hover:underline">
-                    <LocalCafeIcon className="ml-1" />
-                  </a>
+                         <a href={url} target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:underline">
+                           <LinkedInIcon className="ml-1" />
+                         </a>
                 )}
               </div>
             </div>
