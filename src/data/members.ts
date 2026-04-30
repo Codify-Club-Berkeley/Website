@@ -23,7 +23,7 @@ export const members: Member[] = [
       imagePath: require("../assets/Images/Headshots/Rayna Bhattacharyya.jpg"),
       name: "Rayna Bhattacharyya",
       title: "Senior Advisor",
-      url: "https://cal.com/rayna-bhattacharyya/15min",
+      url: null,
    },
    {
        imagePath: require("../assets/Images/Headshots/FA25_Daniel_Smothers.jpg"),
@@ -96,7 +96,7 @@ export const members: Member[] = [
        imagePath: require("../assets/Images/Headshots/SP26Benjamin.jpg"),
        name: "Benjamin Smothers",
        title: "Developer",
-       url: null,
+       url: "https://www.linkedin.com/in/benjamin-smothers/",
    },
    {
       imagePath: require("../assets/Images/Headshots/SP26SiriwathEdwards.jpg"),
