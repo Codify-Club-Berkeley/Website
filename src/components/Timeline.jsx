@@ -55,7 +55,7 @@ function TimelineItem({ title, date, time = "", description, subHeading = "", is
     return (
         <div className="flex flex-row relative group">
             {/** Actual Timeline Bar On the Left */}
-            <div className="flex flex-col pr-2">
+            <div className="flex flex-col items-center w-6 flex-shrink-0 mr-2">
                 {isLast ? (
                     <div className="flex items-center justify-center my-0.5 h-6 w-6 rounded-full bg-codify-purple">
                         <FlagIcon />
@@ -67,7 +67,7 @@ function TimelineItem({ title, date, time = "", description, subHeading = "", is
                 ) : (
                     <div className="flex p-1 my-1 h-5 w-5 rounded-full border-4 border-codify-lavender group-hover:bg-codify-lavender transition duration-500"></div>
                 )}
-                {!isLast && <div className="flex-1 p-0.1 w-1 place-self-center bg-codify-lavender"></div>}
+                {!isLast && <div className="flex-1 p-0.1 w-1 bg-codify-lavender"></div>}
             </div>
 
             {/** Timeline Item on the right */}
