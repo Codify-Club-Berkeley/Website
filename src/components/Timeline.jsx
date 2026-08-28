@@ -12,9 +12,25 @@ export default function Timeline() {
         description={item.description}
         subHeading={item.subHeading}
         isLast={index === timelineData.length - 1}
+        isPast={hasEventPassed(item.date)}
       />
     );
   });
+}
+
+// Events only carry M/D/YY dates 
+// counts as passed only once the last date in it has passed
+function hasEventPassed(dateStr) {
+    const matches = dateStr.match(/\d{1,2}\/\d{1,2}\/\d{2,4}/g);
+    if (!matches) return false;
+
+    const [month, day, year] = matches[matches.length - 1].split("/").map(Number);
+    const eventDate = new Date(year < 100 ? 2000 + year : year, month - 1, day);
+
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    return today > eventDate;
 }
 
 function FlagIcon() {
@@ -26,8 +42,16 @@ function FlagIcon() {
     );
 }
 
+function CheckIcon() {
+    return (
+        <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 12l5 5L20 6" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+    );
+}
+
 // All props are strings
-function TimelineItem({ title, date, time = "", description, subHeading = "", isLast = false }) {
+function TimelineItem({ title, date, time = "", description, subHeading = "", isLast = false, isPast = false }) {
     return (
         <div className="flex flex-row relative group">
             {/** Actual Timeline Bar On the Left */}
@@ -35,6 +59,10 @@ function TimelineItem({ title, date, time = "", description, subHeading = "", is
                 {isLast ? (
                     <div className="flex items-center justify-center my-0.5 h-6 w-6 rounded-full bg-codify-purple">
                         <FlagIcon />
+                    </div>
+                ) : isPast ? (
+                    <div className="flex items-center justify-center my-0.5 h-6 w-6 rounded-full bg-codify-lavender">
+                        <CheckIcon />
                     </div>
                 ) : (
                     <div className="flex p-1 my-1 h-5 w-5 rounded-full border-4 border-codify-lavender group-hover:bg-codify-lavender transition duration-500"></div>

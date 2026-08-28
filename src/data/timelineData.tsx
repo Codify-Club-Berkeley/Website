@@ -26,7 +26,7 @@ export const timelineData: TimelineEntry[] = [
                 </a>
             </>
         ),
-        date: "8/28/26",
+        date: "Fri, 8/28/26",
     },
     {
         title: "Club & Cookies",
