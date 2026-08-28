@@ -138,7 +138,10 @@ Provide a 24-hour prior notice to your project team for any unavoidable absence.
 
       <br></br>
 
-      <div style={{ background: "linear-gradient(to left,  white,#ebebeb)" }}>
+      <div
+        className="pb-8"
+        style={{ background: "linear-gradient(to left,  white,#ebebeb)" }}
+      >
         <div className="big-black-title p-4">Recruitment Timeline</div>
         <div className="mx-8 md:mx-8 lg:mx-2 xl:mx-80 3xl:mx-80">
           <Timeline />
