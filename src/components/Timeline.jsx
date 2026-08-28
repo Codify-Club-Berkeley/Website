@@ -2,11 +2,13 @@ import React from "react";
 import { timelineData } from "../data/timelineData";
 
 export default function Timeline() {
-  return timelineData.map((item) => {
+  return timelineData.map((item, index) => {
     return (
       <TimelineItem
+        key={index}
         title={item.title}
         date={item.date}
+        time={item.time}
         description={item.description}
         subHeading={item.subHeading}
       />
@@ -15,7 +17,7 @@ export default function Timeline() {
 }
 
 // All props are strings
-function TimelineItem({ title, date, description, subHeading = "" }) {
+function TimelineItem({ title, date, time = "", description, subHeading = "" }) {
     return (
         <div className="flex flex-row relative group">
             {/** Actual Timeline Bar On the Left */}
@@ -27,6 +29,7 @@ function TimelineItem({ title, date, description, subHeading = "" }) {
             {/** Timeline Item on the right */}
             <div>
                 <span className="text-subheader-gray">{date}</span>
+                {time && <span className="text-subheader-gray ml-3">{time}</span>}
                 <h3>{title}</h3>
                 <span className="text-subheader-gray font-semibold">{subHeading}</span>
                 {subHeading && <br></br>}
