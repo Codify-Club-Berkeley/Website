@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="text-left">
           <h2 className="text-black text-xl">Codify Berkeley</h2>
           <p className="text-black text-small">
-            @2025 UC Berkeley Student Organization
+            @2026 UC Berkeley Student Organization
           </p>
         </div>
         {/**Link Icons */}
@@ -40,7 +40,7 @@ export default function Footer() {
             <BsInstagram size="20"></BsInstagram>
           </a>
           <a
-            href="https://www.linkedin.com/company/codify-berkeley/"
+            href="https://www.linkedin.com/company/codify-berkeley/home/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black"
@@ -56,6 +56,7 @@ export default function Footer() {
             <BsDiscord size="20"></BsDiscord>
           </a>
           <a
+            // Links to nonexistent channel, will need to update when we have a valid channel 
             href="https://www.youtube.com/@codifyberkeley"
             target="_blank"
             rel="noopener noreferrer"
@@ -64,7 +65,7 @@ export default function Footer() {
             <BsYoutube size="20"></BsYoutube>
           </a>
           <a
-            href="https://open.spotify.com/playlist/3DVxp7bz1heKBx6S2hEmAY?si=d7e0c2e144fe44ed"
+            href="https://open.spotify.com/playlist/3DVxp7bz1heKBx6S2hEmAY"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black"
