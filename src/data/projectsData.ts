@@ -51,6 +51,23 @@ export const allProjectsData: Project[] = [
         currentProject: true,
     },
 	{
+		projectTitle: "Nandinomics",
+		shortDescription:
+			"Machine learning tools to help optimize hedge fund portfolio investments.",
+		// TODO: replace with 1-2 sentences about who Nandinomics is
+		aboutClient: "TODO: who Nandinomics is",
+		// TODO: replace with what Codify is building for Nandinomics
+		// (task doc: "Creating hedge fund ML tools to optimize portfolio investments and protect from external ...")
+		aboutProject: "TODO: what Codify is building for Nandinomics",
+		// TODO: add the logo to src/assets/Images/General/ and use require() like the Coni entry
+		imgSource: "",
+		// TODO: add the tech stack (each name must match one in technologyLogos.ts)
+		technologies: [],
+		linkIcons: [],
+		linkDestinations: [],
+		currentProject: true,
+	},
+	{
 		projectTitle: "FlexDay",
 		shortDescription: "AI tooling for document processing",
 		aboutClient: "FlexDay is an AI and data science consulting company",
