@@ -54,17 +54,17 @@ export const allProjectsData: Project[] = [
 		projectTitle: "Nandinomics",
 		shortDescription:
 			"Machine learning tools to help optimize hedge fund portfolio investments.",
-		// TODO: replace with 1-2 sentences about who Nandinomics is
-		aboutClient: "TODO: who Nandinomics is",
-		// TODO: replace with what Codify is building for Nandinomics
-		// (task doc: "Creating hedge fund ML tools to optimize portfolio investments and protect from external ...")
-		aboutProject: "TODO: what Codify is building for Nandinomics",
-		// TODO: add the logo to src/assets/Images/General/ and use require() like the Coni entry
-		imgSource: "",
+		aboutClient:
+			"Nandinomics is a hedge fund portfolio management looking to research with AI in their newest approaches",
+		aboutProject:
+			"Creating hedge fund ML tools to optimize portfolio investments and protect from external client",
+		// Wordmark recreated from ndinomics.com (Lora Bold, #78350f with #d97706 period)
+		// (.default: CRA loads SVGs as modules, unlike the .jpg used for Coni)
+		imgSource: require("../assets/Images/General/ndinomics-logo.svg").default,
 		// TODO: add the tech stack (each name must match one in technologyLogos.ts)
 		technologies: [],
-		linkIcons: [],
-		linkDestinations: [],
+		linkIcons: ["Website"],
+		linkDestinations: ["https://ndinomics.com"],
 		currentProject: true,
 	},
 	{
