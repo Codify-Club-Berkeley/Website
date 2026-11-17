@@ -1,11 +1,339 @@
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+/* All selectors are scoped to Projects; shared cards and Home stay unchanged. */
+.projects-page { overflow-anchor: none; }
+.projects-page .projects-divider {
+  width: min(70%, 40rem);
+  height: 1px;
+  margin: 0 auto;
+  border: 0;
+  opacity: 1;
+  background: linear-gradient(to right, transparent, #d8cae9 25%, #d8cae9 75%, transparent);
+}
+.projects-page .projects-support {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: clamp(2.25rem, 5vw, 4rem) clamp(1.25rem, 4vw, 3rem);
+  text-align: center;
+}
+.projects-page .projects-support h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: clamp(1.35rem, 2vw, 1.6rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #242029;
+  margin: 0 0 0.85rem;
+}
+.projects-page .projects-support p {
+  max-width: 68ch;
+  margin: 0 auto;
+  color: #514b59;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
-@media (max-width: 1000px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.projects-page .projects-gallery {
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.25rem, 4vw, 4rem) 4rem;
+  background: radial-gradient(ellipse at 50% 45%, #f3ecfc 0, #fcfaff 45%, #fff 80%);
+  overflow-anchor: none;
+}
+
+.projects-page .projects-gallery-heading {
+  max-width: 80rem;
+  margin: 0 auto 3.5rem;
+  text-align: center;
+}
+.projects-page .projects-gallery-heading h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: clamp(2.25rem, 4vw, 3rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #202024;
+  margin-bottom: 1.1rem;
+}
+.projects-page .projects-gallery-hint {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  color: #807488;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin: 0;
+}
+.projects-page .projects-gallery-heading h2 span { color: #8658d0; }
+.projects-page .projects-gallery-hint strong { font-weight: 600; color: #8658d0; }
+.projects-page .projects-gallery-hint svg {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  stroke: #8658d0;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.projects-page .projects-coin-grid {
+  --coin-gap: clamp(2rem, 4vw, 4rem);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--coin-gap);
+  max-width: 80rem;
+  margin-inline: auto;
+}
+
+.projects-page .project-coin-item {
+  position: relative;
+  scroll-margin-top: 6rem;
+  flex: 0 0 calc((100% - 2 * var(--coin-gap)) / 3);
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-page .project-coin {
+  position: relative;
+  width: 100%;
+  max-width: 24rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid #d9c9ee;
+  background: linear-gradient(135deg, #f7f0ff, #fff 50%, #f2e9fc);
+  box-shadow: 0 0.6rem 1.6rem #39215b0c;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+/* Selection emphasizes the coin without moving its grid neighbors. */
+.projects-page .project-coin-item.is-expanded { position: relative; z-index: 2; }
+.projects-page .is-expanded .project-coin {
+  transform: scale(1.20);
+  border-color: #b392df;
+  box-shadow: 0 1rem 3rem #6b32991c;
+}
+
+.projects-page .project-coin::before {
+  content: "";
+  position: absolute;
+  inset: 10%;
+  border: 1px solid #d9c9ee;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.projects-page .project-coin-center {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+}
+
+.projects-page .project-coin-face {
+  position: absolute;
+  inset: 10%;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: #242029;
+  box-shadow: inset 0 0 0 1px #e9dff4;
+  transition: clip-path 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.projects-page .project-coin-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 8%;
+}
+.projects-page .project-coin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+}
+.projects-page .project-coin-logo img {
+  width: 72%;
+  height: 100%;
+  object-fit: contain;
+}
+.projects-page .project-coin-logo img[data-shape="landscape"] { width: 90%; }
+.projects-page .project-coin-logo img[data-shape="wide"] { width: 100%; }
+.projects-page .project-coin-logo-fallback { font-size: clamp(1.25rem, 2vw, 2rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1.15; text-align: center; color: #7344b1; overflow-wrap: anywhere; }
+.projects-page .project-coin-front-hint { margin-top: 1rem; font-size: 0.7rem; color: #8658d0; }
+.projects-page .project-coin-front-hint span { margin-left: 0.25rem; }
+
+/* Small feedback on coin controls and technology labels, without layout shifts. */
+.projects-page .project-coin-front-hint,
+.projects-page .project-coin-front-hint span,
+.projects-page .project-coin-close,
+.projects-page .project-coin-close span,
+.projects-page .project-coin-technologies li,
+.projects-page .project-coin-links a,
+.projects-page .project-coin-links a span {
+  transition: transform 180ms ease, color 180ms ease, background-color 180ms ease,
+    border-color 180ms ease, box-shadow 180ms ease;
+}
+.projects-page .project-coin-front-hint span,
+.projects-page .project-coin-close span,
+.projects-page .project-coin-links a span { display: inline-block; }
+
+.projects-page .project-coin-back {
+  clip-path: circle(0% at 50% 50%);
+  background: #fefcff;
+  overflow: hidden;
+}
+.projects-page .project-coin-back { pointer-events: none; }
+.projects-page .is-expanded .project-coin-back {
+  clip-path: circle(50% at 50% 50%);
+  pointer-events: auto;
+}
+.projects-page .is-expanded .project-coin-front {
+  pointer-events: none;
+}
+.projects-page .project-coin-reading {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.projects-page .project-coin-details {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  text-align: center;
+  padding: 20% 17% 30%;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  /* The mask uses the actual face's full dimensions, center, and radius. */
+  -webkit-mask-image: radial-gradient(circle closest-side at 50% 50%, #000 72%, transparent 86%);
+  mask-image: radial-gradient(circle closest-side at 50% 50%, #000 72%, transparent 86%);
+}
+.projects-page .project-coin-details::-webkit-scrollbar { display: none; }
+/* Three tiny dots indicate the top, middle, or bottom of the description. */
+.projects-page .project-coin-reading-progress {
+  position: absolute;
+  left: 12%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  pointer-events: none;
+  z-index: 1;
+}
+.projects-page .project-coin-reading-progress span {
+  width: 0.1875rem;
+  height: 0.1875rem;
+  border-radius: 50%;
+  background: #dfd5ec;
+}
+.projects-page .project-coin-reading[data-reading-step="0"] .project-coin-reading-progress span:nth-child(1),
+.projects-page .project-coin-reading[data-reading-step="1"] .project-coin-reading-progress span:nth-child(2),
+.projects-page .project-coin-reading[data-reading-step="2"] .project-coin-reading-progress span:nth-child(3) {
+  background: #9741fd;
+}
+.projects-page .project-coin-details-content { flex-shrink: 0; margin-block: auto; }
+.projects-page .project-coin-details h3 { font-size: clamp(1.15rem, 1.8vw, 1.5rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.2; margin: 0 0 0.8rem; color: #7344b1; }
+.projects-page .project-coin-details h4 { font-size: 0.75rem; font-weight: 800; margin: 0.8rem 0 0.3rem; color: #51405f; }
+.projects-page .project-coin-details p { margin-bottom: 0.75rem; }
+.projects-page .project-coin-technologies { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.4rem; list-style: none; padding: 0; margin: 0.9rem 0; }
+.projects-page .project-coin-technologies li { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid #eee8f5; border-radius: 0.375rem; padding: 0.125rem 0.3rem; font-size: 0.7rem; }
+.projects-page .project-coin-technologies img { width: 1rem; height: 1rem; object-fit: contain; }
+.projects-page .project-coin-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.8rem; }
+.projects-page .project-coin-links a { color: #8658d0; font-size: 0.8rem; text-underline-offset: 0.2rem; }
+.projects-page .project-coin-close {
+  position: absolute;
+  bottom: 2.5%;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.4rem;
+  background: transparent;
+  border: 0;
+  color: #8658d0;
+  font-size: 0.6rem;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  visibility: hidden;
+  pointer-events: none;
+}
+.projects-page .is-expanded .project-coin-close {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Nested rotations let a click add one turn while idle rotation keeps its phase. */
+.projects-page .project-coin-ring-turn {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transition: transform 550ms ease-in-out;
+}
+.projects-page .project-coin-ring { display: block; width: 100%; height: 100%; overflow: visible; transform-origin: 50% 50%; animation: project-title-orbit 35s linear infinite; }
+.projects-page .project-coin-ring text { fill: #8658d0; font-family: inherit; font-weight: 800; letter-spacing: 0.8px; }
+@keyframes project-title-orbit { to { transform: rotate(360deg); } }
+
+.projects-page .project-coin-front:focus-visible,
+.projects-page .project-coin-close:focus-visible,
+.projects-page .project-coin-links a:focus-visible,
+.projects-page .project-coin-details:focus-visible { outline: 2px solid #9741fd; outline-offset: 4px; }
+
+@media (hover: hover) and (pointer: fine) {
+  .projects-page .project-coin-item:not(.is-expanded) .project-coin:hover { box-shadow: 0 0.9rem 2rem #8658d030; }
+  .projects-page .project-coin-logo { transition: transform 250ms ease; }
+  .projects-page .project-coin-front:hover .project-coin-logo { transform: translateY(-0.2rem) scale(1.03); }
+  .projects-page .project-coin-front:hover .project-coin-front-hint { color: #63319e; transform: translateY(-0.1rem); }
+  .projects-page .project-coin-front:hover .project-coin-front-hint span { transform: translate(0.1rem, -0.1rem); }
+  .projects-page .project-coin-close:hover {
+    transform: translateX(-50%) translateY(-0.1rem);
+    color: #63319e;
   }
+  .projects-page .project-coin-close:hover span { transform: rotate(-15deg); }
+  .projects-page .project-coin-technologies li:hover {
+    transform: translateY(-0.1rem);
+    background-color: #f7f1ff;
+    border-color: #d9cbe9;
+  }
+  .projects-page .project-coin-links a:hover { color: #63319e; }
+  .projects-page .project-coin-links a:hover span { transform: translate(0.1rem, -0.1rem); }
+}
+@media (max-width: 63.99rem) {
+  .projects-page .project-coin-item { flex-basis: calc((100% - var(--coin-gap)) / 2); }
+}
+@media (max-width: 39.99rem) {
+  .projects-page .project-coin-item { flex-basis: 100%; }
+  .projects-page .project-coin { width: 90%; }
+  .projects-page .project-coin-details { font-size: 0.7rem; }
+  .projects-page .project-coin-details h3 { font-size: 0.95rem; margin-bottom: 0.6rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .projects-page .project-coin-ring { animation: none; }
+  .projects-page .project-coin,
+  .projects-page .project-coin-center,
+  .projects-page .project-coin-face,
+  .projects-page .project-coin-ring-turn,
+  .projects-page .project-coin-logo,
+  .projects-page .project-coin-front-hint,
+  .projects-page .project-coin-front-hint span,
+  .projects-page .project-coin-close,
+  .projects-page .project-coin-close span,
+  .projects-page .project-coin-technologies li,
+  .projects-page .project-coin-links a,
+  .projects-page .project-coin-links a span { transition: none; }
+  .projects-page .project-coin-front:hover .project-coin-logo,
+  .projects-page .project-coin-front:hover .project-coin-front-hint,
+  .projects-page .project-coin-front:hover .project-coin-front-hint span,
+  .projects-page .project-coin-close:hover span,
+  .projects-page .project-coin-technologies li:hover,
+  .projects-page .project-coin-links a:hover span { transform: none; }
+  .projects-page .project-coin-close:hover { transform: translateX(-50%); }
 }

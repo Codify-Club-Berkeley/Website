@@ -1,145 +1,56 @@
 import * as React from "react";
 import { useState } from "react";
 import "./Projects.css";
-import { useMediaQuery } from "react-responsive";
-import ModalButton from "../components/ModalComponents/ModalButton";
-import ModalView from "../components/ModalComponents/ModalView";
-import { allProjectsData, Project } from "../data/projectsData";
+import ProjectCoin from "../components/ProjectCoin";
+import { allProjectsData } from "../data/projectsData";
 import PageHeader from "../components/PageHeader";
-import TextBlock from "../components/TextBlock";
 
-export default function ButtonBases() {
-  const isMobileDevice = useMediaQuery({
-    query: "(max-width: 768px)", // Breakpoint
-  });
-
-  //setting showModal to zero will not show any modal, setting it to a number
-  //larger than zero will show that particular modal
-
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  // Proof of concept
-  const [modalData, setModalData] = useState({});
-
-  const openModal = (data: Project) => {
-    setModalData(data);
-    setIsModalOpen(true);
+export default function Projects() {
+  const [selectedProject, setSelectedProject] = useState<string | null>(null);
+  const toggleProject = (title: string) => {
+    setSelectedProject((selected) => selected === title ? null : title);
   };
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
-
-  const handleModalClick = (event) => {
-    // Check if the click occurred outside the modal content and not on modal buttons
-    if (
-      event.target.classList.contains("modal-overlay") &&
-      !event.target.closest(".modal-content")
-    ) {
-      closeModal();
-    }
-  };
+  // Keep the current projects first without dividing them into separate sections.
+  const projects = [
+    ...allProjectsData.filter((project) => project.currentProject),
+    ...allProjectsData.filter((project) => !project.currentProject),
+  ];
 
   return (
-    <div>
+    <div className="projects-page">
       <PageHeader
         title="Projects"
         body="Projects are Codify’s lifeblood. Each semester, we give members the
         opportunity to work on projects ranging from full stack mobile and web
         development to building machine learning models."
       />
-      {/* <div className="header text-center">
-        <h1>
-          <span style={{ color: "#9641FD" }}>Codify's</span> Work
-        </h1>
-      </div> */}
-      <div className="body m-4">
-        <TextBlock
-          title="Continued Support"
-          text=" We actively maintain all of projects to ensure a product that people
-          will continue to use for years to come. This not only ensures all of
-          our hand work isn't for nothing, but it encourages writing
-          maintainable code and minimizing technical debt. If you see a project
-          here you would like to work on, you can.
-"
-          isMobile={isMobileDevice}
-          marginLeft={isMobileDevice ? "0px" : "100px"}
-          marginRight={isMobileDevice ? "0px" : "200px"}
-        />
-      </div>
-      <hr className="border-b-2 border-purple-500" />
-      <div
-        style={{ background: "linear-gradient(to bottom, white, #d9d9d9 )" }}
-      >
-        <div className="body  flex-wrap  text-center">
-          <h2>Current Projects</h2>
-          <br></br>
-          <p>Click into each project to learn more!</p>
+      <section className="projects-support" aria-labelledby="projects-support-title">
+        <h2 id="projects-support-title">Continued Support</h2>
+        <p>We actively maintain all of our projects to ensure a product that people will continue to use for years to come. This not only ensures all of our hard work isn't for nothing, but it encourages writing maintainable code and minimizing technical debt. If you see a project here you would like to work on, you can.</p>
+      </section>
+      <hr className="projects-divider" />
+      <section className="projects-gallery" aria-labelledby="projects-gallery-title">
+        <div className="projects-gallery-heading">
+          <h2 id="projects-gallery-title">Our <span>Projects</span></h2>
+          <p className="projects-gallery-hint">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M20 8a8.5 8.5 0 0 0-14-2L3 9m0 0V4m0 5h5M4 16a8.5 8.5 0 0 0 14 2l3-3m0 0v5m0-5h-5" />
+            </svg>
+            <span><strong>Click a coin</strong> to explore the project.</span>
+          </p>
         </div>
-
-        <ModalView
-          visible={isModalOpen}
-          data={modalData}
-          handleModalClick={handleModalClick}
-          closeModal={closeModal}
-        ></ModalView>
-
-        {/* Current Projects */}
-        <div
-          style={{
-            marginLeft: "10rem",
-            marginRight: "10rem",
-          }}
-          className="flex flex-wrap justify-center p-4"
-        >
-          {allProjectsData
-            .filter((project) => project.currentProject)
-            .map((project) => {
-              return (
-                <ModalButton
-                  projectTitle={project.projectTitle}
-                  shortDescription={project.shortDescription}
-                  aboutClient={project.aboutClient}
-                  aboutProject={project.aboutProject}
-                  imgSource={project.imgSource}
-                  technologies={project.technologies}
-                  linkIcons={project.linkIcons}
-                  linkDestinations={project.linkDestinations}
-                  openModal={openModal}
-                ></ModalButton>
-              );
-            })}
+        <div className="projects-coin-grid">
+          {projects.map((project) => (
+            <ProjectCoin
+              key={project.projectTitle}
+              project={project}
+              expanded={selectedProject === project.projectTitle}
+              onToggle={() => toggleProject(project.projectTitle)}
+            />
+          ))}
         </div>
-      </div>
-      <div
-        style={{ background: "linear-gradient(to bottom,#d9d9d9,  white )" }}
-      >
-        <div className="body flex flex-wrap p-4 mt-1">
-          <h2>Past Projects</h2>
-        </div>
-        <div
-          style={{ marginLeft: "10rem", marginRight: "10rem" }}
-          className="flex flex-wrap justify-center"
-        >
-          {allProjectsData
-            .filter((project) => !project.currentProject)
-            .map((project) => {
-              return (
-                <ModalButton
-                  projectTitle={project.projectTitle}
-                  shortDescription={project.shortDescription}
-                  aboutClient={project.aboutClient}
-                  aboutProject={project.aboutProject}
-                  imgSource={project.imgSource}
-                  technologies={project.technologies}
-                  linkIcons={project.linkIcons}
-                  linkDestinations={project.linkDestinations}
-                  openModal={openModal}
-                ></ModalButton>
-              );
-            })}
-        </div>
-      </div>
+      </section>
     </div>
   );
 }
