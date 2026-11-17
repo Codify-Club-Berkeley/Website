@@ -22,6 +22,7 @@ export default function Home() {
 		// require("../assets/Images/General/halloween1.JPG"),
 
 		// Add more image URLs as needed
+		require("../assets/Images/General/SP26GroupPhoto.jpg"),
 		require("../assets/Images/General/fa25-game-night.jpg"),
 		require("../assets/Images/General/fa25-retreat.jpg"),
 		require("../assets/Images/General/fa25-sf.jpg"),
@@ -34,10 +35,10 @@ export default function Home() {
 			<div
 				className="large-banner relative flex items-center justify-center bg-cover bg-center w-full fade-in"
 				style={{
-					backgroundImage: `url(${require("../assets/Images/General/SP26GroupPhoto.jpg")})`,
+					backgroundImage: `url(${require("../assets/Images/General/SP26GroupPhoto.jpg")})`, // Replace with FA26 image when available
 					backgroundPosition: "center 60%",
 					marginTop: "-100px",
-					height: "35rem",
+					minHeight: "100svh",
 				}}
 			>
 				<div className="absolute top-0 left-0 w-full h-full bg-black opacity-50" />
