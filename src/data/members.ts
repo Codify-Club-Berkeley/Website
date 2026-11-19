@@ -11,7 +11,7 @@ export const members: Member[] = [
       imagePath: require("../assets/Images/Headshots/FA26/Daniel_Smothers.jpg"),
       name: "Daniel Smothers",
       title: "Co-President",
-      url: null,
+      url: "https://www.linkedin.com/in/daniel-smothers",
    },
    {
       imagePath: require("../assets/Images/Headshots/FA26/Vikram_Nandi.jpg"),
@@ -130,7 +130,7 @@ export const members: Member[] = [
    {
       imagePath: require("../assets/Images/Headshots/FA26/Aadit_Abhilash.jpeg"),
       name: "Aadit Abhilash",
-      title: "Developer",
+      title: "Project Lead",
       url: "https://www.linkedin.com/in/aadit-abhilash/",
    },
    {
