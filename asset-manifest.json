@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85537a90.css",
-    "main.js": "/static/js/main.c4042bf3.js",
+    "main.js": "/static/js/main.4fd4c414.js",
     "static/media/Hike.png": "/static/media/Hike.11e4a8fb12f161a2e90c.png",
     "static/media/SP26GroupPhoto.jpg": "/static/media/SP26GroupPhoto.59e753c12f1633c69b5e.jpg",
     "static/media/photo_strip3.JPG": "/static/media/photo_strip3.e5dec8267c9f3345d7ce.JPG",
@@ -35,8 +35,8 @@
     "static/media/Arthur_Sanchez.jpg": "/static/media/Arthur_Sanchez.f2dca093a6b5360d05b5.jpg",
     "static/media/Diego_Zamora_Martinez.jpg": "/static/media/Diego_Zamora_Martinez.669694fafaca678b6f44.jpg",
     "static/media/Cady He.jpeg": "/static/media/Cady He.9a66d541b11435d58aa8.jpeg",
-    "static/media/Daniel_Smothers.jpg": "/static/media/Daniel_Smothers.5151a130a6cdf00999eb.jpg",
     "static/media/gate.jpeg": "/static/media/gate.0066c476c85b572412cf.jpeg",
+    "static/media/Daniel_Smothers.jpg": "/static/media/Daniel_Smothers.6e16a0143fa62582ca1d.jpg",
     "static/media/Aadit_Abhilash.jpeg": "/static/media/Aadit_Abhilash.00c7a42e2f7ae1fc1435.jpeg",
     "static/media/Raj_Longia.jpeg": "/static/media/Raj_Longia.317eac923d65caa5d488.jpeg",
     "static/media/Eric_Cao.jpeg": "/static/media/Eric_Cao.a936719b987d638008b7.jpeg",
@@ -52,10 +52,10 @@
     "static/media/ndinomics-logo.svg": "/static/media/ndinomics-logo.8617accf9fdf31e2a0b9b845d6d3f6eb.svg",
     "index.html": "/index.html",
     "main.85537a90.css.map": "/static/css/main.85537a90.css.map",
-    "main.c4042bf3.js.map": "/static/js/main.c4042bf3.js.map"
+    "main.4fd4c414.js.map": "/static/js/main.4fd4c414.js.map"
   },
   "entrypoints": [
     "static/css/main.85537a90.css",
-    "static/js/main.c4042bf3.js"
+    "static/js/main.4fd4c414.js"
   ]
 }
