@@ -1,55 +1,88 @@
-.flipCard {
-  background-color: transparent;
-  width: 240px;
-  height: 355px;
+/* Layout and colors use Tailwind; these styles handle the two-sided card. */
+.member-card {
+  width: 15rem;
+  height: 22.1875rem;
+  max-width: 100%;
+  perspective: 65rem;
+  transition: transform 300ms ease;
 }
 
-.regCard {
-    background-color: transparent;
-    width: 240px;
-    height: 355px;
-}
-
-.flipCardInner {
+.member-card-turner {
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
-  transition: transform 1s;
   transform-style: preserve-3d;
+  transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flipCard:hover .flipCardInner {
-  transform: rotateY(180deg);
-}
+.member-card.is-flipped .member-card-turner { transform: rotateY(180deg); }
 
-.flipCardFront,
-.flipCardBack {
+.member-card-face {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border: 1px solid #eee8f5;
 }
 
-.flipCardFront {
-  color: rgb(0, 0, 0);
-
-  ;
-}
-
-.flipCardBack {
+.member-card-front { pointer-events: auto; }
+.member-card-back {
   transform: rotateY(180deg);
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  text-align: center;
-  background-color: white;
-  box-sizing: border-box;
-  padding: 30px;
+  pointer-events: none;
+  border-top: 3px solid #b19cd8;
+}
+.member-card.is-flipped .member-card-front { pointer-events: none; }
+.member-card.is-flipped .member-card-back { pointer-events: auto; }
+
+.member-card-open,
+.member-card-return { border: 0; background: transparent; cursor: pointer; }
+.member-card-link {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.6rem;
+  padding: 0.25rem;
+  color: #8658d0;
+}
+.member-card-bio-shell { position: relative; flex: 1; min-height: 0; }
+.member-card-bio { height: 100%; overflow-y: auto; scrollbar-width: none; }
+.member-card-bio::-webkit-scrollbar { display: none; }
+.member-card-scroll-dots {
+  position: absolute;
+  right: -0.65rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  pointer-events: none;
+}
+.member-card-scroll-dots span { width: 0.1875rem; height: 0.1875rem; border-radius: 50%; background: #e1d8ec; }
+.member-card-bio-shell[data-step="0"] .member-card-scroll-dots span:nth-child(1),
+.member-card-bio-shell[data-step="1"] .member-card-scroll-dots span:nth-child(2),
+.member-card-bio-shell[data-step="2"] .member-card-scroll-dots span:nth-child(3) { background: #8658d0; }
+.member-card-return,
+.member-card-link,
+.member-card-back-link { transition: color 180ms ease, transform 180ms ease; }
+
+.member-card button:focus-visible,
+.member-card a:focus-visible,
+.member-card-bio:focus-visible { outline: 2px solid #9741fd; outline-offset: 3px; }
+
+@media (hover: hover) and (pointer: fine) {
+  .member-card:hover { transform: translateY(-0.75rem); }
+  .member-card-return:hover { color: #63319e; transform: translateX(-0.1rem); }
+  .member-card-link:hover,
+  .member-card-back-link:hover { color: #63319e; transform: translateY(-0.1rem); }
 }
 
-.image {
-  height: -90px;
-  width: 60;
-  object-fit: cover;
-
+@media (prefers-reduced-motion: reduce) {
+  .member-card,
+  .member-card-turner,
+  .member-card-return,
+  .member-card-link,
+  .member-card-back-link { transition: none; }
+  .member-card:hover,
+  .member-card-return:hover,
+  .member-card-link:hover,
+  .member-card-back-link:hover { transform: none; }
 }
